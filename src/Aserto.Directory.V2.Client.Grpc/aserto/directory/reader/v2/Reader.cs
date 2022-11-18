@@ -59,87 +59,92 @@ namespace Aserto.Directory.Reader.V2 {
             "Mi5QYWdpbmF0aW9uUmVxdWVzdCKHAQoSR2V0T2JqZWN0c1Jlc3BvbnNlEjMK",
             "B3Jlc3VsdHMYASADKAsyIi5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5P",
             "YmplY3QSPAoEcGFnZRgJIAEoCzIuLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9u",
-            "LnYyLlBhZ2luYXRpb25SZXNwb25zZSJTChJHZXRSZWxhdGlvblJlcXVlc3QS",
+            "LnYyLlBhZ2luYXRpb25SZXNwb25zZSJ/ChJHZXRSZWxhdGlvblJlcXVlc3QS",
             "PQoFcGFyYW0YASABKAsyLi5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5S",
-            "ZWxhdGlvbklkZW50aWZpZXIiTAoTR2V0UmVsYXRpb25SZXNwb25zZRI1Cgdy",
+            "ZWxhdGlvbklkZW50aWZpZXISGQoMd2l0aF9vYmplY3RzGAIgASgISACIAQFC",
+            "DwoNX3dpdGhfb2JqZWN0cyLvAQoTR2V0UmVsYXRpb25SZXNwb25zZRI1Cgdy",
             "ZXN1bHRzGAEgAygLMiQuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUmVs",
-            "YXRpb24ikQEKE0dldFJlbGF0aW9uc1JlcXVlc3QSPQoFcGFyYW0YASABKAsy",
-            "Li5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5SZWxhdGlvbklkZW50aWZp",
-            "ZXISOwoEcGFnZRgJIAEoCzItLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYy",
-            "LlBhZ2luYXRpb25SZXF1ZXN0IosBChRHZXRSZWxhdGlvbnNSZXNwb25zZRI1",
-            "CgdyZXN1bHRzGAEgAygLMiQuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIu",
-            "UmVsYXRpb24SPAoEcGFnZRgJIAEoCzIuLmFzZXJ0by5kaXJlY3RvcnkuY29t",
-            "bW9uLnYyLlBhZ2luYXRpb25SZXNwb25zZSJXChRHZXRQZXJtaXNzaW9uUmVx",
-            "dWVzdBI/CgVwYXJhbRgBIAEoCzIwLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9u",
-            "LnYyLlBlcm1pc3Npb25JZGVudGlmaWVyIk8KFUdldFBlcm1pc3Npb25SZXNw",
-            "b25zZRI2CgZyZXN1bHQYASABKAsyJi5hc2VydG8uZGlyZWN0b3J5LmNvbW1v",
-            "bi52Mi5QZXJtaXNzaW9uIlQKFUdldFBlcm1pc3Npb25zUmVxdWVzdBI7CgRw",
-            "YWdlGAkgASgLMi0uYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUGFnaW5h",
-            "dGlvblJlcXVlc3QijwEKFkdldFBlcm1pc3Npb25zUmVzcG9uc2USNwoHcmVz",
-            "dWx0cxgBIAMoCzImLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLlBlcm1p",
-            "c3Npb24SPAoEcGFnZRgJIAEoCzIuLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9u",
-            "LnYyLlBhZ2luYXRpb25SZXNwb25zZSLqAQoWQ2hlY2tQZXJtaXNzaW9uUmVx",
-            "dWVzdBI9CgdzdWJqZWN0GAEgASgLMiwuYXNlcnRvLmRpcmVjdG9yeS5jb21t",
-            "b24udjIuT2JqZWN0SWRlbnRpZmllchJECgpwZXJtaXNzaW9uGAIgASgLMjAu",
-            "YXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUGVybWlzc2lvbklkZW50aWZp",
-            "ZXISPAoGb2JqZWN0GAMgASgLMiwuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24u",
-            "djIuT2JqZWN0SWRlbnRpZmllchINCgV0cmFjZRgHIAEoCCI3ChdDaGVja1Bl",
-            "cm1pc3Npb25SZXNwb25zZRINCgVjaGVjaxgBIAEoCBINCgV0cmFjZRgCIAMo",
-            "CSLoAQoUQ2hlY2tSZWxhdGlvblJlcXVlc3QSPQoHc3ViamVjdBgBIAEoCzIs",
-            "LmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdElkZW50aWZpZXIS",
-            "RAoIcmVsYXRpb24YAiABKAsyMi5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52",
-            "Mi5SZWxhdGlvblR5cGVJZGVudGlmaWVyEjwKBm9iamVjdBgDIAEoCzIsLmFz",
-            "ZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdElkZW50aWZpZXISDQoF",
-            "dHJhY2UYByABKAgiNQoVQ2hlY2tSZWxhdGlvblJlc3BvbnNlEg0KBWNoZWNr",
-            "GAEgASgIEg0KBXRyYWNlGAIgAygJIi0KDUNoZWNrUmVzcG9uc2USDQoFY2hl",
-            "Y2sYASABKAgSDQoFdHJhY2UYAiADKAkikgIKD0dldEdyYXBoUmVxdWVzdBI8",
-            "CgZhbmNob3IYASABKAsyLC5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5P",
-            "YmplY3RJZGVudGlmaWVyEj0KB3N1YmplY3QYAiABKAsyLC5hc2VydG8uZGly",
-            "ZWN0b3J5LmNvbW1vbi52Mi5PYmplY3RJZGVudGlmaWVyEkQKCHJlbGF0aW9u",
-            "GAMgASgLMjIuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUmVsYXRpb25U",
-            "eXBlSWRlbnRpZmllchI8CgZvYmplY3QYBCABKAsyLC5hc2VydG8uZGlyZWN0",
-            "b3J5LmNvbW1vbi52Mi5PYmplY3RJZGVudGlmaWVyIlEKEEdldEdyYXBoUmVz",
-            "cG9uc2USPQoHcmVzdWx0cxgBIAMoCzIsLmFzZXJ0by5kaXJlY3RvcnkuY29t",
-            "bW9uLnYyLk9iamVjdERlcGVuZGVuY3kyhg0KBlJlYWRlchJ2Cg1HZXRPYmpl",
-            "Y3RUeXBlEjAuYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0T2JqZWN0",
-            "VHlwZVJlcXVlc3QaMS5hc2VydG8uZGlyZWN0b3J5LnJlYWRlci52Mi5HZXRP",
-            "YmplY3RUeXBlUmVzcG9uc2UiABJ5Cg5HZXRPYmplY3RUeXBlcxIxLmFzZXJ0",
-            "by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldE9iamVjdFR5cGVzUmVxdWVzdBoy",
-            "LmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldE9iamVjdFR5cGVzUmVz",
-            "cG9uc2UiABJ8Cg9HZXRSZWxhdGlvblR5cGUSMi5hc2VydG8uZGlyZWN0b3J5",
-            "LnJlYWRlci52Mi5HZXRSZWxhdGlvblR5cGVSZXF1ZXN0GjMuYXNlcnRvLmRp",
-            "cmVjdG9yeS5yZWFkZXIudjIuR2V0UmVsYXRpb25UeXBlUmVzcG9uc2UiABJ/",
-            "ChBHZXRSZWxhdGlvblR5cGVzEjMuYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIu",
-            "djIuR2V0UmVsYXRpb25UeXBlc1JlcXVlc3QaNC5hc2VydG8uZGlyZWN0b3J5",
-            "LnJlYWRlci52Mi5HZXRSZWxhdGlvblR5cGVzUmVzcG9uc2UiABJ2Cg1HZXRQ",
-            "ZXJtaXNzaW9uEjAuYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0UGVy",
-            "bWlzc2lvblJlcXVlc3QaMS5hc2VydG8uZGlyZWN0b3J5LnJlYWRlci52Mi5H",
-            "ZXRQZXJtaXNzaW9uUmVzcG9uc2UiABJ5Cg5HZXRQZXJtaXNzaW9ucxIxLmFz",
-            "ZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldFBlcm1pc3Npb25zUmVxdWVz",
-            "dBoyLmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldFBlcm1pc3Npb25z",
-            "UmVzcG9uc2UiABJqCglHZXRPYmplY3QSLC5hc2VydG8uZGlyZWN0b3J5LnJl",
-            "YWRlci52Mi5HZXRPYmplY3RSZXF1ZXN0Gi0uYXNlcnRvLmRpcmVjdG9yeS5y",
-            "ZWFkZXIudjIuR2V0T2JqZWN0UmVzcG9uc2UiABJ2Cg1HZXRPYmplY3RNYW55",
-            "EjAuYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0T2JqZWN0TWFueVJl",
-            "cXVlc3QaMS5hc2VydG8uZGlyZWN0b3J5LnJlYWRlci52Mi5HZXRPYmplY3RN",
-            "YW55UmVzcG9uc2UiABJtCgpHZXRPYmplY3RzEi0uYXNlcnRvLmRpcmVjdG9y",
-            "eS5yZWFkZXIudjIuR2V0T2JqZWN0c1JlcXVlc3QaLi5hc2VydG8uZGlyZWN0",
-            "b3J5LnJlYWRlci52Mi5HZXRPYmplY3RzUmVzcG9uc2UiABJwCgtHZXRSZWxh",
-            "dGlvbhIuLmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldFJlbGF0aW9u",
-            "UmVxdWVzdBovLmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldFJlbGF0",
-            "aW9uUmVzcG9uc2UiABJzCgxHZXRSZWxhdGlvbnMSLy5hc2VydG8uZGlyZWN0",
-            "b3J5LnJlYWRlci52Mi5HZXRSZWxhdGlvbnNSZXF1ZXN0GjAuYXNlcnRvLmRp",
-            "cmVjdG9yeS5yZWFkZXIudjIuR2V0UmVsYXRpb25zUmVzcG9uc2UiABJ8Cg9D",
-            "aGVja1Blcm1pc3Npb24SMi5hc2VydG8uZGlyZWN0b3J5LnJlYWRlci52Mi5D",
-            "aGVja1Blcm1pc3Npb25SZXF1ZXN0GjMuYXNlcnRvLmRpcmVjdG9yeS5yZWFk",
-            "ZXIudjIuQ2hlY2tQZXJtaXNzaW9uUmVzcG9uc2UiABJ2Cg1DaGVja1JlbGF0",
-            "aW9uEjAuYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuQ2hlY2tSZWxhdGlv",
-            "blJlcXVlc3QaMS5hc2VydG8uZGlyZWN0b3J5LnJlYWRlci52Mi5DaGVja1Jl",
-            "bGF0aW9uUmVzcG9uc2UiABJnCghHZXRHcmFwaBIrLmFzZXJ0by5kaXJlY3Rv",
-            "cnkucmVhZGVyLnYyLkdldEdyYXBoUmVxdWVzdBosLmFzZXJ0by5kaXJlY3Rv",
-            "cnkucmVhZGVyLnYyLkdldEdyYXBoUmVzcG9uc2UiAEJGWkRnaXRodWIuY29t",
-            "L2FzZXJ0by1kZXYvZ28tZGlyZWN0b3J5L2FzZXJ0by9kaXJlY3RvcnkvcmVh",
-            "ZGVyL3YyO3JlYWRlcmIGcHJvdG8z"));
+            "YXRpb24STQoHb2JqZWN0cxgCIAMoCzI8LmFzZXJ0by5kaXJlY3RvcnkucmVh",
+            "ZGVyLnYyLkdldFJlbGF0aW9uUmVzcG9uc2UuT2JqZWN0c0VudHJ5GlIKDE9i",
+            "amVjdHNFbnRyeRILCgNrZXkYASABKAkSMQoFdmFsdWUYAiABKAsyIi5hc2Vy",
+            "dG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5PYmplY3Q6AjgBIpEBChNHZXRSZWxh",
+            "dGlvbnNSZXF1ZXN0Ej0KBXBhcmFtGAEgASgLMi4uYXNlcnRvLmRpcmVjdG9y",
+            "eS5jb21tb24udjIuUmVsYXRpb25JZGVudGlmaWVyEjsKBHBhZ2UYCSABKAsy",
+            "LS5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5QYWdpbmF0aW9uUmVxdWVz",
+            "dCKLAQoUR2V0UmVsYXRpb25zUmVzcG9uc2USNQoHcmVzdWx0cxgBIAMoCzIk",
+            "LmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLlJlbGF0aW9uEjwKBHBhZ2UY",
+            "CSABKAsyLi5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5QYWdpbmF0aW9u",
+            "UmVzcG9uc2UiVwoUR2V0UGVybWlzc2lvblJlcXVlc3QSPwoFcGFyYW0YASAB",
+            "KAsyMC5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5QZXJtaXNzaW9uSWRl",
+            "bnRpZmllciJPChVHZXRQZXJtaXNzaW9uUmVzcG9uc2USNgoGcmVzdWx0GAEg",
+            "ASgLMiYuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUGVybWlzc2lvbiJU",
+            "ChVHZXRQZXJtaXNzaW9uc1JlcXVlc3QSOwoEcGFnZRgJIAEoCzItLmFzZXJ0",
+            "by5kaXJlY3RvcnkuY29tbW9uLnYyLlBhZ2luYXRpb25SZXF1ZXN0Io8BChZH",
+            "ZXRQZXJtaXNzaW9uc1Jlc3BvbnNlEjcKB3Jlc3VsdHMYASADKAsyJi5hc2Vy",
+            "dG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5QZXJtaXNzaW9uEjwKBHBhZ2UYCSAB",
+            "KAsyLi5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5QYWdpbmF0aW9uUmVz",
+            "cG9uc2Ui6gEKFkNoZWNrUGVybWlzc2lvblJlcXVlc3QSPQoHc3ViamVjdBgB",
+            "IAEoCzIsLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdElkZW50",
+            "aWZpZXISRAoKcGVybWlzc2lvbhgCIAEoCzIwLmFzZXJ0by5kaXJlY3Rvcnku",
+            "Y29tbW9uLnYyLlBlcm1pc3Npb25JZGVudGlmaWVyEjwKBm9iamVjdBgDIAEo",
+            "CzIsLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdElkZW50aWZp",
+            "ZXISDQoFdHJhY2UYByABKAgiNwoXQ2hlY2tQZXJtaXNzaW9uUmVzcG9uc2US",
+            "DQoFY2hlY2sYASABKAgSDQoFdHJhY2UYAiADKAki6AEKFENoZWNrUmVsYXRp",
+            "b25SZXF1ZXN0Ej0KB3N1YmplY3QYASABKAsyLC5hc2VydG8uZGlyZWN0b3J5",
+            "LmNvbW1vbi52Mi5PYmplY3RJZGVudGlmaWVyEkQKCHJlbGF0aW9uGAIgASgL",
+            "MjIuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUmVsYXRpb25UeXBlSWRl",
+            "bnRpZmllchI8CgZvYmplY3QYAyABKAsyLC5hc2VydG8uZGlyZWN0b3J5LmNv",
+            "bW1vbi52Mi5PYmplY3RJZGVudGlmaWVyEg0KBXRyYWNlGAcgASgIIjUKFUNo",
+            "ZWNrUmVsYXRpb25SZXNwb25zZRINCgVjaGVjaxgBIAEoCBINCgV0cmFjZRgC",
+            "IAMoCSItCg1DaGVja1Jlc3BvbnNlEg0KBWNoZWNrGAEgASgIEg0KBXRyYWNl",
+            "GAIgAygJIpICCg9HZXRHcmFwaFJlcXVlc3QSPAoGYW5jaG9yGAEgASgLMiwu",
+            "YXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuT2JqZWN0SWRlbnRpZmllchI9",
+            "CgdzdWJqZWN0GAIgASgLMiwuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIu",
+            "T2JqZWN0SWRlbnRpZmllchJECghyZWxhdGlvbhgDIAEoCzIyLmFzZXJ0by5k",
+            "aXJlY3RvcnkuY29tbW9uLnYyLlJlbGF0aW9uVHlwZUlkZW50aWZpZXISPAoG",
+            "b2JqZWN0GAQgASgLMiwuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuT2Jq",
+            "ZWN0SWRlbnRpZmllciJRChBHZXRHcmFwaFJlc3BvbnNlEj0KB3Jlc3VsdHMY",
+            "ASADKAsyLC5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5PYmplY3REZXBl",
+            "bmRlbmN5MoYNCgZSZWFkZXISdgoNR2V0T2JqZWN0VHlwZRIwLmFzZXJ0by5k",
+            "aXJlY3RvcnkucmVhZGVyLnYyLkdldE9iamVjdFR5cGVSZXF1ZXN0GjEuYXNl",
+            "cnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0T2JqZWN0VHlwZVJlc3BvbnNl",
+            "IgASeQoOR2V0T2JqZWN0VHlwZXMSMS5hc2VydG8uZGlyZWN0b3J5LnJlYWRl",
+            "ci52Mi5HZXRPYmplY3RUeXBlc1JlcXVlc3QaMi5hc2VydG8uZGlyZWN0b3J5",
+            "LnJlYWRlci52Mi5HZXRPYmplY3RUeXBlc1Jlc3BvbnNlIgASfAoPR2V0UmVs",
+            "YXRpb25UeXBlEjIuYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0UmVs",
+            "YXRpb25UeXBlUmVxdWVzdBozLmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYy",
+            "LkdldFJlbGF0aW9uVHlwZVJlc3BvbnNlIgASfwoQR2V0UmVsYXRpb25UeXBl",
+            "cxIzLmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldFJlbGF0aW9uVHlw",
+            "ZXNSZXF1ZXN0GjQuYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0UmVs",
+            "YXRpb25UeXBlc1Jlc3BvbnNlIgASdgoNR2V0UGVybWlzc2lvbhIwLmFzZXJ0",
+            "by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldFBlcm1pc3Npb25SZXF1ZXN0GjEu",
+            "YXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0UGVybWlzc2lvblJlc3Bv",
+            "bnNlIgASeQoOR2V0UGVybWlzc2lvbnMSMS5hc2VydG8uZGlyZWN0b3J5LnJl",
+            "YWRlci52Mi5HZXRQZXJtaXNzaW9uc1JlcXVlc3QaMi5hc2VydG8uZGlyZWN0",
+            "b3J5LnJlYWRlci52Mi5HZXRQZXJtaXNzaW9uc1Jlc3BvbnNlIgASagoJR2V0",
+            "T2JqZWN0EiwuYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0T2JqZWN0",
+            "UmVxdWVzdBotLmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldE9iamVj",
+            "dFJlc3BvbnNlIgASdgoNR2V0T2JqZWN0TWFueRIwLmFzZXJ0by5kaXJlY3Rv",
+            "cnkucmVhZGVyLnYyLkdldE9iamVjdE1hbnlSZXF1ZXN0GjEuYXNlcnRvLmRp",
+            "cmVjdG9yeS5yZWFkZXIudjIuR2V0T2JqZWN0TWFueVJlc3BvbnNlIgASbQoK",
+            "R2V0T2JqZWN0cxItLmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYyLkdldE9i",
+            "amVjdHNSZXF1ZXN0Gi4uYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0",
+            "T2JqZWN0c1Jlc3BvbnNlIgAScAoLR2V0UmVsYXRpb24SLi5hc2VydG8uZGly",
+            "ZWN0b3J5LnJlYWRlci52Mi5HZXRSZWxhdGlvblJlcXVlc3QaLy5hc2VydG8u",
+            "ZGlyZWN0b3J5LnJlYWRlci52Mi5HZXRSZWxhdGlvblJlc3BvbnNlIgAScwoM",
+            "R2V0UmVsYXRpb25zEi8uYXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuR2V0",
+            "UmVsYXRpb25zUmVxdWVzdBowLmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYy",
+            "LkdldFJlbGF0aW9uc1Jlc3BvbnNlIgASfAoPQ2hlY2tQZXJtaXNzaW9uEjIu",
+            "YXNlcnRvLmRpcmVjdG9yeS5yZWFkZXIudjIuQ2hlY2tQZXJtaXNzaW9uUmVx",
+            "dWVzdBozLmFzZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYyLkNoZWNrUGVybWlz",
+            "c2lvblJlc3BvbnNlIgASdgoNQ2hlY2tSZWxhdGlvbhIwLmFzZXJ0by5kaXJl",
+            "Y3RvcnkucmVhZGVyLnYyLkNoZWNrUmVsYXRpb25SZXF1ZXN0GjEuYXNlcnRv",
+            "LmRpcmVjdG9yeS5yZWFkZXIudjIuQ2hlY2tSZWxhdGlvblJlc3BvbnNlIgAS",
+            "ZwoIR2V0R3JhcGgSKy5hc2VydG8uZGlyZWN0b3J5LnJlYWRlci52Mi5HZXRH",
+            "cmFwaFJlcXVlc3QaLC5hc2VydG8uZGlyZWN0b3J5LnJlYWRlci52Mi5HZXRH",
+            "cmFwaFJlc3BvbnNlIgBCRlpEZ2l0aHViLmNvbS9hc2VydG8tZGV2L2dvLWRp",
+            "cmVjdG9yeS9hc2VydG8vZGlyZWN0b3J5L3JlYWRlci92MjtyZWFkZXJiBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Aserto.Directory.Common.V2.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -157,8 +162,8 @@ namespace Aserto.Directory.Reader.V2 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetObjectManyResponse), global::Aserto.Directory.Reader.V2.GetObjectManyResponse.Parser, new[]{ "Results" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetObjectsRequest), global::Aserto.Directory.Reader.V2.GetObjectsRequest.Parser, new[]{ "Param", "Page" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetObjectsResponse), global::Aserto.Directory.Reader.V2.GetObjectsResponse.Parser, new[]{ "Results", "Page" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetRelationRequest), global::Aserto.Directory.Reader.V2.GetRelationRequest.Parser, new[]{ "Param" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetRelationResponse), global::Aserto.Directory.Reader.V2.GetRelationResponse.Parser, new[]{ "Results" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetRelationRequest), global::Aserto.Directory.Reader.V2.GetRelationRequest.Parser, new[]{ "Param", "WithObjects" }, new[]{ "WithObjects" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetRelationResponse), global::Aserto.Directory.Reader.V2.GetRelationResponse.Parser, new[]{ "Results", "Objects" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetRelationsRequest), global::Aserto.Directory.Reader.V2.GetRelationsRequest.Parser, new[]{ "Param", "Page" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetRelationsResponse), global::Aserto.Directory.Reader.V2.GetRelationsResponse.Parser, new[]{ "Results", "Page" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V2.GetPermissionRequest), global::Aserto.Directory.Reader.V2.GetPermissionRequest.Parser, new[]{ "Param" }, null, null, null, null),
@@ -2901,6 +2906,7 @@ namespace Aserto.Directory.Reader.V2 {
   {
     private static readonly pb::MessageParser<GetRelationRequest> _parser = new pb::MessageParser<GetRelationRequest>(() => new GetRelationRequest());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pb::MessageParser<GetRelationRequest> Parser { get { return _parser; } }
 
@@ -2923,7 +2929,9 @@ namespace Aserto.Directory.Reader.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetRelationRequest(GetRelationRequest other) : this() {
+      _hasBits0 = other._hasBits0;
       param_ = other.param_ != null ? other.param_.Clone() : null;
+      withObjects_ = other.withObjects_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2946,6 +2954,31 @@ namespace Aserto.Directory.Reader.V2 {
       }
     }
 
+    /// <summary>Field number for the "with_objects" field.</summary>
+    public const int WithObjectsFieldNumber = 2;
+    private bool withObjects_;
+    /// <summary>
+    /// materialize relation objects
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool WithObjects {
+      get { if ((_hasBits0 & 1) != 0) { return withObjects_; } else { return false; } }
+      set {
+        _hasBits0 |= 1;
+        withObjects_ = value;
+      }
+    }
+    /// <summary>Gets whether the "with_objects" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool HasWithObjects {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "with_objects" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearWithObjects() {
+      _hasBits0 &= ~1;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GetRelationRequest);
@@ -2960,6 +2993,7 @@ namespace Aserto.Directory.Reader.V2 {
         return true;
       }
       if (!object.Equals(Param, other.Param)) return false;
+      if (WithObjects != other.WithObjects) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2967,6 +3001,7 @@ namespace Aserto.Directory.Reader.V2 {
     public override int GetHashCode() {
       int hash = 1;
       if (param_ != null) hash ^= Param.GetHashCode();
+      if (HasWithObjects) hash ^= WithObjects.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2987,6 +3022,10 @@ namespace Aserto.Directory.Reader.V2 {
         output.WriteRawTag(10);
         output.WriteMessage(Param);
       }
+      if (HasWithObjects) {
+        output.WriteRawTag(16);
+        output.WriteBool(WithObjects);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3000,6 +3039,10 @@ namespace Aserto.Directory.Reader.V2 {
         output.WriteRawTag(10);
         output.WriteMessage(Param);
       }
+      if (HasWithObjects) {
+        output.WriteRawTag(16);
+        output.WriteBool(WithObjects);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3011,6 +3054,9 @@ namespace Aserto.Directory.Reader.V2 {
       int size = 0;
       if (param_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Param);
+      }
+      if (HasWithObjects) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3028,6 +3074,9 @@ namespace Aserto.Directory.Reader.V2 {
           Param = new global::Aserto.Directory.Common.V2.RelationIdentifier();
         }
         Param.MergeFrom(other.Param);
+      }
+      if (other.HasWithObjects) {
+        WithObjects = other.WithObjects;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3050,6 +3099,10 @@ namespace Aserto.Directory.Reader.V2 {
             input.ReadMessage(Param);
             break;
           }
+          case 16: {
+            WithObjects = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -3069,6 +3122,10 @@ namespace Aserto.Directory.Reader.V2 {
               Param = new global::Aserto.Directory.Common.V2.RelationIdentifier();
             }
             input.ReadMessage(Param);
+            break;
+          }
+          case 16: {
+            WithObjects = input.ReadBool();
             break;
           }
         }
@@ -3108,6 +3165,7 @@ namespace Aserto.Directory.Reader.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetRelationResponse(GetRelationResponse other) : this() {
       results_ = other.results_.Clone();
+      objects_ = other.objects_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3129,6 +3187,19 @@ namespace Aserto.Directory.Reader.V2 {
       get { return results_; }
     }
 
+    /// <summary>Field number for the "objects" field.</summary>
+    public const int ObjectsFieldNumber = 2;
+    private static readonly pbc::MapField<string, global::Aserto.Directory.Common.V2.Object>.Codec _map_objects_codec
+        = new pbc::MapField<string, global::Aserto.Directory.Common.V2.Object>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Aserto.Directory.Common.V2.Object.Parser), 18);
+    private readonly pbc::MapField<string, global::Aserto.Directory.Common.V2.Object> objects_ = new pbc::MapField<string, global::Aserto.Directory.Common.V2.Object>();
+    /// <summary>
+    /// map of materialized relation objects
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, global::Aserto.Directory.Common.V2.Object> Objects {
+      get { return objects_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GetRelationResponse);
@@ -3143,6 +3214,7 @@ namespace Aserto.Directory.Reader.V2 {
         return true;
       }
       if(!results_.Equals(other.results_)) return false;
+      if (!Objects.Equals(other.Objects)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3150,6 +3222,7 @@ namespace Aserto.Directory.Reader.V2 {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= results_.GetHashCode();
+      hash ^= Objects.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3167,6 +3240,7 @@ namespace Aserto.Directory.Reader.V2 {
       output.WriteRawMessage(this);
     #else
       results_.WriteTo(output, _repeated_results_codec);
+      objects_.WriteTo(output, _map_objects_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3177,6 +3251,7 @@ namespace Aserto.Directory.Reader.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       results_.WriteTo(ref output, _repeated_results_codec);
+      objects_.WriteTo(ref output, _map_objects_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3187,6 +3262,7 @@ namespace Aserto.Directory.Reader.V2 {
     public int CalculateSize() {
       int size = 0;
       size += results_.CalculateSize(_repeated_results_codec);
+      size += objects_.CalculateSize(_map_objects_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3199,6 +3275,7 @@ namespace Aserto.Directory.Reader.V2 {
         return;
       }
       results_.Add(other.results_);
+      objects_.Add(other.objects_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3217,6 +3294,10 @@ namespace Aserto.Directory.Reader.V2 {
             results_.AddEntriesFrom(input, _repeated_results_codec);
             break;
           }
+          case 18: {
+            objects_.AddEntriesFrom(input, _map_objects_codec);
+            break;
+          }
         }
       }
     #endif
@@ -3233,6 +3314,10 @@ namespace Aserto.Directory.Reader.V2 {
             break;
           case 10: {
             results_.AddEntriesFrom(ref input, _repeated_results_codec);
+            break;
+          }
+          case 18: {
+            objects_.AddEntriesFrom(ref input, _map_objects_codec);
             break;
           }
         }

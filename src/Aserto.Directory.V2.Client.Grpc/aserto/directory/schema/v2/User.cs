@@ -92,6 +92,9 @@ namespace Aserto.Directory.Schema.V2 {
   #endregion
 
   #region Messages
+  /// <summary>
+  /// Properties of "user" objects.
+  /// </summary>
   public sealed partial class UserProperties : pb::IMessage<UserProperties>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

@@ -2862,7 +2862,7 @@ namespace Aserto.Directory.Common.V2 {
     public const int SubjectTypeFieldNumber = 7;
     private string subjectType_ = "";
     /// <summary>
-    /// object type id of target object 
+    /// object type id of target object
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SubjectType {
@@ -4037,7 +4037,7 @@ namespace Aserto.Directory.Common.V2 {
   }
 
   /// <summary>
-  /// Object identifier 
+  /// Object identifier
   /// </summary>
   public sealed partial class ObjectIdentifier : pb::IMessage<ObjectIdentifier>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

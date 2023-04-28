@@ -26,77 +26,72 @@ namespace Aserto.Directory.Common.V2 {
           string.Concat(
             "Cidhc2VydG8vZGlyZWN0b3J5L2NvbW1vbi92Mi9jb21tb24ucHJvdG8SGmFz",
             "ZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyGhxnb29nbGUvcHJvdG9idWYvc3Ry",
-            "dWN0LnByb3RvGh9nb29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3RvIrgC",
-            "CgpPYmplY3RUeXBlEgoKAmlkGAEgASgFEgwKBG5hbWUYAiABKAkSFAoMZGlz",
-            "cGxheV9uYW1lGAMgASgJEhIKCmlzX3N1YmplY3QYBCABKAgSDwoHb3JkaW5h",
-            "bBgFIAEoBRIOCgZzdGF0dXMYBiABKA0SJwoGc2NoZW1hGAogASgLMhcuZ29v",
-            "Z2xlLnByb3RvYnVmLlN0cnVjdBIuCgpjcmVhdGVkX2F0GBQgASgLMhouZ29v",
-            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBIuCgp1cGRhdGVkX2F0GBUgASgLMhou",
-            "Z29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIuCgpkZWxldGVkX2F0GBYgASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIMCgRoYXNoGBcgASgJItoB",
-            "CgpQZXJtaXNzaW9uEgoKAmlkGAEgASgJEgwKBG5hbWUYAiABKAkSFAoMZGlz",
-            "cGxheV9uYW1lGAMgASgJEi4KCmNyZWF0ZWRfYXQYFCABKAsyGi5nb29nbGUu",
-            "cHJvdG9idWYuVGltZXN0YW1wEi4KCnVwZGF0ZWRfYXQYFSABKAsyGi5nb29n",
-            "bGUucHJvdG9idWYuVGltZXN0YW1wEi4KCmRlbGV0ZWRfYXQYFiABKAsyGi5n",
-            "b29nbGUucHJvdG9idWYuVGltZXN0YW1wEgwKBGhhc2gYFyABKAkitwIKDFJl",
-            "bGF0aW9uVHlwZRIKCgJpZBgBIAEoBRIMCgRuYW1lGAIgASgJEhMKC29iamVj",
-            "dF90eXBlGAMgASgJEhQKDGRpc3BsYXlfbmFtZRgEIAEoCRIPCgdvcmRpbmFs",
-            "GAUgASgFEg4KBnN0YXR1cxgGIAEoDRIOCgZ1bmlvbnMYByADKAkSEwoLcGVy",
-            "bWlzc2lvbnMYCCADKAkSLgoKY3JlYXRlZF9hdBgUIAEoCzIaLmdvb2dsZS5w",
-            "cm90b2J1Zi5UaW1lc3RhbXASLgoKdXBkYXRlZF9hdBgVIAEoCzIaLmdvb2ds",
-            "ZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKZGVsZXRlZF9hdBgWIAEoCzIaLmdv",
-            "b2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASDAoEaGFzaBgXIAEoCSKQAgoGT2Jq",
-            "ZWN0EgoKAmlkGAEgASgJEgsKA2tleRgCIAEoCRIMCgR0eXBlGAMgASgJEhQK",
-            "DGRpc3BsYXlfbmFtZRgEIAEoCRIrCgpwcm9wZXJ0aWVzGAUgASgLMhcuZ29v",
-            "Z2xlLnByb3RvYnVmLlN0cnVjdBIuCgpjcmVhdGVkX2F0GBQgASgLMhouZ29v",
-            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBIuCgp1cGRhdGVkX2F0GBUgASgLMhou",
-            "Z29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIuCgpkZWxldGVkX2F0GBYgASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIMCgRoYXNoGBcgASgJIrcC",
-            "CghSZWxhdGlvbhI9CgdzdWJqZWN0GAEgASgLMiwuYXNlcnRvLmRpcmVjdG9y",
-            "eS5jb21tb24udjIuT2JqZWN0SWRlbnRpZmllchIQCghyZWxhdGlvbhgCIAEo",
-            "CRI8CgZvYmplY3QYAyABKAsyLC5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52",
-            "Mi5PYmplY3RJZGVudGlmaWVyEi4KCmNyZWF0ZWRfYXQYFCABKAsyGi5nb29n",
-            "bGUucHJvdG9idWYuVGltZXN0YW1wEi4KCnVwZGF0ZWRfYXQYFSABKAsyGi5n",
-            "b29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCmRlbGV0ZWRfYXQYFiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEgwKBGhhc2gYFyABKAkizgEK",
-            "EE9iamVjdERlcGVuZGVuY3kSEwoLb2JqZWN0X3R5cGUYASABKAkSEQoJb2Jq",
-            "ZWN0X2lkGAMgASgJEhIKCm9iamVjdF9rZXkYBCABKAkSEAoIcmVsYXRpb24Y",
-            "BSABKAkSFAoMc3ViamVjdF90eXBlGAcgASgJEhIKCnN1YmplY3RfaWQYCSAB",
-            "KAkSEwoLc3ViamVjdF9rZXkYCiABKAkSDQoFZGVwdGgYCyABKAUSEAoIaXNf",
-            "Y3ljbGUYDCABKAgSDAoEcGF0aBgNIAMoCSJKChRPYmplY3RUeXBlSWRlbnRp",
-            "ZmllchIPCgJpZBgBIAEoBUgAiAEBEhEKBG5hbWUYAiABKAlIAYgBAUIFCgNf",
-            "aWRCBwoFX25hbWUiSgoUUGVybWlzc2lvbklkZW50aWZpZXISDwoCaWQYASAB",
-            "KAlIAIgBARIRCgRuYW1lGAIgASgJSAGIAQFCBQoDX2lkQgcKBV9uYW1lInYK",
-            "FlJlbGF0aW9uVHlwZUlkZW50aWZpZXISDwoCaWQYASABKAVIAIgBARIRCgRu",
-            "YW1lGAIgASgJSAGIAQESGAoLb2JqZWN0X3R5cGUYAyABKAlIAogBAUIFCgNf",
-            "aWRCBwoFX25hbWVCDgoMX29iamVjdF90eXBlImAKEE9iamVjdElkZW50aWZp",
-            "ZXISEQoEdHlwZRgBIAEoCUgAiAEBEg8KAmlkGAIgASgJSAGIAQESEAoDa2V5",
-            "GAMgASgJSAKIAQFCBwoFX3R5cGVCBQoDX2lkQgYKBF9rZXki1wEKElJlbGF0",
-            "aW9uSWRlbnRpZmllchI9CgdzdWJqZWN0GAEgASgLMiwuYXNlcnRvLmRpcmVj",
-            "dG9yeS5jb21tb24udjIuT2JqZWN0SWRlbnRpZmllchJECghyZWxhdGlvbhgC",
-            "IAEoCzIyLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLlJlbGF0aW9uVHlw",
-            "ZUlkZW50aWZpZXISPAoGb2JqZWN0GAMgASgLMiwuYXNlcnRvLmRpcmVjdG9y",
-            "eS5jb21tb24udjIuT2JqZWN0SWRlbnRpZmllciIwChFQYWdpbmF0aW9uUmVx",
-            "dWVzdBIMCgRzaXplGAEgASgFEg0KBXRva2VuGAIgASgJIj0KElBhZ2luYXRp",
-            "b25SZXNwb25zZRISCgpuZXh0X3Rva2VuGAEgASgJEhMKC3Jlc3VsdF9zaXpl",
-            "GAIgASgFKl4KBEZsYWcSEAoMRkxBR19VTktOT1dOEAASDwoLRkxBR19ISURE",
-            "RU4QARIRCg1GTEFHX1JFQURPTkxZEAISDwoLRkxBR19TWVNURU0QBBIPCgtG",
-            "TEFHX1NIQURPVxAIQkZaRGdpdGh1Yi5jb20vYXNlcnRvLWRldi9nby1kaXJl",
-            "Y3RvcnkvYXNlcnRvL2RpcmVjdG9yeS9jb21tb24vdjI7Y29tbW9uYgZwcm90",
-            "bzM="));
+            "dWN0LnByb3RvGh9nb29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3RvIpgC",
+            "CgpPYmplY3RUeXBlEgwKBG5hbWUYAiABKAkSFAoMZGlzcGxheV9uYW1lGAMg",
+            "ASgJEhIKCmlzX3N1YmplY3QYBCABKAgSDwoHb3JkaW5hbBgFIAEoBRIOCgZz",
+            "dGF0dXMYBiABKA0SJwoGc2NoZW1hGAogASgLMhcuZ29vZ2xlLnByb3RvYnVm",
+            "LlN0cnVjdBIuCgpjcmVhdGVkX2F0GBQgASgLMhouZ29vZ2xlLnByb3RvYnVm",
+            "LlRpbWVzdGFtcBIuCgp1cGRhdGVkX2F0GBUgASgLMhouZ29vZ2xlLnByb3Rv",
+            "YnVmLlRpbWVzdGFtcBIMCgRoYXNoGBcgASgJSgQIARACSgQIFhAXUgJpZFIK",
+            "ZGVsZXRlZF9hdCK6AQoKUGVybWlzc2lvbhIMCgRuYW1lGAIgASgJEhQKDGRp",
+            "c3BsYXlfbmFtZRgDIAEoCRIuCgpjcmVhdGVkX2F0GBQgASgLMhouZ29vZ2xl",
+            "LnByb3RvYnVmLlRpbWVzdGFtcBIuCgp1cGRhdGVkX2F0GBUgASgLMhouZ29v",
+            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBIMCgRoYXNoGBcgASgJSgQIARACSgQI",
+            "FhAXUgJpZFIKZGVsZXRlZF9hdCKXAgoMUmVsYXRpb25UeXBlEgwKBG5hbWUY",
+            "AiABKAkSEwoLb2JqZWN0X3R5cGUYAyABKAkSFAoMZGlzcGxheV9uYW1lGAQg",
+            "ASgJEg8KB29yZGluYWwYBSABKAUSDgoGc3RhdHVzGAYgASgNEg4KBnVuaW9u",
+            "cxgHIAMoCRITCgtwZXJtaXNzaW9ucxgIIAMoCRIuCgpjcmVhdGVkX2F0GBQg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIuCgp1cGRhdGVkX2F0",
+            "GBUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIMCgRoYXNoGBcg",
+            "ASgJSgQIARACSgQIFhAXUgJpZFIKZGVsZXRlZF9hdCLwAQoGT2JqZWN0EgsK",
+            "A2tleRgCIAEoCRIMCgR0eXBlGAMgASgJEhQKDGRpc3BsYXlfbmFtZRgEIAEo",
+            "CRIrCgpwcm9wZXJ0aWVzGAUgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVj",
+            "dBIuCgpjcmVhdGVkX2F0GBQgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
+            "dGFtcBIuCgp1cGRhdGVkX2F0GBUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRp",
+            "bWVzdGFtcBIMCgRoYXNoGBcgASgJSgQIARACSgQIFhAXUgJpZFIKZGVsZXRl",
+            "ZF9hdCKZAgoIUmVsYXRpb24SPQoHc3ViamVjdBgBIAEoCzIsLmFzZXJ0by5k",
+            "aXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdElkZW50aWZpZXISEAoIcmVsYXRp",
+            "b24YAiABKAkSPAoGb2JqZWN0GAMgASgLMiwuYXNlcnRvLmRpcmVjdG9yeS5j",
+            "b21tb24udjIuT2JqZWN0SWRlbnRpZmllchIuCgpjcmVhdGVkX2F0GBQgASgL",
+            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIuCgp1cGRhdGVkX2F0GBUg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIMCgRoYXNoGBcgASgJ",
+            "SgQIFhAXUgpkZWxldGVkX2F0IsoBChBPYmplY3REZXBlbmRlbmN5EhMKC29i",
+            "amVjdF90eXBlGAEgASgJEhIKCm9iamVjdF9rZXkYBCABKAkSEAoIcmVsYXRp",
+            "b24YBSABKAkSFAoMc3ViamVjdF90eXBlGAcgASgJEhMKC3N1YmplY3Rfa2V5",
+            "GAogASgJEg0KBWRlcHRoGAsgASgFEhAKCGlzX2N5Y2xlGAwgASgIEgwKBHBh",
+            "dGgYDSADKAlKBAgDEARKBAgJEApSCW9iamVjdF9pZFIKc3ViamVjdF9pZCI8",
+            "ChRPYmplY3RUeXBlSWRlbnRpZmllchIRCgRuYW1lGAIgASgJSACIAQFCBwoF",
+            "X25hbWVKBAgBEAJSAmlkIjwKFFBlcm1pc3Npb25JZGVudGlmaWVyEhEKBG5h",
+            "bWUYAiABKAlIAIgBAUIHCgVfbmFtZUoECAEQAlICaWQiaAoWUmVsYXRpb25U",
+            "eXBlSWRlbnRpZmllchIRCgRuYW1lGAIgASgJSACIAQESGAoLb2JqZWN0X3R5",
+            "cGUYAyABKAlIAYgBAUIHCgVfbmFtZUIOCgxfb2JqZWN0X3R5cGVKBAgBEAJS",
+            "AmlkIlIKEE9iamVjdElkZW50aWZpZXISEQoEdHlwZRgBIAEoCUgAiAEBEhAK",
+            "A2tleRgDIAEoCUgBiAEBQgcKBV90eXBlQgYKBF9rZXlKBAgCEANSAmlkItcB",
+            "ChJSZWxhdGlvbklkZW50aWZpZXISPQoHc3ViamVjdBgBIAEoCzIsLmFzZXJ0",
+            "by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdElkZW50aWZpZXISRAoIcmVs",
+            "YXRpb24YAiABKAsyMi5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5SZWxh",
+            "dGlvblR5cGVJZGVudGlmaWVyEjwKBm9iamVjdBgDIAEoCzIsLmFzZXJ0by5k",
+            "aXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdElkZW50aWZpZXIiMAoRUGFnaW5h",
+            "dGlvblJlcXVlc3QSDAoEc2l6ZRgBIAEoBRINCgV0b2tlbhgCIAEoCSI9ChJQ",
+            "YWdpbmF0aW9uUmVzcG9uc2USEgoKbmV4dF90b2tlbhgBIAEoCRITCgtyZXN1",
+            "bHRfc2l6ZRgCIAEoBSpeCgRGbGFnEhAKDEZMQUdfVU5LTk9XThAAEg8KC0ZM",
+            "QUdfSElEREVOEAESEQoNRkxBR19SRUFET05MWRACEg8KC0ZMQUdfU1lTVEVN",
+            "EAQSDwoLRkxBR19TSEFET1cQCEJGWkRnaXRodWIuY29tL2FzZXJ0by1kZXYv",
+            "Z28tZGlyZWN0b3J5L2FzZXJ0by9kaXJlY3RvcnkvY29tbW9uL3YyO2NvbW1v",
+            "bmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Directory.Common.V2.Flag), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.ObjectType), global::Aserto.Directory.Common.V2.ObjectType.Parser, new[]{ "Id", "Name", "DisplayName", "IsSubject", "Ordinal", "Status", "Schema", "CreatedAt", "UpdatedAt", "DeletedAt", "Hash" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.Permission), global::Aserto.Directory.Common.V2.Permission.Parser, new[]{ "Id", "Name", "DisplayName", "CreatedAt", "UpdatedAt", "DeletedAt", "Hash" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.RelationType), global::Aserto.Directory.Common.V2.RelationType.Parser, new[]{ "Id", "Name", "ObjectType", "DisplayName", "Ordinal", "Status", "Unions", "Permissions", "CreatedAt", "UpdatedAt", "DeletedAt", "Hash" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.Object), global::Aserto.Directory.Common.V2.Object.Parser, new[]{ "Id", "Key", "Type", "DisplayName", "Properties", "CreatedAt", "UpdatedAt", "DeletedAt", "Hash" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.Relation), global::Aserto.Directory.Common.V2.Relation.Parser, new[]{ "Subject", "Relation_", "Object", "CreatedAt", "UpdatedAt", "DeletedAt", "Hash" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.ObjectDependency), global::Aserto.Directory.Common.V2.ObjectDependency.Parser, new[]{ "ObjectType", "ObjectId", "ObjectKey", "Relation", "SubjectType", "SubjectId", "SubjectKey", "Depth", "IsCycle", "Path" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.ObjectTypeIdentifier), global::Aserto.Directory.Common.V2.ObjectTypeIdentifier.Parser, new[]{ "Id", "Name" }, new[]{ "Id", "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.PermissionIdentifier), global::Aserto.Directory.Common.V2.PermissionIdentifier.Parser, new[]{ "Id", "Name" }, new[]{ "Id", "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.RelationTypeIdentifier), global::Aserto.Directory.Common.V2.RelationTypeIdentifier.Parser, new[]{ "Id", "Name", "ObjectType" }, new[]{ "Id", "Name", "ObjectType" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.ObjectIdentifier), global::Aserto.Directory.Common.V2.ObjectIdentifier.Parser, new[]{ "Type", "Id", "Key" }, new[]{ "Type", "Id", "Key" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.ObjectType), global::Aserto.Directory.Common.V2.ObjectType.Parser, new[]{ "Name", "DisplayName", "IsSubject", "Ordinal", "Status", "Schema", "CreatedAt", "UpdatedAt", "Hash" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.Permission), global::Aserto.Directory.Common.V2.Permission.Parser, new[]{ "Name", "DisplayName", "CreatedAt", "UpdatedAt", "Hash" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.RelationType), global::Aserto.Directory.Common.V2.RelationType.Parser, new[]{ "Name", "ObjectType", "DisplayName", "Ordinal", "Status", "Unions", "Permissions", "CreatedAt", "UpdatedAt", "Hash" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.Object), global::Aserto.Directory.Common.V2.Object.Parser, new[]{ "Key", "Type", "DisplayName", "Properties", "CreatedAt", "UpdatedAt", "Hash" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.Relation), global::Aserto.Directory.Common.V2.Relation.Parser, new[]{ "Subject", "Relation_", "Object", "CreatedAt", "UpdatedAt", "Hash" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.ObjectDependency), global::Aserto.Directory.Common.V2.ObjectDependency.Parser, new[]{ "ObjectType", "ObjectKey", "Relation", "SubjectType", "SubjectKey", "Depth", "IsCycle", "Path" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.ObjectTypeIdentifier), global::Aserto.Directory.Common.V2.ObjectTypeIdentifier.Parser, new[]{ "Name" }, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.PermissionIdentifier), global::Aserto.Directory.Common.V2.PermissionIdentifier.Parser, new[]{ "Name" }, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.RelationTypeIdentifier), global::Aserto.Directory.Common.V2.RelationTypeIdentifier.Parser, new[]{ "Name", "ObjectType" }, new[]{ "Name", "ObjectType" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.ObjectIdentifier), global::Aserto.Directory.Common.V2.ObjectIdentifier.Parser, new[]{ "Type", "Key" }, new[]{ "Type", "Key" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.RelationIdentifier), global::Aserto.Directory.Common.V2.RelationIdentifier.Parser, new[]{ "Subject", "Relation", "Object" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.PaginationRequest), global::Aserto.Directory.Common.V2.PaginationRequest.Parser, new[]{ "Size", "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V2.PaginationResponse), global::Aserto.Directory.Common.V2.PaginationResponse.Parser, new[]{ "NextToken", "ResultSize" }, null, null, null, null)
@@ -161,7 +156,6 @@ namespace Aserto.Directory.Common.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ObjectType(ObjectType other) : this() {
-      id_ = other.id_;
       name_ = other.name_;
       displayName_ = other.displayName_;
       isSubject_ = other.isSubject_;
@@ -170,7 +164,6 @@ namespace Aserto.Directory.Common.V2 {
       schema_ = other.schema_ != null ? other.schema_.Clone() : null;
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
       updatedAt_ = other.updatedAt_ != null ? other.updatedAt_.Clone() : null;
-      deletedAt_ = other.deletedAt_ != null ? other.deletedAt_.Clone() : null;
       hash_ = other.hash_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -178,20 +171,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ObjectType Clone() {
       return new ObjectType(this);
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private int id_;
-    /// <summary>
-    /// internal object type id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Id {
-      get { return id_; }
-      set {
-        id_ = value;
-      }
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -306,20 +285,6 @@ namespace Aserto.Directory.Common.V2 {
       }
     }
 
-    /// <summary>Field number for the "deleted_at" field.</summary>
-    public const int DeletedAtFieldNumber = 22;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp deletedAt_;
-    /// <summary>
-    /// deleted timestamp (UTC)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp DeletedAt {
-      get { return deletedAt_; }
-      set {
-        deletedAt_ = value;
-      }
-    }
-
     /// <summary>Field number for the "hash" field.</summary>
     public const int HashFieldNumber = 23;
     private string hash_ = "";
@@ -347,7 +312,6 @@ namespace Aserto.Directory.Common.V2 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
       if (Name != other.Name) return false;
       if (DisplayName != other.DisplayName) return false;
       if (IsSubject != other.IsSubject) return false;
@@ -356,7 +320,6 @@ namespace Aserto.Directory.Common.V2 {
       if (!object.Equals(Schema, other.Schema)) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
       if (!object.Equals(UpdatedAt, other.UpdatedAt)) return false;
-      if (!object.Equals(DeletedAt, other.DeletedAt)) return false;
       if (Hash != other.Hash) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -364,7 +327,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id != 0) hash ^= Id.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (IsSubject != false) hash ^= IsSubject.GetHashCode();
@@ -373,7 +335,6 @@ namespace Aserto.Directory.Common.V2 {
       if (schema_ != null) hash ^= Schema.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
-      if (deletedAt_ != null) hash ^= DeletedAt.GetHashCode();
       if (Hash.Length != 0) hash ^= Hash.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -391,10 +352,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Id != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Id);
-      }
       if (Name.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -426,10 +383,6 @@ namespace Aserto.Directory.Common.V2 {
       if (updatedAt_ != null) {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
-      }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
       }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
@@ -444,10 +397,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Id);
-      }
       if (Name.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -480,10 +429,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
-      }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
         output.WriteString(Hash);
@@ -497,9 +442,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Id != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
-      }
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
@@ -524,9 +466,6 @@ namespace Aserto.Directory.Common.V2 {
       if (updatedAt_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DeletedAt);
-      }
       if (Hash.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(Hash);
       }
@@ -540,9 +479,6 @@ namespace Aserto.Directory.Common.V2 {
     public void MergeFrom(ObjectType other) {
       if (other == null) {
         return;
-      }
-      if (other.Id != 0) {
-        Id = other.Id;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
@@ -577,12 +513,6 @@ namespace Aserto.Directory.Common.V2 {
         }
         UpdatedAt.MergeFrom(other.UpdatedAt);
       }
-      if (other.deletedAt_ != null) {
-        if (deletedAt_ == null) {
-          DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        DeletedAt.MergeFrom(other.DeletedAt);
-      }
       if (other.Hash.Length != 0) {
         Hash = other.Hash;
       }
@@ -600,10 +530,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            Id = input.ReadInt32();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -643,13 +569,6 @@ namespace Aserto.Directory.Common.V2 {
               UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(UpdatedAt);
-            break;
-          }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
             break;
           }
           case 186: {
@@ -670,10 +589,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 8: {
-            Id = input.ReadInt32();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -713,13 +628,6 @@ namespace Aserto.Directory.Common.V2 {
               UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(UpdatedAt);
-            break;
-          }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
             break;
           }
           case 186: {
@@ -762,12 +670,10 @@ namespace Aserto.Directory.Common.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Permission(Permission other) : this() {
-      id_ = other.id_;
       name_ = other.name_;
       displayName_ = other.displayName_;
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
       updatedAt_ = other.updatedAt_ != null ? other.updatedAt_.Clone() : null;
-      deletedAt_ = other.deletedAt_ != null ? other.deletedAt_.Clone() : null;
       hash_ = other.hash_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -775,20 +681,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Permission Clone() {
       return new Permission(this);
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private string id_ = "";
-    /// <summary>
-    /// internal permission id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Id {
-      get { return id_; }
-      set {
-        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -847,20 +739,6 @@ namespace Aserto.Directory.Common.V2 {
       }
     }
 
-    /// <summary>Field number for the "deleted_at" field.</summary>
-    public const int DeletedAtFieldNumber = 22;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp deletedAt_;
-    /// <summary>
-    /// deleted timestamp (UTC)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp DeletedAt {
-      get { return deletedAt_; }
-      set {
-        deletedAt_ = value;
-      }
-    }
-
     /// <summary>Field number for the "hash" field.</summary>
     public const int HashFieldNumber = 23;
     private string hash_ = "";
@@ -888,12 +766,10 @@ namespace Aserto.Directory.Common.V2 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
       if (Name != other.Name) return false;
       if (DisplayName != other.DisplayName) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
       if (!object.Equals(UpdatedAt, other.UpdatedAt)) return false;
-      if (!object.Equals(DeletedAt, other.DeletedAt)) return false;
       if (Hash != other.Hash) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -901,12 +777,10 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
-      if (deletedAt_ != null) hash ^= DeletedAt.GetHashCode();
       if (Hash.Length != 0) hash ^= Hash.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -924,10 +798,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Id.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
       if (Name.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -943,10 +813,6 @@ namespace Aserto.Directory.Common.V2 {
       if (updatedAt_ != null) {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
-      }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
       }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
@@ -961,10 +827,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
       if (Name.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -981,10 +843,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
-      }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
         output.WriteString(Hash);
@@ -998,9 +856,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Id.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
-      }
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
@@ -1012,9 +867,6 @@ namespace Aserto.Directory.Common.V2 {
       }
       if (updatedAt_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(UpdatedAt);
-      }
-      if (deletedAt_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DeletedAt);
       }
       if (Hash.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(Hash);
@@ -1029,9 +881,6 @@ namespace Aserto.Directory.Common.V2 {
     public void MergeFrom(Permission other) {
       if (other == null) {
         return;
-      }
-      if (other.Id.Length != 0) {
-        Id = other.Id;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
@@ -1051,12 +900,6 @@ namespace Aserto.Directory.Common.V2 {
         }
         UpdatedAt.MergeFrom(other.UpdatedAt);
       }
-      if (other.deletedAt_ != null) {
-        if (deletedAt_ == null) {
-          DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        DeletedAt.MergeFrom(other.DeletedAt);
-      }
       if (other.Hash.Length != 0) {
         Hash = other.Hash;
       }
@@ -1074,10 +917,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            Id = input.ReadString();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -1098,13 +937,6 @@ namespace Aserto.Directory.Common.V2 {
               UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(UpdatedAt);
-            break;
-          }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
             break;
           }
           case 186: {
@@ -1125,10 +957,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            Id = input.ReadString();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -1149,13 +977,6 @@ namespace Aserto.Directory.Common.V2 {
               UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(UpdatedAt);
-            break;
-          }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
             break;
           }
           case 186: {
@@ -1198,7 +1019,6 @@ namespace Aserto.Directory.Common.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public RelationType(RelationType other) : this() {
-      id_ = other.id_;
       name_ = other.name_;
       objectType_ = other.objectType_;
       displayName_ = other.displayName_;
@@ -1208,7 +1028,6 @@ namespace Aserto.Directory.Common.V2 {
       permissions_ = other.permissions_.Clone();
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
       updatedAt_ = other.updatedAt_ != null ? other.updatedAt_.Clone() : null;
-      deletedAt_ = other.deletedAt_ != null ? other.deletedAt_.Clone() : null;
       hash_ = other.hash_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1216,20 +1035,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public RelationType Clone() {
       return new RelationType(this);
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private int id_;
-    /// <summary>
-    /// relation type id selector
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Id {
-      get { return id_; }
-      set {
-        id_ = value;
-      }
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -1356,20 +1161,6 @@ namespace Aserto.Directory.Common.V2 {
       }
     }
 
-    /// <summary>Field number for the "deleted_at" field.</summary>
-    public const int DeletedAtFieldNumber = 22;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp deletedAt_;
-    /// <summary>
-    /// deleted timestamp (UTC)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp DeletedAt {
-      get { return deletedAt_; }
-      set {
-        deletedAt_ = value;
-      }
-    }
-
     /// <summary>Field number for the "hash" field.</summary>
     public const int HashFieldNumber = 23;
     private string hash_ = "";
@@ -1397,7 +1188,6 @@ namespace Aserto.Directory.Common.V2 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
       if (Name != other.Name) return false;
       if (ObjectType != other.ObjectType) return false;
       if (DisplayName != other.DisplayName) return false;
@@ -1407,7 +1197,6 @@ namespace Aserto.Directory.Common.V2 {
       if(!permissions_.Equals(other.permissions_)) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
       if (!object.Equals(UpdatedAt, other.UpdatedAt)) return false;
-      if (!object.Equals(DeletedAt, other.DeletedAt)) return false;
       if (Hash != other.Hash) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1415,7 +1204,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id != 0) hash ^= Id.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (ObjectType.Length != 0) hash ^= ObjectType.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
@@ -1425,7 +1213,6 @@ namespace Aserto.Directory.Common.V2 {
       hash ^= permissions_.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
-      if (deletedAt_ != null) hash ^= DeletedAt.GetHashCode();
       if (Hash.Length != 0) hash ^= Hash.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1443,10 +1230,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Id != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Id);
-      }
       if (Name.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -1477,10 +1260,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
-      }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
         output.WriteString(Hash);
@@ -1494,10 +1273,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Id);
-      }
       if (Name.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -1528,10 +1303,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
-      }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
         output.WriteString(Hash);
@@ -1545,9 +1316,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Id != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
-      }
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
@@ -1571,9 +1339,6 @@ namespace Aserto.Directory.Common.V2 {
       if (updatedAt_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DeletedAt);
-      }
       if (Hash.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(Hash);
       }
@@ -1587,9 +1352,6 @@ namespace Aserto.Directory.Common.V2 {
     public void MergeFrom(RelationType other) {
       if (other == null) {
         return;
-      }
-      if (other.Id != 0) {
-        Id = other.Id;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
@@ -1620,12 +1382,6 @@ namespace Aserto.Directory.Common.V2 {
         }
         UpdatedAt.MergeFrom(other.UpdatedAt);
       }
-      if (other.deletedAt_ != null) {
-        if (deletedAt_ == null) {
-          DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        DeletedAt.MergeFrom(other.DeletedAt);
-      }
       if (other.Hash.Length != 0) {
         Hash = other.Hash;
       }
@@ -1643,10 +1399,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            Id = input.ReadInt32();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -1689,13 +1441,6 @@ namespace Aserto.Directory.Common.V2 {
             input.ReadMessage(UpdatedAt);
             break;
           }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
-            break;
-          }
           case 186: {
             Hash = input.ReadString();
             break;
@@ -1714,10 +1459,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 8: {
-            Id = input.ReadInt32();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -1760,13 +1501,6 @@ namespace Aserto.Directory.Common.V2 {
             input.ReadMessage(UpdatedAt);
             break;
           }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
-            break;
-          }
           case 186: {
             Hash = input.ReadString();
             break;
@@ -1807,14 +1541,12 @@ namespace Aserto.Directory.Common.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Object(Object other) : this() {
-      id_ = other.id_;
       key_ = other.key_;
       type_ = other.type_;
       displayName_ = other.displayName_;
       properties_ = other.properties_ != null ? other.properties_.Clone() : null;
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
       updatedAt_ = other.updatedAt_ != null ? other.updatedAt_.Clone() : null;
-      deletedAt_ = other.deletedAt_ != null ? other.deletedAt_.Clone() : null;
       hash_ = other.hash_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1822,20 +1554,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Object Clone() {
       return new Object(this);
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private string id_ = "";
-    /// <summary>
-    /// internal object id (uuid)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Id {
-      get { return id_; }
-      set {
-        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
     }
 
     /// <summary>Field number for the "key" field.</summary>
@@ -1922,20 +1640,6 @@ namespace Aserto.Directory.Common.V2 {
       }
     }
 
-    /// <summary>Field number for the "deleted_at" field.</summary>
-    public const int DeletedAtFieldNumber = 22;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp deletedAt_;
-    /// <summary>
-    /// deleted timestamp (UTC)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp DeletedAt {
-      get { return deletedAt_; }
-      set {
-        deletedAt_ = value;
-      }
-    }
-
     /// <summary>Field number for the "hash" field.</summary>
     public const int HashFieldNumber = 23;
     private string hash_ = "";
@@ -1963,14 +1667,12 @@ namespace Aserto.Directory.Common.V2 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
       if (Key != other.Key) return false;
       if (Type != other.Type) return false;
       if (DisplayName != other.DisplayName) return false;
       if (!object.Equals(Properties, other.Properties)) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
       if (!object.Equals(UpdatedAt, other.UpdatedAt)) return false;
-      if (!object.Equals(DeletedAt, other.DeletedAt)) return false;
       if (Hash != other.Hash) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1978,14 +1680,12 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Key.Length != 0) hash ^= Key.GetHashCode();
       if (Type.Length != 0) hash ^= Type.GetHashCode();
       if (DisplayName.Length != 0) hash ^= DisplayName.GetHashCode();
       if (properties_ != null) hash ^= Properties.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
-      if (deletedAt_ != null) hash ^= DeletedAt.GetHashCode();
       if (Hash.Length != 0) hash ^= Hash.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2003,10 +1703,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Id.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
       if (Key.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Key);
@@ -2030,10 +1726,6 @@ namespace Aserto.Directory.Common.V2 {
       if (updatedAt_ != null) {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
-      }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
       }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
@@ -2048,10 +1740,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
       if (Key.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Key);
@@ -2076,10 +1764,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
-      }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
         output.WriteString(Hash);
@@ -2093,9 +1777,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Id.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
-      }
       if (Key.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Key);
       }
@@ -2114,9 +1795,6 @@ namespace Aserto.Directory.Common.V2 {
       if (updatedAt_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DeletedAt);
-      }
       if (Hash.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(Hash);
       }
@@ -2130,9 +1808,6 @@ namespace Aserto.Directory.Common.V2 {
     public void MergeFrom(Object other) {
       if (other == null) {
         return;
-      }
-      if (other.Id.Length != 0) {
-        Id = other.Id;
       }
       if (other.Key.Length != 0) {
         Key = other.Key;
@@ -2161,12 +1836,6 @@ namespace Aserto.Directory.Common.V2 {
         }
         UpdatedAt.MergeFrom(other.UpdatedAt);
       }
-      if (other.deletedAt_ != null) {
-        if (deletedAt_ == null) {
-          DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        DeletedAt.MergeFrom(other.DeletedAt);
-      }
       if (other.Hash.Length != 0) {
         Hash = other.Hash;
       }
@@ -2184,10 +1853,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            Id = input.ReadString();
-            break;
-          }
           case 18: {
             Key = input.ReadString();
             break;
@@ -2219,13 +1884,6 @@ namespace Aserto.Directory.Common.V2 {
               UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(UpdatedAt);
-            break;
-          }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
             break;
           }
           case 186: {
@@ -2246,10 +1904,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            Id = input.ReadString();
-            break;
-          }
           case 18: {
             Key = input.ReadString();
             break;
@@ -2281,13 +1935,6 @@ namespace Aserto.Directory.Common.V2 {
               UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(UpdatedAt);
-            break;
-          }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
             break;
           }
           case 186: {
@@ -2335,7 +1982,6 @@ namespace Aserto.Directory.Common.V2 {
       object_ = other.object_ != null ? other.object_.Clone() : null;
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
       updatedAt_ = other.updatedAt_ != null ? other.updatedAt_.Clone() : null;
-      deletedAt_ = other.deletedAt_ != null ? other.deletedAt_.Clone() : null;
       hash_ = other.hash_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2363,7 +2009,7 @@ namespace Aserto.Directory.Common.V2 {
     public const int Relation_FieldNumber = 2;
     private string relation_ = "";
     /// <summary>
-    /// relation type ID
+    /// relation type name
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Relation_ {
@@ -2415,20 +2061,6 @@ namespace Aserto.Directory.Common.V2 {
       }
     }
 
-    /// <summary>Field number for the "deleted_at" field.</summary>
-    public const int DeletedAtFieldNumber = 22;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp deletedAt_;
-    /// <summary>
-    /// deleted timestamp (UTC)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp DeletedAt {
-      get { return deletedAt_; }
-      set {
-        deletedAt_ = value;
-      }
-    }
-
     /// <summary>Field number for the "hash" field.</summary>
     public const int HashFieldNumber = 23;
     private string hash_ = "";
@@ -2461,7 +2093,6 @@ namespace Aserto.Directory.Common.V2 {
       if (!object.Equals(Object, other.Object)) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
       if (!object.Equals(UpdatedAt, other.UpdatedAt)) return false;
-      if (!object.Equals(DeletedAt, other.DeletedAt)) return false;
       if (Hash != other.Hash) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2474,7 +2105,6 @@ namespace Aserto.Directory.Common.V2 {
       if (object_ != null) hash ^= Object.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
-      if (deletedAt_ != null) hash ^= DeletedAt.GetHashCode();
       if (Hash.Length != 0) hash ^= Hash.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2512,10 +2142,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
-      }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
         output.WriteString(Hash);
@@ -2549,10 +2175,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(170, 1);
         output.WriteMessage(UpdatedAt);
       }
-      if (deletedAt_ != null) {
-        output.WriteRawTag(178, 1);
-        output.WriteMessage(DeletedAt);
-      }
       if (Hash.Length != 0) {
         output.WriteRawTag(186, 1);
         output.WriteString(Hash);
@@ -2580,9 +2202,6 @@ namespace Aserto.Directory.Common.V2 {
       }
       if (updatedAt_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(UpdatedAt);
-      }
-      if (deletedAt_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DeletedAt);
       }
       if (Hash.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(Hash);
@@ -2624,12 +2243,6 @@ namespace Aserto.Directory.Common.V2 {
           UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         UpdatedAt.MergeFrom(other.UpdatedAt);
-      }
-      if (other.deletedAt_ != null) {
-        if (deletedAt_ == null) {
-          DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        DeletedAt.MergeFrom(other.DeletedAt);
       }
       if (other.Hash.Length != 0) {
         Hash = other.Hash;
@@ -2678,13 +2291,6 @@ namespace Aserto.Directory.Common.V2 {
               UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(UpdatedAt);
-            break;
-          }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
             break;
           }
           case 186: {
@@ -2737,13 +2343,6 @@ namespace Aserto.Directory.Common.V2 {
             input.ReadMessage(UpdatedAt);
             break;
           }
-          case 178: {
-            if (deletedAt_ == null) {
-              DeletedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(DeletedAt);
-            break;
-          }
           case 186: {
             Hash = input.ReadString();
             break;
@@ -2785,11 +2384,9 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ObjectDependency(ObjectDependency other) : this() {
       objectType_ = other.objectType_;
-      objectId_ = other.objectId_;
       objectKey_ = other.objectKey_;
       relation_ = other.relation_;
       subjectType_ = other.subjectType_;
-      subjectId_ = other.subjectId_;
       subjectKey_ = other.subjectKey_;
       depth_ = other.depth_;
       isCycle_ = other.isCycle_;
@@ -2813,20 +2410,6 @@ namespace Aserto.Directory.Common.V2 {
       get { return objectType_; }
       set {
         objectType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "object_id" field.</summary>
-    public const int ObjectIdFieldNumber = 3;
-    private string objectId_ = "";
-    /// <summary>
-    /// object id (uuid) of source object
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string ObjectId {
-      get { return objectId_; }
-      set {
-        objectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -2869,20 +2452,6 @@ namespace Aserto.Directory.Common.V2 {
       get { return subjectType_; }
       set {
         subjectType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "subject_id" field.</summary>
-    public const int SubjectIdFieldNumber = 9;
-    private string subjectId_ = "";
-    /// <summary>
-    /// object id (uuid) of target object
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string SubjectId {
-      get { return subjectId_; }
-      set {
-        subjectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -2955,11 +2524,9 @@ namespace Aserto.Directory.Common.V2 {
         return true;
       }
       if (ObjectType != other.ObjectType) return false;
-      if (ObjectId != other.ObjectId) return false;
       if (ObjectKey != other.ObjectKey) return false;
       if (Relation != other.Relation) return false;
       if (SubjectType != other.SubjectType) return false;
-      if (SubjectId != other.SubjectId) return false;
       if (SubjectKey != other.SubjectKey) return false;
       if (Depth != other.Depth) return false;
       if (IsCycle != other.IsCycle) return false;
@@ -2971,11 +2538,9 @@ namespace Aserto.Directory.Common.V2 {
     public override int GetHashCode() {
       int hash = 1;
       if (ObjectType.Length != 0) hash ^= ObjectType.GetHashCode();
-      if (ObjectId.Length != 0) hash ^= ObjectId.GetHashCode();
       if (ObjectKey.Length != 0) hash ^= ObjectKey.GetHashCode();
       if (Relation.Length != 0) hash ^= Relation.GetHashCode();
       if (SubjectType.Length != 0) hash ^= SubjectType.GetHashCode();
-      if (SubjectId.Length != 0) hash ^= SubjectId.GetHashCode();
       if (SubjectKey.Length != 0) hash ^= SubjectKey.GetHashCode();
       if (Depth != 0) hash ^= Depth.GetHashCode();
       if (IsCycle != false) hash ^= IsCycle.GetHashCode();
@@ -3000,10 +2565,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(10);
         output.WriteString(ObjectType);
       }
-      if (ObjectId.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(ObjectId);
-      }
       if (ObjectKey.Length != 0) {
         output.WriteRawTag(34);
         output.WriteString(ObjectKey);
@@ -3015,10 +2576,6 @@ namespace Aserto.Directory.Common.V2 {
       if (SubjectType.Length != 0) {
         output.WriteRawTag(58);
         output.WriteString(SubjectType);
-      }
-      if (SubjectId.Length != 0) {
-        output.WriteRawTag(74);
-        output.WriteString(SubjectId);
       }
       if (SubjectKey.Length != 0) {
         output.WriteRawTag(82);
@@ -3046,10 +2603,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(10);
         output.WriteString(ObjectType);
       }
-      if (ObjectId.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(ObjectId);
-      }
       if (ObjectKey.Length != 0) {
         output.WriteRawTag(34);
         output.WriteString(ObjectKey);
@@ -3061,10 +2614,6 @@ namespace Aserto.Directory.Common.V2 {
       if (SubjectType.Length != 0) {
         output.WriteRawTag(58);
         output.WriteString(SubjectType);
-      }
-      if (SubjectId.Length != 0) {
-        output.WriteRawTag(74);
-        output.WriteString(SubjectId);
       }
       if (SubjectKey.Length != 0) {
         output.WriteRawTag(82);
@@ -3091,9 +2640,6 @@ namespace Aserto.Directory.Common.V2 {
       if (ObjectType.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ObjectType);
       }
-      if (ObjectId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ObjectId);
-      }
       if (ObjectKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ObjectKey);
       }
@@ -3102,9 +2648,6 @@ namespace Aserto.Directory.Common.V2 {
       }
       if (SubjectType.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SubjectType);
-      }
-      if (SubjectId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(SubjectId);
       }
       if (SubjectKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SubjectKey);
@@ -3130,9 +2673,6 @@ namespace Aserto.Directory.Common.V2 {
       if (other.ObjectType.Length != 0) {
         ObjectType = other.ObjectType;
       }
-      if (other.ObjectId.Length != 0) {
-        ObjectId = other.ObjectId;
-      }
       if (other.ObjectKey.Length != 0) {
         ObjectKey = other.ObjectKey;
       }
@@ -3141,9 +2681,6 @@ namespace Aserto.Directory.Common.V2 {
       }
       if (other.SubjectType.Length != 0) {
         SubjectType = other.SubjectType;
-      }
-      if (other.SubjectId.Length != 0) {
-        SubjectId = other.SubjectId;
       }
       if (other.SubjectKey.Length != 0) {
         SubjectKey = other.SubjectKey;
@@ -3173,10 +2710,6 @@ namespace Aserto.Directory.Common.V2 {
             ObjectType = input.ReadString();
             break;
           }
-          case 26: {
-            ObjectId = input.ReadString();
-            break;
-          }
           case 34: {
             ObjectKey = input.ReadString();
             break;
@@ -3187,10 +2720,6 @@ namespace Aserto.Directory.Common.V2 {
           }
           case 58: {
             SubjectType = input.ReadString();
-            break;
-          }
-          case 74: {
-            SubjectId = input.ReadString();
             break;
           }
           case 82: {
@@ -3227,10 +2756,6 @@ namespace Aserto.Directory.Common.V2 {
             ObjectType = input.ReadString();
             break;
           }
-          case 26: {
-            ObjectId = input.ReadString();
-            break;
-          }
           case 34: {
             ObjectKey = input.ReadString();
             break;
@@ -3241,10 +2766,6 @@ namespace Aserto.Directory.Common.V2 {
           }
           case 58: {
             SubjectType = input.ReadString();
-            break;
-          }
-          case 74: {
-            SubjectId = input.ReadString();
             break;
           }
           case 82: {
@@ -3280,7 +2801,6 @@ namespace Aserto.Directory.Common.V2 {
   {
     private static readonly pb::MessageParser<ObjectTypeIdentifier> _parser = new pb::MessageParser<ObjectTypeIdentifier>(() => new ObjectTypeIdentifier());
     private pb::UnknownFieldSet _unknownFields;
-    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pb::MessageParser<ObjectTypeIdentifier> Parser { get { return _parser; } }
 
@@ -3303,8 +2823,6 @@ namespace Aserto.Directory.Common.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ObjectTypeIdentifier(ObjectTypeIdentifier other) : this() {
-      _hasBits0 = other._hasBits0;
-      id_ = other.id_;
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3312,31 +2830,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ObjectTypeIdentifier Clone() {
       return new ObjectTypeIdentifier(this);
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private int id_;
-    /// <summary>
-    /// internal object type id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Id {
-      get { if ((_hasBits0 & 1) != 0) { return id_; } else { return 0; } }
-      set {
-        _hasBits0 |= 1;
-        id_ = value;
-      }
-    }
-    /// <summary>Gets whether the "id" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool HasId {
-      get { return (_hasBits0 & 1) != 0; }
-    }
-    /// <summary>Clears the value of the "id" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void ClearId() {
-      _hasBits0 &= ~1;
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -3376,7 +2869,6 @@ namespace Aserto.Directory.Common.V2 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
       if (Name != other.Name) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3384,7 +2876,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (HasId) hash ^= Id.GetHashCode();
       if (HasName) hash ^= Name.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3402,10 +2893,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (HasId) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Id);
-      }
       if (HasName) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -3419,10 +2906,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasId) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Id);
-      }
       if (HasName) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -3436,9 +2919,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (HasId) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
-      }
       if (HasName) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
@@ -3452,9 +2932,6 @@ namespace Aserto.Directory.Common.V2 {
     public void MergeFrom(ObjectTypeIdentifier other) {
       if (other == null) {
         return;
-      }
-      if (other.HasId) {
-        Id = other.Id;
       }
       if (other.HasName) {
         Name = other.Name;
@@ -3473,10 +2950,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            Id = input.ReadInt32();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -3495,10 +2968,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 8: {
-            Id = input.ReadInt32();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -3542,7 +3011,6 @@ namespace Aserto.Directory.Common.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public PermissionIdentifier(PermissionIdentifier other) : this() {
-      id_ = other.id_;
       name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3550,30 +3018,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public PermissionIdentifier Clone() {
       return new PermissionIdentifier(this);
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private string id_;
-    /// <summary>
-    /// internal permission id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Id {
-      get { return id_ ?? ""; }
-      set {
-        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "id" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool HasId {
-      get { return id_ != null; }
-    }
-    /// <summary>Clears the value of the "id" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void ClearId() {
-      id_ = null;
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -3613,7 +3057,6 @@ namespace Aserto.Directory.Common.V2 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
       if (Name != other.Name) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3621,7 +3064,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (HasId) hash ^= Id.GetHashCode();
       if (HasName) hash ^= Name.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3639,10 +3081,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (HasId) {
-        output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
       if (HasName) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -3656,10 +3094,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasId) {
-        output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
       if (HasName) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -3673,9 +3107,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (HasId) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
-      }
       if (HasName) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
@@ -3689,9 +3120,6 @@ namespace Aserto.Directory.Common.V2 {
     public void MergeFrom(PermissionIdentifier other) {
       if (other == null) {
         return;
-      }
-      if (other.HasId) {
-        Id = other.Id;
       }
       if (other.HasName) {
         Name = other.Name;
@@ -3710,10 +3138,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            Id = input.ReadString();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -3732,10 +3156,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            Id = input.ReadString();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -3757,7 +3177,6 @@ namespace Aserto.Directory.Common.V2 {
   {
     private static readonly pb::MessageParser<RelationTypeIdentifier> _parser = new pb::MessageParser<RelationTypeIdentifier>(() => new RelationTypeIdentifier());
     private pb::UnknownFieldSet _unknownFields;
-    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pb::MessageParser<RelationTypeIdentifier> Parser { get { return _parser; } }
 
@@ -3780,8 +3199,6 @@ namespace Aserto.Directory.Common.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public RelationTypeIdentifier(RelationTypeIdentifier other) : this() {
-      _hasBits0 = other._hasBits0;
-      id_ = other.id_;
       name_ = other.name_;
       objectType_ = other.objectType_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -3790,31 +3207,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public RelationTypeIdentifier Clone() {
       return new RelationTypeIdentifier(this);
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private int id_;
-    /// <summary>
-    /// relation type id selector
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Id {
-      get { if ((_hasBits0 & 1) != 0) { return id_; } else { return 0; } }
-      set {
-        _hasBits0 |= 1;
-        id_ = value;
-      }
-    }
-    /// <summary>Gets whether the "id" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool HasId {
-      get { return (_hasBits0 & 1) != 0; }
-    }
-    /// <summary>Clears the value of the "id" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void ClearId() {
-      _hasBits0 &= ~1;
     }
 
     /// <summary>Field number for the "name" field.</summary>
@@ -3878,7 +3270,6 @@ namespace Aserto.Directory.Common.V2 {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
       if (Name != other.Name) return false;
       if (ObjectType != other.ObjectType) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -3887,7 +3278,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (HasId) hash ^= Id.GetHashCode();
       if (HasName) hash ^= Name.GetHashCode();
       if (HasObjectType) hash ^= ObjectType.GetHashCode();
       if (_unknownFields != null) {
@@ -3906,10 +3296,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (HasId) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Id);
-      }
       if (HasName) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -3927,10 +3313,6 @@ namespace Aserto.Directory.Common.V2 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasId) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Id);
-      }
       if (HasName) {
         output.WriteRawTag(18);
         output.WriteString(Name);
@@ -3948,9 +3330,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (HasId) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
-      }
       if (HasName) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
@@ -3967,9 +3346,6 @@ namespace Aserto.Directory.Common.V2 {
     public void MergeFrom(RelationTypeIdentifier other) {
       if (other == null) {
         return;
-      }
-      if (other.HasId) {
-        Id = other.Id;
       }
       if (other.HasName) {
         Name = other.Name;
@@ -3991,10 +3367,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            Id = input.ReadInt32();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -4017,10 +3389,6 @@ namespace Aserto.Directory.Common.V2 {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 8: {
-            Id = input.ReadInt32();
-            break;
-          }
           case 18: {
             Name = input.ReadString();
             break;
@@ -4069,7 +3437,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ObjectIdentifier(ObjectIdentifier other) : this() {
       type_ = other.type_;
-      id_ = other.id_;
       key_ = other.key_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4101,30 +3468,6 @@ namespace Aserto.Directory.Common.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void ClearType() {
       type_ = null;
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 2;
-    private string id_;
-    /// <summary>
-    /// internal object id (uuid)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Id {
-      get { return id_ ?? ""; }
-      set {
-        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-    /// <summary>Gets whether the "id" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool HasId {
-      get { return id_ != null; }
-    }
-    /// <summary>Clears the value of the "id" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void ClearId() {
-      id_ = null;
     }
 
     /// <summary>Field number for the "key" field.</summary>
@@ -4165,7 +3508,6 @@ namespace Aserto.Directory.Common.V2 {
         return true;
       }
       if (Type != other.Type) return false;
-      if (Id != other.Id) return false;
       if (Key != other.Key) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4174,7 +3516,6 @@ namespace Aserto.Directory.Common.V2 {
     public override int GetHashCode() {
       int hash = 1;
       if (HasType) hash ^= Type.GetHashCode();
-      if (HasId) hash ^= Id.GetHashCode();
       if (HasKey) hash ^= Key.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4196,10 +3537,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(10);
         output.WriteString(Type);
       }
-      if (HasId) {
-        output.WriteRawTag(18);
-        output.WriteString(Id);
-      }
       if (HasKey) {
         output.WriteRawTag(26);
         output.WriteString(Key);
@@ -4217,10 +3554,6 @@ namespace Aserto.Directory.Common.V2 {
         output.WriteRawTag(10);
         output.WriteString(Type);
       }
-      if (HasId) {
-        output.WriteRawTag(18);
-        output.WriteString(Id);
-      }
       if (HasKey) {
         output.WriteRawTag(26);
         output.WriteString(Key);
@@ -4236,9 +3569,6 @@ namespace Aserto.Directory.Common.V2 {
       int size = 0;
       if (HasType) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Type);
-      }
-      if (HasId) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
       if (HasKey) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Key);
@@ -4256,9 +3586,6 @@ namespace Aserto.Directory.Common.V2 {
       }
       if (other.HasType) {
         Type = other.Type;
-      }
-      if (other.HasId) {
-        Id = other.Id;
       }
       if (other.HasKey) {
         Key = other.Key;
@@ -4281,10 +3608,6 @@ namespace Aserto.Directory.Common.V2 {
             Type = input.ReadString();
             break;
           }
-          case 18: {
-            Id = input.ReadString();
-            break;
-          }
           case 26: {
             Key = input.ReadString();
             break;
@@ -4305,10 +3628,6 @@ namespace Aserto.Directory.Common.V2 {
             break;
           case 10: {
             Type = input.ReadString();
-            break;
-          }
-          case 18: {
-            Id = input.ReadString();
             break;
           }
           case 26: {

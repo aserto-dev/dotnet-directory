@@ -52,46 +52,47 @@ namespace Aserto.Directory.Writer.V2 {
             "Zi5FbXB0eSJGChBTZXRPYmplY3RSZXF1ZXN0EjIKBm9iamVjdBgBIAEoCzIi",
             "LmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdCJHChFTZXRPYmpl",
             "Y3RSZXNwb25zZRIyCgZyZXN1bHQYASABKAsyIi5hc2VydG8uZGlyZWN0b3J5",
-            "LmNvbW1vbi52Mi5PYmplY3QiUgoTRGVsZXRlT2JqZWN0UmVxdWVzdBI7CgVw",
-            "YXJhbRgBIAEoCzIsLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVj",
-            "dElkZW50aWZpZXIiPgoURGVsZXRlT2JqZWN0UmVzcG9uc2USJgoGcmVzdWx0",
-            "GAEgASgLMhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5IkwKElNldFJlbGF0aW9u",
-            "UmVxdWVzdBI2CghyZWxhdGlvbhgBIAEoCzIkLmFzZXJ0by5kaXJlY3Rvcnku",
-            "Y29tbW9uLnYyLlJlbGF0aW9uIksKE1NldFJlbGF0aW9uUmVzcG9uc2USNAoG",
-            "cmVzdWx0GAEgASgLMiQuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUmVs",
-            "YXRpb24iVgoVRGVsZXRlUmVsYXRpb25SZXF1ZXN0Ej0KBXBhcmFtGAEgASgL",
-            "Mi4uYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUmVsYXRpb25JZGVudGlm",
-            "aWVyIkAKFkRlbGV0ZVJlbGF0aW9uUmVzcG9uc2USJgoGcmVzdWx0GAEgASgL",
-            "MhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5Ms4JCgZXcml0ZXISdgoNU2V0T2Jq",
-            "ZWN0VHlwZRIwLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldE9iamVj",
-            "dFR5cGVSZXF1ZXN0GjEuYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuU2V0",
-            "T2JqZWN0VHlwZVJlc3BvbnNlIgASfwoQRGVsZXRlT2JqZWN0VHlwZRIzLmFz",
-            "ZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLkRlbGV0ZU9iamVjdFR5cGVSZXF1",
-            "ZXN0GjQuYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuRGVsZXRlT2JqZWN0",
-            "VHlwZVJlc3BvbnNlIgASfAoPU2V0UmVsYXRpb25UeXBlEjIuYXNlcnRvLmRp",
-            "cmVjdG9yeS53cml0ZXIudjIuU2V0UmVsYXRpb25UeXBlUmVxdWVzdBozLmFz",
-            "ZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldFJlbGF0aW9uVHlwZVJlc3Bv",
-            "bnNlIgAShQEKEkRlbGV0ZVJlbGF0aW9uVHlwZRI1LmFzZXJ0by5kaXJlY3Rv",
-            "cnkud3JpdGVyLnYyLkRlbGV0ZVJlbGF0aW9uVHlwZVJlcXVlc3QaNi5hc2Vy",
-            "dG8uZGlyZWN0b3J5LndyaXRlci52Mi5EZWxldGVSZWxhdGlvblR5cGVSZXNw",
-            "b25zZSIAEnYKDVNldFBlcm1pc3Npb24SMC5hc2VydG8uZGlyZWN0b3J5Lndy",
-            "aXRlci52Mi5TZXRQZXJtaXNzaW9uUmVxdWVzdBoxLmFzZXJ0by5kaXJlY3Rv",
-            "cnkud3JpdGVyLnYyLlNldFBlcm1pc3Npb25SZXNwb25zZSIAEn8KEERlbGV0",
-            "ZVBlcm1pc3Npb24SMy5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5EZWxl",
-            "dGVQZXJtaXNzaW9uUmVxdWVzdBo0LmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVy",
-            "LnYyLkRlbGV0ZVBlcm1pc3Npb25SZXNwb25zZSIAEmoKCVNldE9iamVjdBIs",
-            "LmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldE9iamVjdFJlcXVlc3Qa",
-            "LS5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5TZXRPYmplY3RSZXNwb25z",
-            "ZSIAEnMKDERlbGV0ZU9iamVjdBIvLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVy",
-            "LnYyLkRlbGV0ZU9iamVjdFJlcXVlc3QaMC5hc2VydG8uZGlyZWN0b3J5Lndy",
-            "aXRlci52Mi5EZWxldGVPYmplY3RSZXNwb25zZSIAEnAKC1NldFJlbGF0aW9u",
-            "Ei4uYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuU2V0UmVsYXRpb25SZXF1",
-            "ZXN0Gi8uYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuU2V0UmVsYXRpb25S",
-            "ZXNwb25zZSIAEnkKDkRlbGV0ZVJlbGF0aW9uEjEuYXNlcnRvLmRpcmVjdG9y",
-            "eS53cml0ZXIudjIuRGVsZXRlUmVsYXRpb25SZXF1ZXN0GjIuYXNlcnRvLmRp",
-            "cmVjdG9yeS53cml0ZXIudjIuRGVsZXRlUmVsYXRpb25SZXNwb25zZSIAQkZa",
-            "RGdpdGh1Yi5jb20vYXNlcnRvLWRldi9nby1kaXJlY3RvcnkvYXNlcnRvL2Rp",
-            "cmVjdG9yeS93cml0ZXIvdjI7d3JpdGVyYgZwcm90bzM="));
+            "LmNvbW1vbi52Mi5PYmplY3QiggEKE0RlbGV0ZU9iamVjdFJlcXVlc3QSOwoF",
+            "cGFyYW0YASABKAsyLC5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5PYmpl",
+            "Y3RJZGVudGlmaWVyEhsKDndpdGhfcmVsYXRpb25zGAIgASgISACIAQFCEQoP",
+            "X3dpdGhfcmVsYXRpb25zIj4KFERlbGV0ZU9iamVjdFJlc3BvbnNlEiYKBnJl",
+            "c3VsdBgBIAEoCzIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eSJMChJTZXRSZWxh",
+            "dGlvblJlcXVlc3QSNgoIcmVsYXRpb24YASABKAsyJC5hc2VydG8uZGlyZWN0",
+            "b3J5LmNvbW1vbi52Mi5SZWxhdGlvbiJLChNTZXRSZWxhdGlvblJlc3BvbnNl",
+            "EjQKBnJlc3VsdBgBIAEoCzIkLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYy",
+            "LlJlbGF0aW9uIlYKFURlbGV0ZVJlbGF0aW9uUmVxdWVzdBI9CgVwYXJhbRgB",
+            "IAEoCzIuLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLlJlbGF0aW9uSWRl",
+            "bnRpZmllciJAChZEZWxldGVSZWxhdGlvblJlc3BvbnNlEiYKBnJlc3VsdBgB",
+            "IAEoCzIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eTLOCQoGV3JpdGVyEnYKDVNl",
+            "dE9iamVjdFR5cGUSMC5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5TZXRP",
+            "YmplY3RUeXBlUmVxdWVzdBoxLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYy",
+            "LlNldE9iamVjdFR5cGVSZXNwb25zZSIAEn8KEERlbGV0ZU9iamVjdFR5cGUS",
+            "My5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5EZWxldGVPYmplY3RUeXBl",
+            "UmVxdWVzdBo0LmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLkRlbGV0ZU9i",
+            "amVjdFR5cGVSZXNwb25zZSIAEnwKD1NldFJlbGF0aW9uVHlwZRIyLmFzZXJ0",
+            "by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldFJlbGF0aW9uVHlwZVJlcXVlc3Qa",
+            "My5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5TZXRSZWxhdGlvblR5cGVS",
+            "ZXNwb25zZSIAEoUBChJEZWxldGVSZWxhdGlvblR5cGUSNS5hc2VydG8uZGly",
+            "ZWN0b3J5LndyaXRlci52Mi5EZWxldGVSZWxhdGlvblR5cGVSZXF1ZXN0GjYu",
+            "YXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuRGVsZXRlUmVsYXRpb25UeXBl",
+            "UmVzcG9uc2UiABJ2Cg1TZXRQZXJtaXNzaW9uEjAuYXNlcnRvLmRpcmVjdG9y",
+            "eS53cml0ZXIudjIuU2V0UGVybWlzc2lvblJlcXVlc3QaMS5hc2VydG8uZGly",
+            "ZWN0b3J5LndyaXRlci52Mi5TZXRQZXJtaXNzaW9uUmVzcG9uc2UiABJ/ChBE",
+            "ZWxldGVQZXJtaXNzaW9uEjMuYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIu",
+            "RGVsZXRlUGVybWlzc2lvblJlcXVlc3QaNC5hc2VydG8uZGlyZWN0b3J5Lndy",
+            "aXRlci52Mi5EZWxldGVQZXJtaXNzaW9uUmVzcG9uc2UiABJqCglTZXRPYmpl",
+            "Y3QSLC5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5TZXRPYmplY3RSZXF1",
+            "ZXN0Gi0uYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuU2V0T2JqZWN0UmVz",
+            "cG9uc2UiABJzCgxEZWxldGVPYmplY3QSLy5hc2VydG8uZGlyZWN0b3J5Lndy",
+            "aXRlci52Mi5EZWxldGVPYmplY3RSZXF1ZXN0GjAuYXNlcnRvLmRpcmVjdG9y",
+            "eS53cml0ZXIudjIuRGVsZXRlT2JqZWN0UmVzcG9uc2UiABJwCgtTZXRSZWxh",
+            "dGlvbhIuLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldFJlbGF0aW9u",
+            "UmVxdWVzdBovLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldFJlbGF0",
+            "aW9uUmVzcG9uc2UiABJ5Cg5EZWxldGVSZWxhdGlvbhIxLmFzZXJ0by5kaXJl",
+            "Y3Rvcnkud3JpdGVyLnYyLkRlbGV0ZVJlbGF0aW9uUmVxdWVzdBoyLmFzZXJ0",
+            "by5kaXJlY3Rvcnkud3JpdGVyLnYyLkRlbGV0ZVJlbGF0aW9uUmVzcG9uc2Ui",
+            "AEJGWkRnaXRodWIuY29tL2FzZXJ0by1kZXYvZ28tZGlyZWN0b3J5L2FzZXJ0",
+            "by9kaXJlY3Rvcnkvd3JpdGVyL3YyO3dyaXRlcmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Aserto.Directory.Common.V2.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -109,7 +110,7 @@ namespace Aserto.Directory.Writer.V2 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V2.DeletePermissionResponse), global::Aserto.Directory.Writer.V2.DeletePermissionResponse.Parser, new[]{ "Result" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V2.SetObjectRequest), global::Aserto.Directory.Writer.V2.SetObjectRequest.Parser, new[]{ "Object" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V2.SetObjectResponse), global::Aserto.Directory.Writer.V2.SetObjectResponse.Parser, new[]{ "Result" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V2.DeleteObjectRequest), global::Aserto.Directory.Writer.V2.DeleteObjectRequest.Parser, new[]{ "Param" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V2.DeleteObjectRequest), global::Aserto.Directory.Writer.V2.DeleteObjectRequest.Parser, new[]{ "Param", "WithRelations" }, new[]{ "WithRelations" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V2.DeleteObjectResponse), global::Aserto.Directory.Writer.V2.DeleteObjectResponse.Parser, new[]{ "Result" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V2.SetRelationRequest), global::Aserto.Directory.Writer.V2.SetRelationRequest.Parser, new[]{ "Relation" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V2.SetRelationResponse), global::Aserto.Directory.Writer.V2.SetRelationResponse.Parser, new[]{ "Result" }, null, null, null, null),
@@ -2704,6 +2705,7 @@ namespace Aserto.Directory.Writer.V2 {
   {
     private static readonly pb::MessageParser<DeleteObjectRequest> _parser = new pb::MessageParser<DeleteObjectRequest>(() => new DeleteObjectRequest());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pb::MessageParser<DeleteObjectRequest> Parser { get { return _parser; } }
 
@@ -2726,7 +2728,9 @@ namespace Aserto.Directory.Writer.V2 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public DeleteObjectRequest(DeleteObjectRequest other) : this() {
+      _hasBits0 = other._hasBits0;
       param_ = other.param_ != null ? other.param_.Clone() : null;
+      withRelations_ = other.withRelations_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2749,6 +2753,31 @@ namespace Aserto.Directory.Writer.V2 {
       }
     }
 
+    /// <summary>Field number for the "with_relations" field.</summary>
+    public const int WithRelationsFieldNumber = 2;
+    private bool withRelations_;
+    /// <summary>
+    /// delete object relations, both object and subject relations.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool WithRelations {
+      get { if ((_hasBits0 & 1) != 0) { return withRelations_; } else { return false; } }
+      set {
+        _hasBits0 |= 1;
+        withRelations_ = value;
+      }
+    }
+    /// <summary>Gets whether the "with_relations" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool HasWithRelations {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "with_relations" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearWithRelations() {
+      _hasBits0 &= ~1;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as DeleteObjectRequest);
@@ -2763,6 +2792,7 @@ namespace Aserto.Directory.Writer.V2 {
         return true;
       }
       if (!object.Equals(Param, other.Param)) return false;
+      if (WithRelations != other.WithRelations) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2770,6 +2800,7 @@ namespace Aserto.Directory.Writer.V2 {
     public override int GetHashCode() {
       int hash = 1;
       if (param_ != null) hash ^= Param.GetHashCode();
+      if (HasWithRelations) hash ^= WithRelations.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2790,6 +2821,10 @@ namespace Aserto.Directory.Writer.V2 {
         output.WriteRawTag(10);
         output.WriteMessage(Param);
       }
+      if (HasWithRelations) {
+        output.WriteRawTag(16);
+        output.WriteBool(WithRelations);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2803,6 +2838,10 @@ namespace Aserto.Directory.Writer.V2 {
         output.WriteRawTag(10);
         output.WriteMessage(Param);
       }
+      if (HasWithRelations) {
+        output.WriteRawTag(16);
+        output.WriteBool(WithRelations);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2814,6 +2853,9 @@ namespace Aserto.Directory.Writer.V2 {
       int size = 0;
       if (param_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Param);
+      }
+      if (HasWithRelations) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2831,6 +2873,9 @@ namespace Aserto.Directory.Writer.V2 {
           Param = new global::Aserto.Directory.Common.V2.ObjectIdentifier();
         }
         Param.MergeFrom(other.Param);
+      }
+      if (other.HasWithRelations) {
+        WithRelations = other.WithRelations;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2853,6 +2898,10 @@ namespace Aserto.Directory.Writer.V2 {
             input.ReadMessage(Param);
             break;
           }
+          case 16: {
+            WithRelations = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -2872,6 +2921,10 @@ namespace Aserto.Directory.Writer.V2 {
               Param = new global::Aserto.Directory.Common.V2.ObjectIdentifier();
             }
             input.ReadMessage(Param);
+            break;
+          }
+          case 16: {
+            WithRelations = input.ReadBool();
             break;
           }
         }

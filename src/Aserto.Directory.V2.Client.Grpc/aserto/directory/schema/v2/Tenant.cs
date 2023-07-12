@@ -30,20 +30,21 @@ namespace Aserto.Directory.Schema.V2 {
             "Ji5hc2VydG8uZGlyZWN0b3J5LnNjaGVtYS52Mi5UZW5hbnRLaW5kEhQKDGRp",
             "cmVjdG9yeV92MhgCIAEoCBIZChFkaXJlY3RvcnlfdjJfb25seRgDIAEoCBJD",
             "CgdhY2NvdW50GAQgASgLMi0uYXNlcnRvLmRpcmVjdG9yeS5zY2hlbWEudjIu",
-            "QWNjb3VudFByb3BlcnRpZXNIAIgBAUIKCghfYWNjb3VudCJ/ChFBY2NvdW50",
-            "UHJvcGVydGllcxIQCghtYXhfb3JncxgBIAEoBRJECg9nZXR0aW5nX3N0YXJ0",
-            "ZWQYAyABKAsyJi5hc2VydG8uZGlyZWN0b3J5LnNjaGVtYS52Mi5HdWlkZVN0",
-            "YXRlSACIAQFCEgoQX2dldHRpbmdfc3RhcnRlZCJCCgpHdWlkZVN0YXRlEgwK",
-            "BHNob3cYASABKAgSJgoFc3RlcHMYAiABKAsyFy5nb29nbGUucHJvdG9idWYu",
-            "U3RydWN0KlwKClRlbmFudEtpbmQSFwoTVEVOQU5UX0tJTkRfVU5LTk9XThAA",
-            "EhwKGFRFTkFOVF9LSU5EX09SR0FOSVpBVElPThABEhcKE1RFTkFOVF9LSU5E",
-            "X0FDQ09VTlQQAkJGWkRnaXRodWIuY29tL2FzZXJ0by1kZXYvZ28tZGlyZWN0",
-            "b3J5L2FzZXJ0by9kaXJlY3Rvcnkvc2NoZW1hL3YyO3NjaGVtYWIGcHJvdG8z"));
+            "QWNjb3VudFByb3BlcnRpZXNIAIgBAUIKCghfYWNjb3VudCKaAQoRQWNjb3Vu",
+            "dFByb3BlcnRpZXMSEAoIbWF4X29yZ3MYASABKAUSRAoPZ2V0dGluZ19zdGFy",
+            "dGVkGAMgASgLMiYuYXNlcnRvLmRpcmVjdG9yeS5zY2hlbWEudjIuR3VpZGVT",
+            "dGF0ZUgAiAEBEhkKEWRlZmF1bHRfdGVuYW50X2lkGAQgASgJQhIKEF9nZXR0",
+            "aW5nX3N0YXJ0ZWQiQgoKR3VpZGVTdGF0ZRIMCgRzaG93GAEgASgIEiYKBXN0",
+            "ZXBzGAIgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdCpcCgpUZW5hbnRL",
+            "aW5kEhcKE1RFTkFOVF9LSU5EX1VOS05PV04QABIcChhURU5BTlRfS0lORF9P",
+            "UkdBTklaQVRJT04QARIXChNURU5BTlRfS0lORF9BQ0NPVU5UEAJCRlpEZ2l0",
+            "aHViLmNvbS9hc2VydG8tZGV2L2dvLWRpcmVjdG9yeS9hc2VydG8vZGlyZWN0",
+            "b3J5L3NjaGVtYS92MjtzY2hlbWFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Directory.Schema.V2.TenantKind), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Schema.V2.TenantProperties), global::Aserto.Directory.Schema.V2.TenantProperties.Parser, new[]{ "Kind", "DirectoryV2", "DirectoryV2Only", "Account" }, new[]{ "Account" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Schema.V2.AccountProperties), global::Aserto.Directory.Schema.V2.AccountProperties.Parser, new[]{ "MaxOrgs", "GettingStarted" }, new[]{ "GettingStarted" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Schema.V2.AccountProperties), global::Aserto.Directory.Schema.V2.AccountProperties.Parser, new[]{ "MaxOrgs", "GettingStarted", "DefaultTenantId" }, new[]{ "GettingStarted" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Schema.V2.GuideState), global::Aserto.Directory.Schema.V2.GuideState.Parser, new[]{ "Show", "Steps" }, null, null, null, null)
           }));
     }
@@ -398,6 +399,7 @@ namespace Aserto.Directory.Schema.V2 {
     public AccountProperties(AccountProperties other) : this() {
       maxOrgs_ = other.maxOrgs_;
       gettingStarted_ = other.gettingStarted_ != null ? other.gettingStarted_.Clone() : null;
+      defaultTenantId_ = other.defaultTenantId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -435,6 +437,20 @@ namespace Aserto.Directory.Schema.V2 {
       }
     }
 
+    /// <summary>Field number for the "default_tenant_id" field.</summary>
+    public const int DefaultTenantIdFieldNumber = 4;
+    private string defaultTenantId_ = "";
+    /// <summary>
+    /// The default organization for the account
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string DefaultTenantId {
+      get { return defaultTenantId_; }
+      set {
+        defaultTenantId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as AccountProperties);
@@ -450,6 +466,7 @@ namespace Aserto.Directory.Schema.V2 {
       }
       if (MaxOrgs != other.MaxOrgs) return false;
       if (!object.Equals(GettingStarted, other.GettingStarted)) return false;
+      if (DefaultTenantId != other.DefaultTenantId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -458,6 +475,7 @@ namespace Aserto.Directory.Schema.V2 {
       int hash = 1;
       if (MaxOrgs != 0) hash ^= MaxOrgs.GetHashCode();
       if (gettingStarted_ != null) hash ^= GettingStarted.GetHashCode();
+      if (DefaultTenantId.Length != 0) hash ^= DefaultTenantId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -482,6 +500,10 @@ namespace Aserto.Directory.Schema.V2 {
         output.WriteRawTag(26);
         output.WriteMessage(GettingStarted);
       }
+      if (DefaultTenantId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(DefaultTenantId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -499,6 +521,10 @@ namespace Aserto.Directory.Schema.V2 {
         output.WriteRawTag(26);
         output.WriteMessage(GettingStarted);
       }
+      if (DefaultTenantId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(DefaultTenantId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -513,6 +539,9 @@ namespace Aserto.Directory.Schema.V2 {
       }
       if (gettingStarted_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(GettingStarted);
+      }
+      if (DefaultTenantId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DefaultTenantId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -533,6 +562,9 @@ namespace Aserto.Directory.Schema.V2 {
           GettingStarted = new global::Aserto.Directory.Schema.V2.GuideState();
         }
         GettingStarted.MergeFrom(other.GettingStarted);
+      }
+      if (other.DefaultTenantId.Length != 0) {
+        DefaultTenantId = other.DefaultTenantId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -559,6 +591,10 @@ namespace Aserto.Directory.Schema.V2 {
             input.ReadMessage(GettingStarted);
             break;
           }
+          case 34: {
+            DefaultTenantId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -582,6 +618,10 @@ namespace Aserto.Directory.Schema.V2 {
               GettingStarted = new global::Aserto.Directory.Schema.V2.GuideState();
             }
             input.ReadMessage(GettingStarted);
+            break;
+          }
+          case 34: {
+            DefaultTenantId = input.ReadString();
             break;
           }
         }

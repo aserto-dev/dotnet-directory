@@ -84,7 +84,7 @@ namespace Aserto.Directory.Schema.V2 {
     public const int ConnectionIdFieldNumber = 1;
     private string connectionId_ = "";
     /// <summary>
-    /// ID of the IDP connection the group is associated with.
+    /// ID of the IDP connection the group instance is associated with.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ConnectionId {

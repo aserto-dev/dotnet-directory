@@ -1361,7 +1361,7 @@ namespace Aserto.Directory.Reader.V2 {
     public const int ParamFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.ObjectTypeIdentifier param_;
     /// <summary>
-    /// object type selector    
+    /// object type selector
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.ObjectTypeIdentifier Param {
@@ -2058,7 +2058,7 @@ namespace Aserto.Directory.Reader.V2 {
         = pb::FieldCodec.ForMessage(18, global::Aserto.Directory.Common.V2.Relation.Parser);
     private readonly pbc::RepeatedField<global::Aserto.Directory.Common.V2.Relation> incoming_ = new pbc::RepeatedField<global::Aserto.Directory.Common.V2.Relation>();
     /// <summary>
-    /// incoming object relations
+    /// incoming object relations of object instance (result.type == incoming.subject.type &amp;&amp; result.key == incoming.subject.key)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Aserto.Directory.Common.V2.Relation> Incoming {
@@ -2071,7 +2071,7 @@ namespace Aserto.Directory.Reader.V2 {
         = pb::FieldCodec.ForMessage(26, global::Aserto.Directory.Common.V2.Relation.Parser);
     private readonly pbc::RepeatedField<global::Aserto.Directory.Common.V2.Relation> outgoing_ = new pbc::RepeatedField<global::Aserto.Directory.Common.V2.Relation>();
     /// <summary>
-    /// outgoing object relations
+    /// outgoing object relations of object instance (result.type == outgoing.object.type &amp;&amp; result.key == outgoing.object.key)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Aserto.Directory.Common.V2.Relation> Outgoing {
@@ -5008,7 +5008,7 @@ namespace Aserto.Directory.Reader.V2 {
     public const int CheckFieldNumber = 1;
     private bool check_;
     /// <summary>
-    /// check result (BOOL)
+    /// check result
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Check {
@@ -5530,7 +5530,7 @@ namespace Aserto.Directory.Reader.V2 {
     public const int CheckFieldNumber = 1;
     private bool check_;
     /// <summary>
-    /// check result (BOOL)
+    /// check result
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Check {
@@ -5733,7 +5733,7 @@ namespace Aserto.Directory.Reader.V2 {
     public const int CheckFieldNumber = 1;
     private bool check_;
     /// <summary>
-    /// check result (BOOL)
+    /// check result
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Check {

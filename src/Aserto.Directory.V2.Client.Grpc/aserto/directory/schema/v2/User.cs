@@ -62,13 +62,14 @@ namespace Aserto.Directory.Schema.V2 {
     [pbr::OriginalName("USER_STATUS_PROVISIONED")] Provisioned = 2,
     /// <summary>
     /// Active status, is when:
-    /// </summary>
-    [pbr::OriginalName("USER_STATUS_ACTIVE")] Active = 3,
-    /// <summary>
     ///  * An admin adds a user and sets the user password without requiring email verification.
     ///  * An admin adds a user, sets the user password, and requires the user to set their password when they first sign-in.
     ///  * A user self-registers into a custom app or IDP and email verification is not required.
     ///  * An admin explicitly activates the user.
+    /// </summary>
+    [pbr::OriginalName("USER_STATUS_ACTIVE")] Active = 3,
+    /// <summary>
+    /// Recovery status, when the user requests a password reset or an admin initiates one on their behalf.
     /// </summary>
     [pbr::OriginalName("USER_STATUS_RECOVERY")] Recovery = 4,
     /// <summary>
@@ -197,7 +198,7 @@ namespace Aserto.Directory.Schema.V2 {
     public const int ConnectionIdFieldNumber = 5;
     private string connectionId_ = "";
     /// <summary>
-    /// ID of the IDP connection the user is associated with.
+    /// ID of the IDP connection the user instance is associated with.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ConnectionId {

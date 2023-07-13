@@ -68,7 +68,7 @@ namespace Aserto.Directory.Schema.V2 {
     /// </summary>
     [pbr::OriginalName("IDENTITY_KIND_DN")] Dn = 4,
     /// <summary>
-    /// phonenumber using the format described in RFC3966, +1-201-555-0111 (without the tel: prefix)
+    /// phone number using the format described in RFC3966, using the E.164 recommendation
     /// </summary>
     [pbr::OriginalName("IDENTITY_KIND_PHONE")] Phone = 5,
     /// <summary>

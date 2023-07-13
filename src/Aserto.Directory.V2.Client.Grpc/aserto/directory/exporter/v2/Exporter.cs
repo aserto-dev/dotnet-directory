@@ -86,7 +86,7 @@ namespace Aserto.Directory.Exporter.V2 {
     /// </summary>
     [pbr::OriginalName("OPTION_DATA_OBJECTS")] DataObjects = 8,
     /// <summary>
-    /// relation instances with id values
+    /// relation instances
     /// </summary>
     [pbr::OriginalName("OPTION_DATA_RELATIONS")] DataRelations = 16,
     /// <summary>

@@ -164,7 +164,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int ObjectTypeFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.ObjectType objectType_;
     /// <summary>
-    /// 
+    /// object type instance
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.ObjectType ObjectType {
@@ -532,7 +532,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int ParamFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.ObjectTypeIdentifier param_;
     /// <summary>
-    /// 
+    /// object type identifier
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.ObjectTypeIdentifier Param {
@@ -900,7 +900,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int RelationTypeFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.RelationType relationType_;
     /// <summary>
-    /// 
+    /// relation type instance
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.RelationType RelationType {
@@ -1268,7 +1268,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int ParamFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.RelationTypeIdentifier param_;
     /// <summary>
-    /// 
+    /// relation type identifier
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.RelationTypeIdentifier Param {
@@ -1636,7 +1636,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int PermissionFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.Permission permission_;
     /// <summary>
-    /// 
+    /// permission instance
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.Permission Permission {
@@ -2004,7 +2004,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int ParamFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.PermissionIdentifier param_;
     /// <summary>
-    /// 
+    /// permission identifier
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.PermissionIdentifier Param {
@@ -2372,7 +2372,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int ObjectFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.Object object_;
     /// <summary>
-    /// 
+    /// object instance
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.Object Object {
@@ -2743,7 +2743,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int ParamFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.ObjectIdentifier param_;
     /// <summary>
-    /// 
+    /// object identifier
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.ObjectIdentifier Param {
@@ -3160,7 +3160,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int RelationFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.Relation relation_;
     /// <summary>
-    /// 
+    /// relation instance
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.Relation Relation {
@@ -3528,7 +3528,7 @@ namespace Aserto.Directory.Writer.V2 {
     public const int ParamFieldNumber = 1;
     private global::Aserto.Directory.Common.V2.RelationIdentifier param_;
     /// <summary>
-    /// 
+    /// relation identifier
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Aserto.Directory.Common.V2.RelationIdentifier Param {

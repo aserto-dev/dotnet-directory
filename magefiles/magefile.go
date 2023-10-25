@@ -20,7 +20,7 @@ import (
 )
 
 func init() {
-	os.Setenv("GO_VERSION", "1.17")
+	os.Setenv("GO_VERSION", "1.19")
 	os.Setenv("GOPRIVATE", "github.com/aserto-dev")
 }
 
@@ -81,7 +81,7 @@ func getProtoRepo() string {
 	return protoRepo
 }
 
-//Generate the code
+// Generate the code
 func gen(fileSources string) error {
 
 	bufExportDir := filepath.Join(deps.ExtTmpDir(), "export")
@@ -103,6 +103,10 @@ func gen(fileSources string) error {
 		buf.AddArg(fileSources),
 		buf.AddArg("-o"),
 		buf.AddArg(bufExportDir),
+		// buf.AddArg("--path"),
+		// buf.AddArg("/Users/oanatanasoiu/projects/dotnet-directory/.ext/tmp/export/buf/validate"),
+		// buf.AddArg("--path"),
+		// buf.AddArg("/Users/oanatanasoiu/projects/dotnet-directory/.ext/tmp/export/aserto"),
 	)
 
 	bufGenDir := filepath.Join(deps.ExtTmpDir(), "proto")
@@ -143,5 +147,4 @@ func Build() error {
 func Clean() error {
 	err := os.RemoveAll(filepath.Join("src", "Aserto.Directory.V2.Client.Grpc", "aserto"))
 	return err
-
 }

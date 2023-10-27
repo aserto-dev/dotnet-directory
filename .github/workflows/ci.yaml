@@ -103,8 +103,8 @@ jobs:
           dotnet-version: 6.x
 
       - name: Build
-        run: dotnet build --configuration Release src/Aserto.Directory.V2.Client.Grpc/Aserto.Directory.V2.Client.Grpc.csproj
+        run: dotnet build --configuration Release src/Aserto.Directory.V3.Client.Grpc/Aserto.Directory.V3.Client.Grpc.csproj
 
       - name: Publish to NuGet.org
         run: |
-          dotnet nuget push ./src/Aserto.Directory.V2.Client.Grpc/bin/Release/*.nupkg --api-key ${NUGET_API_KEY} --source https://api.nuget.org/v3/index.json
+          dotnet nuget push ./src/Aserto.Directory.V3.Client.Grpc/bin/Release/*.nupkg --api-key ${NUGET_API_KEY} --source https://api.nuget.org/v3/index.json

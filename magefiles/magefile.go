@@ -103,10 +103,6 @@ func gen(fileSources string) error {
 		buf.AddArg(fileSources),
 		buf.AddArg("-o"),
 		buf.AddArg(bufExportDir),
-		// buf.AddArg("--path"),
-		// buf.AddArg("/Users/oanatanasoiu/projects/dotnet-directory/.ext/tmp/export/buf/validate"),
-		// buf.AddArg("--path"),
-		// buf.AddArg("/Users/oanatanasoiu/projects/dotnet-directory/.ext/tmp/export/aserto"),
 	)
 
 	bufGenDir := filepath.Join(deps.ExtTmpDir(), "proto")
@@ -145,6 +141,6 @@ func Build() error {
 
 // Clean generated files
 func Clean() error {
-	err := os.RemoveAll(filepath.Join("src", "Aserto.Directory.V2.Client.Grpc", "aserto"))
+	err := os.RemoveAll(filepath.Join("src", "Aserto.Directory.V3.Client.Grpc", "aserto"))
 	return err
 }

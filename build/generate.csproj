@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="..\.ext\tmp\export\**\*.proto" OutputDir="..\src\Aserto.Directory.V2.Client.Grpc" CompileOutputs="false" GrpcServices="Client" ProtoRoot="..\.ext\tmp\export" />
+    <Protobuf Include="..\.ext\tmp\export\aserto\**\*.proto" OutputDir="..\src\Aserto.Directory.V3.Client.Grpc" CompileOutputs="false" GrpcServices="Client" ProtoRoot="..\.ext\tmp\export" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -13,10 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- <PackageReference Include="Google.Apis" Version="1.62.1" /> -->
-    <!-- <PackageReference Include="Google.Api.CommonProtos" Version="2.12.0" /> -->
     <PackageReference Include="Google.Protobuf" Version="3.24.4" />
-    <!-- <PackageReference Include="Google.Protobuf.Tools" Version="3.24.4" /> -->
     <PackageReference Include="Grpc.Net.Client" Version="2.53.0" />
     <PackageReference Include="Grpc.Tools" Version="2.39.1">
       <PrivateAssets>all</PrivateAssets>

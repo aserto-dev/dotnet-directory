@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\..\build\common.props" />
   <PropertyGroup>
-    <AssemblyTitle>Aserto.Directory.V2.Client.Grpc</AssemblyTitle>
-    <AssemblyName>Aserto.Directory.V2.Client.Grpc</AssemblyName>
-    <PackageId>Aserto.Directory.V2.Client.Grpc</PackageId>
-    <Product>Aserto.Directory.V2.Client.Grpc</Product>
-    <Description>Protocol buffers and gRPC client for Aserto Directory V2.</Description>
+    <AssemblyTitle>Aserto.Directory.V3.Client.Grpc</AssemblyTitle>
+    <AssemblyName>Aserto.Directory.V3.Client.Grpc</AssemblyName>
+    <PackageId>Aserto.Directory.V3.Client.Grpc</PackageId>
+    <Product>Aserto.Directory.V3.Client.Grpc</Product>
+    <Description>Protocol buffers and gRPC client for Aserto Directory V3.</Description>
     <PackageTags>aserto;authorization;opa;open policy agent; aserto directory</PackageTags>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
@@ -24,8 +24,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Api.CommonProtos" Version="2.3.0" />
-    <PackageReference Include="Grpc.Core" Version="2.38.1" />
+    <PackageReference Include="Google.Api.CommonProtos" Version="2.12.0" />
+    <PackageReference Include="Grpc.Core" Version="2.46.6" />
     <PackageReference Include="MinVer" PrivateAssets="All" Version="2.5.0" />
   </ItemGroup>
 </Project>

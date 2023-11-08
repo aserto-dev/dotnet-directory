@@ -39,7 +39,7 @@ namespace Aserto.Directory.V3 {
             "dG8gQVBJIFJlZmVyZW5jZS4SF2h0dHBzOi8vZG9jcy5hc2VydG8uY29tYgZw",
             "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, },
+          new pbr::FileDescriptor[] {  },
           new pbr::GeneratedClrTypeInfo(null, null, null));
     }
     #endregion

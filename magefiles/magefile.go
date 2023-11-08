@@ -16,6 +16,7 @@ import (
 	"github.com/aserto-dev/mage-loot/dotnet/dotnetbuild"
 	"github.com/aserto-dev/mage-loot/fsutil"
 	"github.com/aserto-dev/mage-loot/mage"
+	"github.com/magefile/mage/sh"
 	"github.com/pkg/errors"
 )
 
@@ -53,7 +54,11 @@ func Generate() error {
 		bufImage = fmt.Sprintf("%s:%s", bufImage, tag.Name)
 	}
 
-	return gen(bufImage)
+	err = gen(bufImage)
+	if err != nil {
+		return err
+	}
+	return sh.RunV("./cleanup.sh")
 }
 
 // Generates from a dev build.
@@ -65,7 +70,12 @@ func GenerateDev() error {
 
 	fileSources := filepath.Join(getProtoRepo(), "proto#format=dir")
 
-	return gen(fileSources)
+	err = gen(fileSources)
+	if err != nil {
+		return err
+	}
+
+	return sh.RunV("./cleanup.sh")
 }
 
 // Builds the aserto proto image

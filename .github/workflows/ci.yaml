@@ -18,7 +18,7 @@ on:
 
 env:
   VAULT_ADDR: https://vault.eng.aserto.com/
-  GO_VERSION: "1.17"
+  GO_VERSION: "1.19"
 
 jobs:
   build:
@@ -61,6 +61,7 @@ jobs:
           ssh-add $HOME/.ssh/id_rsa
 
           go run mage.go deps
+          chmod +x cleanup.sh
 
     - name: Clean generated code
       run: go run mage.go clean

@@ -58,7 +58,9 @@ func Generate() error {
 	if err != nil {
 		return err
 	}
-	return sh.RunV("./cleanup.sh")
+	// ignore errors if no cleanup needed
+	sh.RunV("./cleanup.sh")
+	return nil
 }
 
 // Generates from a dev build.

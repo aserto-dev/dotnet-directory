@@ -97,7 +97,7 @@ namespace Aserto.Directory.Common.V3 {
             "Z28tZGlyZWN0b3J5L2FzZXJ0by9kaXJlY3RvcnkvY29tbW9uL3YzO2NvbW1v",
             "bmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Buf.Validate.ValidateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor,  },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V3.Object), global::Aserto.Directory.Common.V3.Object.Parser, new[]{ "Type", "Id", "DisplayName", "Properties", "CreatedAt", "UpdatedAt", "Etag" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Common.V3.Relation), global::Aserto.Directory.Common.V3.Relation.Parser, new[]{ "ObjectType", "ObjectId", "Relation_", "SubjectType", "SubjectId", "SubjectRelation", "CreatedAt", "UpdatedAt", "Etag" }, null, null, null, null),

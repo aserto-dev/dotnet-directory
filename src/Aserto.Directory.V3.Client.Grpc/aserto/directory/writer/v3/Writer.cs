@@ -109,7 +109,7 @@ namespace Aserto.Directory.Writer.V3 {
             "SUtleRIAQkZaRGdpdGh1Yi5jb20vYXNlcnRvLWRldi9nby1kaXJlY3Rvcnkv",
             "YXNlcnRvL2RpcmVjdG9yeS93cml0ZXIvdjM7d3JpdGVyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Api.FieldBehaviorReflection.Descriptor, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, global::Buf.Validate.ValidateReflection.Descriptor, global::Aserto.Directory.Common.V3.CommonReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Api.FieldBehaviorReflection.Descriptor,   global::Aserto.Directory.Common.V3.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V3.SetObjectRequest), global::Aserto.Directory.Writer.V3.SetObjectRequest.Parser, new[]{ "Object" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Writer.V3.SetObjectResponse), global::Aserto.Directory.Writer.V3.SetObjectResponse.Parser, new[]{ "Result" }, null, null, null, null),

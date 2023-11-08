@@ -59,7 +59,7 @@ namespace Aserto.Directory.Model.V3 {
             "eUFQSUtleRIAQkRaQmdpdGh1Yi5jb20vYXNlcnRvLWRldi9nby1kaXJlY3Rv",
             "cnkvYXNlcnRvL2RpcmVjdG9yeS9tb2RlbC92Mzttb2RlbGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, global::Buf.Validate.ValidateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor,   },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Model.V3.GetManifestRequest), global::Aserto.Directory.Model.V3.GetManifestRequest.Parser, new[]{ "Empty" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Model.V3.GetManifestResponse), global::Aserto.Directory.Model.V3.GetManifestResponse.Parser, new[]{ "Metadata", "Body", "Model" }, new[]{ "Msg" }, null, null, null),

@@ -61,7 +61,6 @@ jobs:
           ssh-add $HOME/.ssh/id_rsa
 
           go run mage.go deps
-          chmod +x cleanup.sh
 
     - name: Clean generated code
       run: go run mage.go clean
@@ -71,9 +70,6 @@ jobs:
 
     - name: Generate
       run: go run mage.go generate
-
-    - name: Build
-      run: go run mage.go build
 
     - name: Commit changes
       if: github.event_name == 'workflow_dispatch'

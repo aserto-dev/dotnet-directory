@@ -2,7 +2,7 @@
 go:
   buf:
     importPath: "github.com/bufbuild/buf/cmd/buf"
-    version: "v1.3.1"
+    version: "v1.27.2"
 bin:
   dotnet:
     url: 'https://dotnetcli.azureedge.net/dotnet/Sdk/{{.Version}}/dotnet-sdk-{{.Version}}-{{if eq .OS "darwin"}}osx{{else}}{{.OS}}{{end}}-x64.tar.gz'

@@ -100,7 +100,7 @@ jobs:
           dotnet-version: 6.x
 
       - name: Build
-        run: dotnet build --configuration Release src/Aserto.Directory.V3.Client.Grpc/Aserto.Directory.V3.Client.Grpc.csproj
+        run: dotnet build --configuration Release src/Aserto.Directory.V3.Client.Grpc/Aserto.Directory.Client.Grpc.csproj
 
       - name: Publish to NuGet.org
         run: |

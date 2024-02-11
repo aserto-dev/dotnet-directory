@@ -29,14 +29,14 @@ namespace Google.Api {
             "ZWhhdmlvchIeChpGSUVMRF9CRUhBVklPUl9VTlNQRUNJRklFRBAAEgwKCE9Q",
             "VElPTkFMEAESDAoIUkVRVUlSRUQQAhIPCgtPVVRQVVRfT05MWRADEg4KCklO",
             "UFVUX09OTFkQBBINCglJTU1VVEFCTEUQBRISCg5VTk9SREVSRURfTElTVBAG",
-            "EhUKEU5PTl9FTVBUWV9ERUZBVUxUEAcSDgoKSURFTlRJRklFUhAIOmAKDmZp",
+            "EhUKEU5PTl9FTVBUWV9ERUZBVUxUEAcSDgoKSURFTlRJRklFUhAIOmQKDmZp",
             "ZWxkX2JlaGF2aW9yEh0uZ29vZ2xlLnByb3RvYnVmLkZpZWxkT3B0aW9ucxic",
-            "CCADKA4yGS5nb29nbGUuYXBpLkZpZWxkQmVoYXZpb3JSDWZpZWxkQmVoYXZp",
-            "b3JCsAEKDmNvbS5nb29nbGUuYXBpQhJGaWVsZEJlaGF2aW9yUHJvdG9QAVpB",
-            "Z29vZ2xlLmdvbGFuZy5vcmcvZ2VucHJvdG8vZ29vZ2xlYXBpcy9hcGkvYW5u",
-            "b3RhdGlvbnM7YW5ub3RhdGlvbnOiAgNHQViqAgpHb29nbGUuQXBpygIKR29v",
-            "Z2xlXEFwaeICFkdvb2dsZVxBcGlcR1BCTWV0YWRhdGHqAgtHb29nbGU6OkFw",
-            "aWIGcHJvdG8z"));
+            "CCADKA4yGS5nb29nbGUuYXBpLkZpZWxkQmVoYXZpb3JCAhAAUg1maWVsZEJl",
+            "aGF2aW9yQrABCg5jb20uZ29vZ2xlLmFwaUISRmllbGRCZWhhdmlvclByb3Rv",
+            "UAFaQWdvb2dsZS5nb2xhbmcub3JnL2dlbnByb3RvL2dvb2dsZWFwaXMvYXBp",
+            "L2Fubm90YXRpb25zO2Fubm90YXRpb25zogIDR0FYqgIKR29vZ2xlLkFwacoC",
+            "Ckdvb2dsZVxBcGniAhZHb29nbGVcQXBpXEdQQk1ldGFkYXRh6gILR29vZ2xl",
+            "OjpBcGliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.Reflection.DescriptorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Google.Api.FieldBehavior), }, new pb::Extension[] { FieldBehaviorExtensions.FieldBehavior }, null));
@@ -61,7 +61,7 @@ namespace Google.Api {
     ///      (google.api.field_behavior) = IMMUTABLE];
     /// </summary>
     public static readonly pb::RepeatedExtension<global::Google.Protobuf.Reflection.FieldOptions, global::Google.Api.FieldBehavior> FieldBehavior =
-      new pb::RepeatedExtension<global::Google.Protobuf.Reflection.FieldOptions, global::Google.Api.FieldBehavior>(1052, pb::FieldCodec.ForEnum(8418, x => (int) x, x => (global::Google.Api.FieldBehavior) x));
+      new pb::RepeatedExtension<global::Google.Protobuf.Reflection.FieldOptions, global::Google.Api.FieldBehavior>(1052, pb::FieldCodec.ForEnum(8416, x => (int) x, x => (global::Google.Api.FieldBehavior) x));
   }
 
   #region Enums

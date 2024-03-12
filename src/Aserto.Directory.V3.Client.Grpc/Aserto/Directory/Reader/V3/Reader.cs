@@ -25,10 +25,10 @@ namespace Aserto.Directory.Reader.V3 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Cidhc2VydG8vZGlyZWN0b3J5L3JlYWRlci92My9yZWFkZXIucHJvdG8SGmFz",
-            "ZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYzGhxnb29nbGUvYXBpL2Fubm90YXRp",
-            "b25zLnByb3RvGh9nb29nbGUvYXBpL2ZpZWxkX2JlaGF2aW9yLnByb3RvGhxn",
-            "b29nbGUvcHJvdG9idWYvc3RydWN0LnByb3RvGi5wcm90b2MtZ2VuLW9wZW5h",
-            "cGl2Mi9vcHRpb25zL2Fubm90YXRpb25zLnByb3RvGhtidWYvdmFsaWRhdGUv",
+            "ZXJ0by5kaXJlY3RvcnkucmVhZGVyLnYzGi5wcm90b2MtZ2VuLW9wZW5hcGl2",
+            "Mi9vcHRpb25zL2Fubm90YXRpb25zLnByb3RvGhxnb29nbGUvYXBpL2Fubm90",
+            "YXRpb25zLnByb3RvGh9nb29nbGUvYXBpL2ZpZWxkX2JlaGF2aW9yLnByb3Rv",
+            "Ghxnb29nbGUvcHJvdG9idWYvc3RydWN0LnByb3RvGhtidWYvdmFsaWRhdGUv",
             "dmFsaWRhdGUucHJvdG8aJ2FzZXJ0by9kaXJlY3RvcnkvY29tbW9uL3YzL2Nv",
             "bW1vbi5wcm90byKvBAoQR2V0T2JqZWN0UmVxdWVzdBKOAgoLb2JqZWN0X3R5",
             "cGUYASABKAlC7AHgQQK6SOUBcgIYQLoB2gEKFmdldF9vYmplY3Qub2JqZWN0",
@@ -352,7 +352,7 @@ namespace Aserto.Directory.Reader.V3 {
             "c2VydG9cRGlyZWN0b3J5X1xSZWFkZXJcVjNcR1BCTWV0YWRhdGHqAh1Bc2Vy",
             "dG86OkRpcmVjdG9yeTo6UmVhZGVyOjpWM2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, global::Buf.Validate.ValidateReflection.Descriptor, global::Aserto.Directory.Common.V3.CommonReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Buf.Validate.ValidateReflection.Descriptor, global::Aserto.Directory.Common.V3.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V3.GetObjectRequest), global::Aserto.Directory.Reader.V3.GetObjectRequest.Parser, new[]{ "ObjectType", "ObjectId", "WithRelations", "Page" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Reader.V3.GetObjectResponse), global::Aserto.Directory.Reader.V3.GetObjectResponse.Parser, new[]{ "Result", "Relations", "Page" }, null, null, null, null),

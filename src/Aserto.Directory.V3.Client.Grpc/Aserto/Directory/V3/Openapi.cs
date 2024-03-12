@@ -35,7 +35,7 @@ namespace Aserto.Directory.V3 {
             "CgxBc2VydG8sIEluYy4SKmh0dHBzOi8vZ2l0aHViLmNvbS9hc2VydG8tZGV2",
             "L3BiLWRpcmVjdG9yeRoSc3VwcG9ydEBhc2VydG8uY29tKlIKEkFwYWNoZSAy",
             "LjAgTGljZW5zZRI8aHR0cHM6Ly9naXRodWIuY29tL2FzZXJ0by1kZXYvcGIt",
-            "ZGlyZWN0b3J5L2Jsb2IvbWFpbi9MSUNFTlNFMgMzLjAqAwECBDIQYXBwbGlj",
+            "ZGlyZWN0b3J5L2Jsb2IvbWFpbi9MSUNFTlNFMgMzLjEqAwECBDIQYXBwbGlj",
             "YXRpb24vanNvbjoQYXBwbGljYXRpb24vanNvblpMCiYKD0RpcmVjdG9yeUFQ",
             "SUtleRITCAIaDWF1dGhvcml6YXRpb24gAgoiCghUZW5hbnRJRBIWCAIaEGFz",
             "ZXJ0by10ZW5hbnQtaWQgAmIjChMKD0RpcmVjdG9yeUFQSUtleRIACgwKCFRl",

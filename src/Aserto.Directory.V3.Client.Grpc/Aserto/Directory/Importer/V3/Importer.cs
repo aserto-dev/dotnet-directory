@@ -37,17 +37,18 @@ namespace Aserto.Directory.Importer.V3 {
             "ZGlyZWN0b3J5LmltcG9ydGVyLnYzLkltcG9ydENvdW50ZXJSCHJlbGF0aW9u",
             "ImMKDUltcG9ydENvdW50ZXISEgoEcmVjdhgBIAEoBFIEcmVjdhIQCgNzZXQY",
             "AiABKARSA3NldBIWCgZkZWxldGUYAyABKARSBmRlbGV0ZRIUCgVlcnJvchgE",
-            "IAEoBFIFZXJyb3IqPwoGT3Bjb2RlEhIKDk9QQ09ERV9VTktOT1dOEAASDgoK",
-            "T1BDT0RFX1NFVBABEhEKDU9QQ09ERV9ERUxFVEUQAjJ1CghJbXBvcnRlchJp",
-            "CgZJbXBvcnQSKy5hc2VydG8uZGlyZWN0b3J5LmltcG9ydGVyLnYzLkltcG9y",
-            "dFJlcXVlc3QaLC5hc2VydG8uZGlyZWN0b3J5LmltcG9ydGVyLnYzLkltcG9y",
-            "dFJlc3BvbnNlIgAoATABQpACCiBjb20uYXNlcnRvLmRpcmVjdG9yeS5pbXBv",
-            "cnRlci52M0INSW1wb3J0ZXJQcm90b1ABWkhnaXRodWIuY29tL2FzZXJ0by1k",
-            "ZXYvZ28tZGlyZWN0b3J5L2FzZXJ0by9kaXJlY3RvcnkvaW1wb3J0ZXIvdjM7",
-            "aW1wb3J0ZXKiAgNBREmqAhxBc2VydG8uRGlyZWN0b3J5LkltcG9ydGVyLlYz",
-            "ygIdQXNlcnRvXERpcmVjdG9yeV9cSW1wb3J0ZXJcVjPiAilBc2VydG9cRGly",
-            "ZWN0b3J5X1xJbXBvcnRlclxWM1xHUEJNZXRhZGF0YeoCH0FzZXJ0bzo6RGly",
-            "ZWN0b3J5OjpJbXBvcnRlcjo6VjNiBnByb3RvMw=="));
+            "IAEoBFIFZXJyb3IqYQoGT3Bjb2RlEhIKDk9QQ09ERV9VTktOT1dOEAASDgoK",
+            "T1BDT0RFX1NFVBABEhEKDU9QQ09ERV9ERUxFVEUQAhIgChxPUENPREVfREVM",
+            "RVRFX1dJVEhfUkVMQVRJT05TEAMydQoISW1wb3J0ZXISaQoGSW1wb3J0Eisu",
+            "YXNlcnRvLmRpcmVjdG9yeS5pbXBvcnRlci52My5JbXBvcnRSZXF1ZXN0Giwu",
+            "YXNlcnRvLmRpcmVjdG9yeS5pbXBvcnRlci52My5JbXBvcnRSZXNwb25zZSIA",
+            "KAEwAUKQAgogY29tLmFzZXJ0by5kaXJlY3RvcnkuaW1wb3J0ZXIudjNCDUlt",
+            "cG9ydGVyUHJvdG9QAVpIZ2l0aHViLmNvbS9hc2VydG8tZGV2L2dvLWRpcmVj",
+            "dG9yeS9hc2VydG8vZGlyZWN0b3J5L2ltcG9ydGVyL3YzO2ltcG9ydGVyogID",
+            "QURJqgIcQXNlcnRvLkRpcmVjdG9yeS5JbXBvcnRlci5WM8oCHUFzZXJ0b1xE",
+            "aXJlY3RvcnlfXEltcG9ydGVyXFYz4gIpQXNlcnRvXERpcmVjdG9yeV9cSW1w",
+            "b3J0ZXJcVjNcR1BCTWV0YWRhdGHqAh9Bc2VydG86OkRpcmVjdG9yeTo6SW1w",
+            "b3J0ZXI6OlYzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Aserto.Directory.Common.V3.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Directory.Importer.V3.Opcode), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -64,6 +65,7 @@ namespace Aserto.Directory.Importer.V3 {
     [pbr::OriginalName("OPCODE_UNKNOWN")] Unknown = 0,
     [pbr::OriginalName("OPCODE_SET")] Set = 1,
     [pbr::OriginalName("OPCODE_DELETE")] Delete = 2,
+    [pbr::OriginalName("OPCODE_DELETE_WITH_RELATIONS")] DeleteWithRelations = 3,
   }
 
   #endregion
@@ -331,7 +333,11 @@ namespace Aserto.Directory.Importer.V3 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -368,7 +374,11 @@ namespace Aserto.Directory.Importer.V3 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -598,7 +608,11 @@ namespace Aserto.Directory.Importer.V3 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -627,7 +641,11 @@ namespace Aserto.Directory.Importer.V3 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -907,7 +925,11 @@ namespace Aserto.Directory.Importer.V3 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -938,7 +960,11 @@ namespace Aserto.Directory.Importer.V3 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

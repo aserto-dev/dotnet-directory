@@ -20,7 +20,7 @@ env:
   VAULT_ADDR: https://vault.eng.aserto.com/
   BUF_REPO: "buf.build/aserto-dev/directory"
 
-  BUF_VERSION: "1.30.0"
+  BUF_VERSION: "1.34.0"
   BUF_BETA_SUPPRESS_WARNINGS: 1
   
 jobs:
@@ -69,7 +69,6 @@ jobs:
       name: Buf Generate
       run: |
         echo "${{ env.BUF_REPO }}:${{ steps.buf-latest.outputs.VERSION }}"
-        buf mod update .
         buf generate --include-imports ${{ env.BUF_REPO }}:${{ steps.buf-latest.outputs.VERSION }}
     - name: Commit changes
       if: github.event_name == 'workflow_dispatch'

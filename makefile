@@ -17,7 +17,7 @@ EXT_TMP_DIR     := ${EXT_DIR}/tmp
 
 VAULT_VERSION   := 1.8.12
 SVU_VERSION     := 1.12.0
-BUF_VERSION     := 1.30.0
+BUF_VERSION     := 1.34.0
 
 PROJECT         := directory
 BUF_USER        := $(shell vault kv get -field ASERTO_BUF_USER kv/buf.build)
@@ -93,7 +93,7 @@ install-vault: ${EXT_BIN_DIR} ${EXT_TMP_DIR}
 .PHONY: install-buf
 install-buf: ${EXT_BIN_DIR}
 	@echo -e "$(ATTN_COLOR)==> $@ $(NO_COLOR)"
-	@gh release download --repo https://github.com/bufbuild/buf --pattern "buf-$$(uname -s)-$$(uname -m)" --output "${EXT_BIN_DIR}/buf" --clobber
+	@gh release download v${BUF_VERSION} --repo https://github.com/bufbuild/buf --pattern "buf-$$(uname -s)-$$(uname -m)" --output "${EXT_BIN_DIR}/buf" --clobber
 	@chmod +x ${EXT_BIN_DIR}/buf
 	@${EXT_BIN_DIR}/buf --version
 

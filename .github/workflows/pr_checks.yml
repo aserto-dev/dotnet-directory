@@ -1,15 +1,13 @@
-name: gitleaks-check
-
-on: [pull_request]
+name: pr_checks
+on:
+  pull_request:
 
 jobs:
-  test:
+  check-commits:
     runs-on: ubuntu-latest
     steps:
-      - 
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - 
-        name: gitleaks-check
+      - name: gitleaks-check
         uses: aserto-dev/gitleaks-action@master

@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="build\common.props" />
+
+  <PropertyGroup>
+    <AssemblyTitle>Aserto.Directory.V3.Client.Grpc</AssemblyTitle>
+    <AssemblyName>Aserto.Directory.V3.Client.Grpc</AssemblyName>
+    <PackageId>Aserto.Directory.V3.Client.Grpc</PackageId>
+    <Product>Aserto.Directory.V3.Client.Grpc</Product>
+    <Description>Protocol buffers and gRPC client for Aserto Directory V3.</Description>
+    <PackageTags>aserto;authorization;opa;open policy agent; aserto directory</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>net6;net7;net8</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- since we're generating code from the vendored proto libraries there are CS0436 duplicate warnings thrown. The line below ignores these warnings. -->
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);CS0436</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <!-- Generate the nupkg package on Release build -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.27.2" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.63.0" />
+    <PackageReference Include="MinVer" PrivateAssets="All" Version="3.1.0" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/**/*.cs" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>

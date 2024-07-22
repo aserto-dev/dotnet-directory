@@ -26,26 +26,27 @@ namespace Aserto.Directory.Schema.V2 {
           string.Concat(
             "Cidhc2VydG8vZGlyZWN0b3J5L3NjaGVtYS92Mi90ZW5hbnQucHJvdG8SGmFz",
             "ZXJ0by5kaXJlY3Rvcnkuc2NoZW1hLnYyGhxnb29nbGUvcHJvdG9idWYvc3Ry",
-            "dWN0LnByb3RvIvcBChBUZW5hbnRQcm9wZXJ0aWVzEjoKBGtpbmQYASABKA4y",
+            "dWN0LnByb3RvIvsBChBUZW5hbnRQcm9wZXJ0aWVzEjoKBGtpbmQYASABKA4y",
             "Ji5hc2VydG8uZGlyZWN0b3J5LnNjaGVtYS52Mi5UZW5hbnRLaW5kUgRraW5k",
             "EiEKDGRpcmVjdG9yeV92MhgCIAEoCFILZGlyZWN0b3J5VjISKgoRZGlyZWN0",
             "b3J5X3YyX29ubHkYAyABKAhSD2RpcmVjdG9yeVYyT25seRJMCgdhY2NvdW50",
             "GAQgASgLMi0uYXNlcnRvLmRpcmVjdG9yeS5zY2hlbWEudjIuQWNjb3VudFBy",
-            "b3BlcnRpZXNIAFIHYWNjb3VudIgBAUIKCghfYWNjb3VudCLEAQoRQWNjb3Vu",
-            "dFByb3BlcnRpZXMSGQoIbWF4X29yZ3MYASABKAVSB21heE9yZ3MSVAoPZ2V0",
-            "dGluZ19zdGFydGVkGAMgASgLMiYuYXNlcnRvLmRpcmVjdG9yeS5zY2hlbWEu",
-            "djIuR3VpZGVTdGF0ZUgAUg5nZXR0aW5nU3RhcnRlZIgBARIqChFkZWZhdWx0",
-            "X3RlbmFudF9pZBgEIAEoCVIPZGVmYXVsdFRlbmFudElkQhIKEF9nZXR0aW5n",
-            "X3N0YXJ0ZWQiTwoKR3VpZGVTdGF0ZRISCgRzaG93GAEgASgIUgRzaG93Ei0K",
-            "BXN0ZXBzGAIgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdFIFc3RlcHMq",
-            "XAoKVGVuYW50S2luZBIXChNURU5BTlRfS0lORF9VTktOT1dOEAASHAoYVEVO",
-            "QU5UX0tJTkRfT1JHQU5JWkFUSU9OEAESFwoTVEVOQU5UX0tJTkRfQUNDT1VO",
-            "VBACQoACCh5jb20uYXNlcnRvLmRpcmVjdG9yeS5zY2hlbWEudjJCC1RlbmFu",
-            "dFByb3RvUAFaRGdpdGh1Yi5jb20vYXNlcnRvLWRldi9nby1kaXJlY3Rvcnkv",
-            "YXNlcnRvL2RpcmVjdG9yeS9zY2hlbWEvdjI7c2NoZW1hogIDQURTqgIaQXNl",
-            "cnRvLkRpcmVjdG9yeS5TY2hlbWEuVjLKAhtBc2VydG9cRGlyZWN0b3J5X1xT",
-            "Y2hlbWFcVjLiAidBc2VydG9cRGlyZWN0b3J5X1xTY2hlbWFcVjJcR1BCTWV0",
-            "YWRhdGHqAh1Bc2VydG86OkRpcmVjdG9yeTo6U2NoZW1hOjpWMmIGcHJvdG8z"));
+            "b3BlcnRpZXNIAFIHYWNjb3VudIgBAToCGAFCCgoIX2FjY291bnQiyAEKEUFj",
+            "Y291bnRQcm9wZXJ0aWVzEhkKCG1heF9vcmdzGAEgASgFUgdtYXhPcmdzElQK",
+            "D2dldHRpbmdfc3RhcnRlZBgDIAEoCzImLmFzZXJ0by5kaXJlY3Rvcnkuc2No",
+            "ZW1hLnYyLkd1aWRlU3RhdGVIAFIOZ2V0dGluZ1N0YXJ0ZWSIAQESKgoRZGVm",
+            "YXVsdF90ZW5hbnRfaWQYBCABKAlSD2RlZmF1bHRUZW5hbnRJZDoCGAFCEgoQ",
+            "X2dldHRpbmdfc3RhcnRlZCJTCgpHdWlkZVN0YXRlEhIKBHNob3cYASABKAhS",
+            "BHNob3cSLQoFc3RlcHMYAiABKAsyFy5nb29nbGUucHJvdG9idWYuU3RydWN0",
+            "UgVzdGVwczoCGAEqYAoKVGVuYW50S2luZBIXChNURU5BTlRfS0lORF9VTktO",
+            "T1dOEAASHAoYVEVOQU5UX0tJTkRfT1JHQU5JWkFUSU9OEAESFwoTVEVOQU5U",
+            "X0tJTkRfQUNDT1VOVBACGgIYAUKAAgoeY29tLmFzZXJ0by5kaXJlY3Rvcnku",
+            "c2NoZW1hLnYyQgtUZW5hbnRQcm90b1ABWkRnaXRodWIuY29tL2FzZXJ0by1k",
+            "ZXYvZ28tZGlyZWN0b3J5L2FzZXJ0by9kaXJlY3Rvcnkvc2NoZW1hL3YyO3Nj",
+            "aGVtYaICA0FEU6oCGkFzZXJ0by5EaXJlY3RvcnkuU2NoZW1hLlYyygIbQXNl",
+            "cnRvXERpcmVjdG9yeV9cU2NoZW1hXFYy4gInQXNlcnRvXERpcmVjdG9yeV9c",
+            "U2NoZW1hXFYyXEdQQk1ldGFkYXRh6gIdQXNlcnRvOjpEaXJlY3Rvcnk6OlNj",
+            "aGVtYTo6VjJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Directory.Schema.V2.TenantKind), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -58,6 +59,7 @@ namespace Aserto.Directory.Schema.V2 {
 
   }
   #region Enums
+  [global::System.ObsoleteAttribute]
   public enum TenantKind {
     [pbr::OriginalName("TENANT_KIND_UNKNOWN")] Unknown = 0,
     [pbr::OriginalName("TENANT_KIND_ORGANIZATION")] Organization = 1,
@@ -73,6 +75,7 @@ namespace Aserto.Directory.Schema.V2 {
   /// <summary>
   /// Properties of a tenant object
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TenantProperties : pb::IMessage<TenantProperties>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -172,6 +175,7 @@ namespace Aserto.Directory.Schema.V2 {
     /// <summary>
     /// Additional properties that are only set accounts (personal tenant).
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Schema.V2.AccountProperties Account {
@@ -403,6 +407,7 @@ namespace Aserto.Directory.Schema.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AccountProperties : pb::IMessage<AccountProperties>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -472,6 +477,7 @@ namespace Aserto.Directory.Schema.V2 {
     /// <summary>
     /// Tracks the account owner's progress through the getting-started guide.
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Schema.V2.GuideState GettingStarted {
@@ -697,6 +703,7 @@ namespace Aserto.Directory.Schema.V2 {
   /// <summary>
   /// The state of a user's progress through the console's getting started guide.
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GuideState : pb::IMessage<GuideState>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

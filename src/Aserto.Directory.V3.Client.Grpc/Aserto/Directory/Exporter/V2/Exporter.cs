@@ -27,34 +27,34 @@ namespace Aserto.Directory.Exporter.V2 {
             "Cithc2VydG8vZGlyZWN0b3J5L2V4cG9ydGVyL3YyL2V4cG9ydGVyLnByb3Rv",
             "Ehxhc2VydG8uZGlyZWN0b3J5LmV4cG9ydGVyLnYyGidhc2VydG8vZGlyZWN0",
             "b3J5L2NvbW1vbi92Mi9jb21tb24ucHJvdG8aH2dvb2dsZS9wcm90b2J1Zi90",
-            "aW1lc3RhbXAucHJvdG8iZAoNRXhwb3J0UmVxdWVzdBIYCgdvcHRpb25zGAEg",
+            "aW1lc3RhbXAucHJvdG8iaAoNRXhwb3J0UmVxdWVzdBIYCgdvcHRpb25zGAEg",
             "ASgNUgdvcHRpb25zEjkKCnN0YXJ0X2Zyb20YFCABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuVGltZXN0YW1wUglzdGFydEZyb20i/wIKDkV4cG9ydFJlc3BvbnNl",
-            "EjwKBm9iamVjdBgCIAEoCzIiLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYy",
-            "Lk9iamVjdEgAUgZvYmplY3QSSQoLb2JqZWN0X3R5cGUYAyABKAsyJi5hc2Vy",
-            "dG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5PYmplY3RUeXBlSABSCm9iamVjdFR5",
-            "cGUSQgoIcmVsYXRpb24YBCABKAsyJC5hc2VydG8uZGlyZWN0b3J5LmNvbW1v",
-            "bi52Mi5SZWxhdGlvbkgAUghyZWxhdGlvbhJPCg1yZWxhdGlvbl90eXBlGAUg",
-            "ASgLMiguYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUmVsYXRpb25UeXBl",
-            "SABSDHJlbGF0aW9uVHlwZRJICgpwZXJtaXNzaW9uGAYgASgLMiYuYXNlcnRv",
-            "LmRpcmVjdG9yeS5jb21tb24udjIuUGVybWlzc2lvbkgAUgpwZXJtaXNzaW9u",
-            "QgUKA21zZyrHAgoGT3B0aW9uEhIKDk9QVElPTl9VTktOT1dOEAASIAocT1BU",
-            "SU9OX01FVEFEQVRBX09CSkVDVF9UWVBFUxABEiIKHk9QVElPTl9NRVRBREFU",
-            "QV9SRUxBVElPTl9UWVBFUxACEh8KG09QVElPTl9NRVRBREFUQV9QRVJNSVNT",
-            "SU9OUxAEEhMKD09QVElPTl9NRVRBREFUQRAHEhcKE09QVElPTl9EQVRBX09C",
-            "SkVDVFMQCBIZChVPUFRJT05fREFUQV9SRUxBVElPTlMQEBIjCh9PUFRJT05f",
-            "REFUQV9SRUxBVElPTlNfV0lUSF9LRVlTECASDwoLT1BUSU9OX0RBVEEQGBIZ",
-            "ChVPUFRJT05fREFUQV9XSVRIX0tFWVMQKBIOCgpPUFRJT05fQUxMEB8SGAoU",
-            "T1BUSU9OX0FMTF9XSVRIX0tFWVMQLzJzCghFeHBvcnRlchJnCgZFeHBvcnQS",
-            "Ky5hc2VydG8uZGlyZWN0b3J5LmV4cG9ydGVyLnYyLkV4cG9ydFJlcXVlc3Qa",
-            "LC5hc2VydG8uZGlyZWN0b3J5LmV4cG9ydGVyLnYyLkV4cG9ydFJlc3BvbnNl",
-            "IgAwAUKQAgogY29tLmFzZXJ0by5kaXJlY3RvcnkuZXhwb3J0ZXIudjJCDUV4",
-            "cG9ydGVyUHJvdG9QAVpIZ2l0aHViLmNvbS9hc2VydG8tZGV2L2dvLWRpcmVj",
-            "dG9yeS9hc2VydG8vZGlyZWN0b3J5L2V4cG9ydGVyL3YyO2V4cG9ydGVyogID",
-            "QURFqgIcQXNlcnRvLkRpcmVjdG9yeS5FeHBvcnRlci5WMsoCHUFzZXJ0b1xE",
-            "aXJlY3RvcnlfXEV4cG9ydGVyXFYy4gIpQXNlcnRvXERpcmVjdG9yeV9cRXhw",
-            "b3J0ZXJcVjJcR1BCTWV0YWRhdGHqAh9Bc2VydG86OkRpcmVjdG9yeTo6RXhw",
-            "b3J0ZXI6OlYyYgZwcm90bzM="));
+            "dG9idWYuVGltZXN0YW1wUglzdGFydEZyb206AhgBIoMDCg5FeHBvcnRSZXNw",
+            "b25zZRI8CgZvYmplY3QYAiABKAsyIi5hc2VydG8uZGlyZWN0b3J5LmNvbW1v",
+            "bi52Mi5PYmplY3RIAFIGb2JqZWN0EkkKC29iamVjdF90eXBlGAMgASgLMiYu",
+            "YXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuT2JqZWN0VHlwZUgAUgpvYmpl",
+            "Y3RUeXBlEkIKCHJlbGF0aW9uGAQgASgLMiQuYXNlcnRvLmRpcmVjdG9yeS5j",
+            "b21tb24udjIuUmVsYXRpb25IAFIIcmVsYXRpb24STwoNcmVsYXRpb25fdHlw",
+            "ZRgFIAEoCzIoLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLlJlbGF0aW9u",
+            "VHlwZUgAUgxyZWxhdGlvblR5cGUSSAoKcGVybWlzc2lvbhgGIAEoCzImLmFz",
+            "ZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLlBlcm1pc3Npb25IAFIKcGVybWlz",
+            "c2lvbjoCGAFCBQoDbXNnKssCCgZPcHRpb24SEgoOT1BUSU9OX1VOS05PV04Q",
+            "ABIgChxPUFRJT05fTUVUQURBVEFfT0JKRUNUX1RZUEVTEAESIgoeT1BUSU9O",
+            "X01FVEFEQVRBX1JFTEFUSU9OX1RZUEVTEAISHwobT1BUSU9OX01FVEFEQVRB",
+            "X1BFUk1JU1NJT05TEAQSEwoPT1BUSU9OX01FVEFEQVRBEAcSFwoTT1BUSU9O",
+            "X0RBVEFfT0JKRUNUUxAIEhkKFU9QVElPTl9EQVRBX1JFTEFUSU9OUxAQEiMK",
+            "H09QVElPTl9EQVRBX1JFTEFUSU9OU19XSVRIX0tFWVMQIBIPCgtPUFRJT05f",
+            "REFUQRAYEhkKFU9QVElPTl9EQVRBX1dJVEhfS0VZUxAoEg4KCk9QVElPTl9B",
+            "TEwQHxIYChRPUFRJT05fQUxMX1dJVEhfS0VZUxAvGgIYATJ2CghFeHBvcnRl",
+            "chJqCgZFeHBvcnQSKy5hc2VydG8uZGlyZWN0b3J5LmV4cG9ydGVyLnYyLkV4",
+            "cG9ydFJlcXVlc3QaLC5hc2VydG8uZGlyZWN0b3J5LmV4cG9ydGVyLnYyLkV4",
+            "cG9ydFJlc3BvbnNlIgOIAgEwAUKQAgogY29tLmFzZXJ0by5kaXJlY3Rvcnku",
+            "ZXhwb3J0ZXIudjJCDUV4cG9ydGVyUHJvdG9QAVpIZ2l0aHViLmNvbS9hc2Vy",
+            "dG8tZGV2L2dvLWRpcmVjdG9yeS9hc2VydG8vZGlyZWN0b3J5L2V4cG9ydGVy",
+            "L3YyO2V4cG9ydGVyogIDQURFqgIcQXNlcnRvLkRpcmVjdG9yeS5FeHBvcnRl",
+            "ci5WMsoCHUFzZXJ0b1xEaXJlY3RvcnlfXEV4cG9ydGVyXFYy4gIpQXNlcnRv",
+            "XERpcmVjdG9yeV9cRXhwb3J0ZXJcVjJcR1BCTWV0YWRhdGHqAh9Bc2VydG86",
+            "OkRpcmVjdG9yeTo6RXhwb3J0ZXI6OlYyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Aserto.Directory.Common.V2.CommonReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Directory.Exporter.V2.Option), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -66,6 +66,7 @@ namespace Aserto.Directory.Exporter.V2 {
 
   }
   #region Enums
+  [global::System.ObsoleteAttribute]
   public enum Option {
     /// <summary>
     /// nothing selected (default initialization value)
@@ -120,6 +121,7 @@ namespace Aserto.Directory.Exporter.V2 {
   #endregion
 
   #region Messages
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExportRequest : pb::IMessage<ExportRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -370,6 +372,7 @@ namespace Aserto.Directory.Exporter.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExportResponse : pb::IMessage<ExportResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -437,6 +440,7 @@ namespace Aserto.Directory.Exporter.V2 {
     /// <summary>
     /// object instance (data)
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Object Object {
@@ -452,6 +456,7 @@ namespace Aserto.Directory.Exporter.V2 {
     /// <summary>
     /// object type instance (metadata)
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectType ObjectType {
@@ -467,6 +472,7 @@ namespace Aserto.Directory.Exporter.V2 {
     /// <summary>
     /// relation instance (data)
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Relation Relation {
@@ -482,6 +488,7 @@ namespace Aserto.Directory.Exporter.V2 {
     /// <summary>
     /// relation type instance (metadata)
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.RelationType RelationType {
@@ -497,6 +504,7 @@ namespace Aserto.Directory.Exporter.V2 {
     /// <summary>
     /// permission instance (metadata)
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Permission Permission {

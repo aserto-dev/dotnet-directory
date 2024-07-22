@@ -68,6 +68,7 @@ namespace Aserto.Directory.Exporter.V2 {
     [grpc::BindServiceMethod(typeof(Exporter), "BindService")]
     public abstract partial class ExporterBase
     {
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task Export(global::Aserto.Directory.Exporter.V2.ExportRequest request, grpc::IServerStreamWriter<global::Aserto.Directory.Exporter.V2.ExportResponse> responseStream, grpc::ServerCallContext context)
       {
@@ -103,11 +104,13 @@ namespace Aserto.Directory.Exporter.V2 {
       {
       }
 
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncServerStreamingCall<global::Aserto.Directory.Exporter.V2.ExportResponse> Export(global::Aserto.Directory.Exporter.V2.ExportRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Export(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncServerStreamingCall<global::Aserto.Directory.Exporter.V2.ExportResponse> Export(global::Aserto.Directory.Exporter.V2.ExportRequest request, grpc::CallOptions options)
       {

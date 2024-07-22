@@ -165,7 +165,7 @@ namespace Aserto.Directory.Reader.V3 {
     public abstract partial class ReaderBase
     {
       /// <summary>
-      /// object methods
+      /// get object
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -176,12 +176,24 @@ namespace Aserto.Directory.Reader.V3 {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      /// <summary>
+      /// get multiple objects
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Aserto.Directory.Reader.V3.GetObjectManyResponse> GetObjectMany(global::Aserto.Directory.Reader.V3.GetObjectManyRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      /// <summary>
+      /// list objects
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Aserto.Directory.Reader.V3.GetObjectsResponse> GetObjects(global::Aserto.Directory.Reader.V3.GetObjectsRequest request, grpc::ServerCallContext context)
       {
@@ -189,7 +201,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
 
       /// <summary>
-      /// relation methods
+      /// get relation
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -200,6 +212,12 @@ namespace Aserto.Directory.Reader.V3 {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      /// <summary>
+      /// list relations
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Aserto.Directory.Reader.V3.GetRelationsResponse> GetRelations(global::Aserto.Directory.Reader.V3.GetRelationsRequest request, grpc::ServerCallContext context)
       {
@@ -207,7 +225,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
 
       /// <summary>
-      /// check method
+      /// check if subject has relation or permission with object
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -219,11 +237,13 @@ namespace Aserto.Directory.Reader.V3 {
       }
 
       /// <summary>
-      /// check permission method
+      /// check permission (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Aserto.Directory.Reader.V3.CheckPermissionResponse> CheckPermission(global::Aserto.Directory.Reader.V3.CheckPermissionRequest request, grpc::ServerCallContext context)
       {
@@ -231,11 +251,13 @@ namespace Aserto.Directory.Reader.V3 {
       }
 
       /// <summary>
-      /// check relation method
+      /// check relation (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Aserto.Directory.Reader.V3.CheckRelationResponse> CheckRelation(global::Aserto.Directory.Reader.V3.CheckRelationRequest request, grpc::ServerCallContext context)
       {
@@ -243,7 +265,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
 
       /// <summary>
-      /// graph methods
+      /// get object relationship graph
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -284,7 +306,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
 
       /// <summary>
-      /// object methods
+      /// get object
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -297,7 +319,7 @@ namespace Aserto.Directory.Reader.V3 {
         return GetObject(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// object methods
+      /// get object
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -308,7 +330,7 @@ namespace Aserto.Directory.Reader.V3 {
         return CallInvoker.BlockingUnaryCall(__Method_GetObject, null, options, request);
       }
       /// <summary>
-      /// object methods
+      /// get object
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -321,7 +343,7 @@ namespace Aserto.Directory.Reader.V3 {
         return GetObjectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// object methods
+      /// get object
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -331,48 +353,104 @@ namespace Aserto.Directory.Reader.V3 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetObject, null, options, request);
       }
+      /// <summary>
+      /// get multiple objects
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.GetObjectManyResponse GetObjectMany(global::Aserto.Directory.Reader.V3.GetObjectManyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetObjectMany(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// get multiple objects
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.GetObjectManyResponse GetObjectMany(global::Aserto.Directory.Reader.V3.GetObjectManyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetObjectMany, null, options, request);
       }
+      /// <summary>
+      /// get multiple objects
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.GetObjectManyResponse> GetObjectManyAsync(global::Aserto.Directory.Reader.V3.GetObjectManyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetObjectManyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// get multiple objects
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.GetObjectManyResponse> GetObjectManyAsync(global::Aserto.Directory.Reader.V3.GetObjectManyRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetObjectMany, null, options, request);
       }
+      /// <summary>
+      /// list objects
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.GetObjectsResponse GetObjects(global::Aserto.Directory.Reader.V3.GetObjectsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetObjects(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// list objects
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.GetObjectsResponse GetObjects(global::Aserto.Directory.Reader.V3.GetObjectsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetObjects, null, options, request);
       }
+      /// <summary>
+      /// list objects
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.GetObjectsResponse> GetObjectsAsync(global::Aserto.Directory.Reader.V3.GetObjectsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetObjectsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// list objects
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.GetObjectsResponse> GetObjectsAsync(global::Aserto.Directory.Reader.V3.GetObjectsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetObjects, null, options, request);
       }
       /// <summary>
-      /// relation methods
+      /// get relation
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -385,7 +463,7 @@ namespace Aserto.Directory.Reader.V3 {
         return GetRelation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// relation methods
+      /// get relation
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -396,7 +474,7 @@ namespace Aserto.Directory.Reader.V3 {
         return CallInvoker.BlockingUnaryCall(__Method_GetRelation, null, options, request);
       }
       /// <summary>
-      /// relation methods
+      /// get relation
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -409,7 +487,7 @@ namespace Aserto.Directory.Reader.V3 {
         return GetRelationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// relation methods
+      /// get relation
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -419,28 +497,56 @@ namespace Aserto.Directory.Reader.V3 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetRelation, null, options, request);
       }
+      /// <summary>
+      /// list relations
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.GetRelationsResponse GetRelations(global::Aserto.Directory.Reader.V3.GetRelationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetRelations(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// list relations
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.GetRelationsResponse GetRelations(global::Aserto.Directory.Reader.V3.GetRelationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetRelations, null, options, request);
       }
+      /// <summary>
+      /// list relations
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.GetRelationsResponse> GetRelationsAsync(global::Aserto.Directory.Reader.V3.GetRelationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetRelationsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// list relations
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.GetRelationsResponse> GetRelationsAsync(global::Aserto.Directory.Reader.V3.GetRelationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetRelations, null, options, request);
       }
       /// <summary>
-      /// check method
+      /// check if subject has relation or permission with object
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -453,7 +559,7 @@ namespace Aserto.Directory.Reader.V3 {
         return Check(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// check method
+      /// check if subject has relation or permission with object
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -464,7 +570,7 @@ namespace Aserto.Directory.Reader.V3 {
         return CallInvoker.BlockingUnaryCall(__Method_Check, null, options, request);
       }
       /// <summary>
-      /// check method
+      /// check if subject has relation or permission with object
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -477,7 +583,7 @@ namespace Aserto.Directory.Reader.V3 {
         return CheckAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// check method
+      /// check if subject has relation or permission with object
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -488,103 +594,119 @@ namespace Aserto.Directory.Reader.V3 {
         return CallInvoker.AsyncUnaryCall(__Method_Check, null, options, request);
       }
       /// <summary>
-      /// check permission method
+      /// check permission (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.CheckPermissionResponse CheckPermission(global::Aserto.Directory.Reader.V3.CheckPermissionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CheckPermission(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// check permission method
+      /// check permission (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.CheckPermissionResponse CheckPermission(global::Aserto.Directory.Reader.V3.CheckPermissionRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CheckPermission, null, options, request);
       }
       /// <summary>
-      /// check permission method
+      /// check permission (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.CheckPermissionResponse> CheckPermissionAsync(global::Aserto.Directory.Reader.V3.CheckPermissionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CheckPermissionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// check permission method
+      /// check permission (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.CheckPermissionResponse> CheckPermissionAsync(global::Aserto.Directory.Reader.V3.CheckPermissionRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CheckPermission, null, options, request);
       }
       /// <summary>
-      /// check relation method
+      /// check relation (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.CheckRelationResponse CheckRelation(global::Aserto.Directory.Reader.V3.CheckRelationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CheckRelation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// check relation method
+      /// check relation (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Reader.V3.CheckRelationResponse CheckRelation(global::Aserto.Directory.Reader.V3.CheckRelationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CheckRelation, null, options, request);
       }
       /// <summary>
-      /// check relation method
+      /// check relation (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.CheckRelationResponse> CheckRelationAsync(global::Aserto.Directory.Reader.V3.CheckRelationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CheckRelationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// check relation method
+      /// check relation (deprecated, use the check method)
+      /// Deprecated: use directory.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.CheckRelationResponse> CheckRelationAsync(global::Aserto.Directory.Reader.V3.CheckRelationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CheckRelation, null, options, request);
       }
       /// <summary>
-      /// graph methods
+      /// get object relationship graph
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -597,7 +719,7 @@ namespace Aserto.Directory.Reader.V3 {
         return GetGraph(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// graph methods
+      /// get object relationship graph
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -608,7 +730,7 @@ namespace Aserto.Directory.Reader.V3 {
         return CallInvoker.BlockingUnaryCall(__Method_GetGraph, null, options, request);
       }
       /// <summary>
-      /// graph methods
+      /// get object relationship graph
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -621,7 +743,7 @@ namespace Aserto.Directory.Reader.V3 {
         return GetGraphAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// graph methods
+      /// get object relationship graph
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

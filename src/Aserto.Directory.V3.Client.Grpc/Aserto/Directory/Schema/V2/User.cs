@@ -25,23 +25,23 @@ namespace Aserto.Directory.Schema.V2 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiVhc2VydG8vZGlyZWN0b3J5L3NjaGVtYS92Mi91c2VyLnByb3RvEhphc2Vy",
-            "dG8uZGlyZWN0b3J5LnNjaGVtYS52MiK/AQoOVXNlclByb3BlcnRpZXMSFAoF",
+            "dG8uZGlyZWN0b3J5LnNjaGVtYS52MiLDAQoOVXNlclByb3BlcnRpZXMSFAoF",
             "ZW1haWwYASABKAlSBWVtYWlsEhgKB3BpY3R1cmUYAiABKAlSB3BpY3R1cmUS",
             "PgoGc3RhdHVzGAMgASgOMiYuYXNlcnRvLmRpcmVjdG9yeS5zY2hlbWEudjIu",
             "VXNlclN0YXR1c1IGc3RhdHVzEhgKB2VuYWJsZWQYBCABKAhSB2VuYWJsZWQS",
-            "IwoNY29ubmVjdGlvbl9pZBgFIAEoCVIMY29ubmVjdGlvbklkKoQCCgpVc2Vy",
-            "U3RhdHVzEhcKE1VTRVJfU1RBVFVTX1VOS05PV04QABIWChJVU0VSX1NUQVRV",
-            "U19TVEFHRUQQARIbChdVU0VSX1NUQVRVU19QUk9WSVNJT05FRBACEhYKElVT",
-            "RVJfU1RBVFVTX0FDVElWRRADEhgKFFVTRVJfU1RBVFVTX1JFQ09WRVJZEAQS",
-            "IAocVVNFUl9TVEFUVVNfUEFTU1dPUkRfRVhQSVJFRBAFEhoKFlVTRVJfU1RB",
-            "VFVTX0xPQ0tFRF9PVVQQBhIZChVVU0VSX1NUQVRVU19TVVNQRU5ERUQQBxId",
-            "ChlVU0VSX1NUQVRVU19ERVBST1ZJU0lPTkVEEAhC/gEKHmNvbS5hc2VydG8u",
-            "ZGlyZWN0b3J5LnNjaGVtYS52MkIJVXNlclByb3RvUAFaRGdpdGh1Yi5jb20v",
-            "YXNlcnRvLWRldi9nby1kaXJlY3RvcnkvYXNlcnRvL2RpcmVjdG9yeS9zY2hl",
-            "bWEvdjI7c2NoZW1hogIDQURTqgIaQXNlcnRvLkRpcmVjdG9yeS5TY2hlbWEu",
-            "VjLKAhtBc2VydG9cRGlyZWN0b3J5X1xTY2hlbWFcVjLiAidBc2VydG9cRGly",
-            "ZWN0b3J5X1xTY2hlbWFcVjJcR1BCTWV0YWRhdGHqAh1Bc2VydG86OkRpcmVj",
-            "dG9yeTo6U2NoZW1hOjpWMmIGcHJvdG8z"));
+            "IwoNY29ubmVjdGlvbl9pZBgFIAEoCVIMY29ubmVjdGlvbklkOgIYASqIAgoK",
+            "VXNlclN0YXR1cxIXChNVU0VSX1NUQVRVU19VTktOT1dOEAASFgoSVVNFUl9T",
+            "VEFUVVNfU1RBR0VEEAESGwoXVVNFUl9TVEFUVVNfUFJPVklTSU9ORUQQAhIW",
+            "ChJVU0VSX1NUQVRVU19BQ1RJVkUQAxIYChRVU0VSX1NUQVRVU19SRUNPVkVS",
+            "WRAEEiAKHFVTRVJfU1RBVFVTX1BBU1NXT1JEX0VYUElSRUQQBRIaChZVU0VS",
+            "X1NUQVRVU19MT0NLRURfT1VUEAYSGQoVVVNFUl9TVEFUVVNfU1VTUEVOREVE",
+            "EAcSHQoZVVNFUl9TVEFUVVNfREVQUk9WSVNJT05FRBAIGgIYAUL+AQoeY29t",
+            "LmFzZXJ0by5kaXJlY3Rvcnkuc2NoZW1hLnYyQglVc2VyUHJvdG9QAVpEZ2l0",
+            "aHViLmNvbS9hc2VydG8tZGV2L2dvLWRpcmVjdG9yeS9hc2VydG8vZGlyZWN0",
+            "b3J5L3NjaGVtYS92MjtzY2hlbWGiAgNBRFOqAhpBc2VydG8uRGlyZWN0b3J5",
+            "LlNjaGVtYS5WMsoCG0FzZXJ0b1xEaXJlY3RvcnlfXFNjaGVtYVxWMuICJ0Fz",
+            "ZXJ0b1xEaXJlY3RvcnlfXFNjaGVtYVxWMlxHUEJNZXRhZGF0YeoCHUFzZXJ0",
+            "bzo6RGlyZWN0b3J5OjpTY2hlbWE6OlYyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Directory.Schema.V2.UserStatus), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -52,6 +52,7 @@ namespace Aserto.Directory.Schema.V2 {
 
   }
   #region Enums
+  [global::System.ObsoleteAttribute]
   public enum UserStatus {
     /// <summary>
     /// User status undefined
@@ -101,6 +102,7 @@ namespace Aserto.Directory.Schema.V2 {
   /// <summary>
   /// Properties of "user" objects.
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UserProperties : pb::IMessage<UserProperties>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

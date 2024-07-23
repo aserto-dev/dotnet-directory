@@ -2,10 +2,6 @@ version: v2
 
 managed:
   enabled: true
-  # disable:
-  #   - field: buf.validate.field
-  #   - field: buf.validate.message
-  #   - field: grpc.gateway.protoc_gen_openapiv2.options
 
 plugins:
   - remote: buf.build/protocolbuffers/csharp:v27.2

@@ -105,7 +105,7 @@ namespace Aserto.Directory.Writer.V3 {
     public abstract partial class WriterBase
     {
       /// <summary>
-      /// object methods
+      /// set object instance
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -116,6 +116,12 @@ namespace Aserto.Directory.Writer.V3 {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      /// <summary>
+      /// delete object instance
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Aserto.Directory.Writer.V3.DeleteObjectResponse> DeleteObject(global::Aserto.Directory.Writer.V3.DeleteObjectRequest request, grpc::ServerCallContext context)
       {
@@ -123,7 +129,7 @@ namespace Aserto.Directory.Writer.V3 {
       }
 
       /// <summary>
-      /// relation methods
+      /// set relation instance
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -134,6 +140,12 @@ namespace Aserto.Directory.Writer.V3 {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      /// <summary>
+      /// delete relation instance
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Aserto.Directory.Writer.V3.DeleteRelationResponse> DeleteRelation(global::Aserto.Directory.Writer.V3.DeleteRelationRequest request, grpc::ServerCallContext context)
       {
@@ -170,7 +182,7 @@ namespace Aserto.Directory.Writer.V3 {
       }
 
       /// <summary>
-      /// object methods
+      /// set object instance
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -183,7 +195,7 @@ namespace Aserto.Directory.Writer.V3 {
         return SetObject(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// object methods
+      /// set object instance
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -194,7 +206,7 @@ namespace Aserto.Directory.Writer.V3 {
         return CallInvoker.BlockingUnaryCall(__Method_SetObject, null, options, request);
       }
       /// <summary>
-      /// object methods
+      /// set object instance
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -207,7 +219,7 @@ namespace Aserto.Directory.Writer.V3 {
         return SetObjectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// object methods
+      /// set object instance
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -217,28 +229,56 @@ namespace Aserto.Directory.Writer.V3 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_SetObject, null, options, request);
       }
+      /// <summary>
+      /// delete object instance
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Writer.V3.DeleteObjectResponse DeleteObject(global::Aserto.Directory.Writer.V3.DeleteObjectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteObject(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// delete object instance
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Writer.V3.DeleteObjectResponse DeleteObject(global::Aserto.Directory.Writer.V3.DeleteObjectRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_DeleteObject, null, options, request);
       }
+      /// <summary>
+      /// delete object instance
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Writer.V3.DeleteObjectResponse> DeleteObjectAsync(global::Aserto.Directory.Writer.V3.DeleteObjectRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteObjectAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// delete object instance
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Writer.V3.DeleteObjectResponse> DeleteObjectAsync(global::Aserto.Directory.Writer.V3.DeleteObjectRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteObject, null, options, request);
       }
       /// <summary>
-      /// relation methods
+      /// set relation instance
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -251,7 +291,7 @@ namespace Aserto.Directory.Writer.V3 {
         return SetRelation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// relation methods
+      /// set relation instance
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -262,7 +302,7 @@ namespace Aserto.Directory.Writer.V3 {
         return CallInvoker.BlockingUnaryCall(__Method_SetRelation, null, options, request);
       }
       /// <summary>
-      /// relation methods
+      /// set relation instance
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -275,7 +315,7 @@ namespace Aserto.Directory.Writer.V3 {
         return SetRelationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// relation methods
+      /// set relation instance
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -285,21 +325,49 @@ namespace Aserto.Directory.Writer.V3 {
       {
         return CallInvoker.AsyncUnaryCall(__Method_SetRelation, null, options, request);
       }
+      /// <summary>
+      /// delete relation instance
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Writer.V3.DeleteRelationResponse DeleteRelation(global::Aserto.Directory.Writer.V3.DeleteRelationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteRelation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// delete relation instance
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Aserto.Directory.Writer.V3.DeleteRelationResponse DeleteRelation(global::Aserto.Directory.Writer.V3.DeleteRelationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_DeleteRelation, null, options, request);
       }
+      /// <summary>
+      /// delete relation instance
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Writer.V3.DeleteRelationResponse> DeleteRelationAsync(global::Aserto.Directory.Writer.V3.DeleteRelationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeleteRelationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// delete relation instance
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Writer.V3.DeleteRelationResponse> DeleteRelationAsync(global::Aserto.Directory.Writer.V3.DeleteRelationRequest request, grpc::CallOptions options)
       {

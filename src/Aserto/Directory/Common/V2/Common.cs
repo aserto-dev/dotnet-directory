@@ -26,7 +26,7 @@ namespace Aserto.Directory.Common.V2 {
           string.Concat(
             "Cidhc2VydG8vZGlyZWN0b3J5L2NvbW1vbi92Mi9jb21tb24ucHJvdG8SGmFz",
             "ZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyGhxnb29nbGUvcHJvdG9idWYvc3Ry",
-            "dWN0LnByb3RvGh9nb29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3RvIusC",
+            "dWN0LnByb3RvGh9nb29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3RvIu8C",
             "CgpPYmplY3RUeXBlEhIKBG5hbWUYAiABKAlSBG5hbWUSIQoMZGlzcGxheV9u",
             "YW1lGAMgASgJUgtkaXNwbGF5TmFtZRIdCgppc19zdWJqZWN0GAQgASgIUglp",
             "c1N1YmplY3QSGAoHb3JkaW5hbBgFIAEoBVIHb3JkaW5hbBIWCgZzdGF0dXMY",
@@ -34,67 +34,68 @@ namespace Aserto.Directory.Common.V2 {
             "dWYuU3RydWN0UgZzY2hlbWESOQoKY3JlYXRlZF9hdBgUIAEoCzIaLmdvb2ds",
             "ZS5wcm90b2J1Zi5UaW1lc3RhbXBSCWNyZWF0ZWRBdBI5Cgp1cGRhdGVkX2F0",
             "GBUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcFIJdXBkYXRlZEF0",
-            "EhIKBGhhc2gYFyABKAlSBGhhc2hKBAgBEAJKBAgWEBdSAmlkUgpkZWxldGVk",
-            "X2F0IukBCgpQZXJtaXNzaW9uEhIKBG5hbWUYAiABKAlSBG5hbWUSIQoMZGlz",
-            "cGxheV9uYW1lGAMgASgJUgtkaXNwbGF5TmFtZRI5CgpjcmVhdGVkX2F0GBQg",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcFIJY3JlYXRlZEF0EjkK",
-            "CnVwZGF0ZWRfYXQYFSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1w",
-            "Ugl1cGRhdGVkQXQSEgoEaGFzaBgXIAEoCVIEaGFzaEoECAEQAkoECBYQF1IC",
-            "aWRSCmRlbGV0ZWRfYXQi+AIKDFJlbGF0aW9uVHlwZRISCgRuYW1lGAIgASgJ",
-            "UgRuYW1lEh8KC29iamVjdF90eXBlGAMgASgJUgpvYmplY3RUeXBlEiEKDGRp",
-            "c3BsYXlfbmFtZRgEIAEoCVILZGlzcGxheU5hbWUSGAoHb3JkaW5hbBgFIAEo",
-            "BVIHb3JkaW5hbBIWCgZzdGF0dXMYBiABKA1SBnN0YXR1cxIWCgZ1bmlvbnMY",
-            "ByADKAlSBnVuaW9ucxIgCgtwZXJtaXNzaW9ucxgIIAMoCVILcGVybWlzc2lv",
-            "bnMSOQoKY3JlYXRlZF9hdBgUIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1l",
-            "c3RhbXBSCWNyZWF0ZWRBdBI5Cgp1cGRhdGVkX2F0GBUgASgLMhouZ29vZ2xl",
-            "LnByb3RvYnVmLlRpbWVzdGFtcFIJdXBkYXRlZEF0EhIKBGhhc2gYFyABKAlS",
-            "BGhhc2hKBAgBEAJKBAgWEBdSAmlkUgpkZWxldGVkX2F0IrACCgZPYmplY3QS",
-            "EAoDa2V5GAIgASgJUgNrZXkSEgoEdHlwZRgDIAEoCVIEdHlwZRIhCgxkaXNw",
-            "bGF5X25hbWUYBCABKAlSC2Rpc3BsYXlOYW1lEjcKCnByb3BlcnRpZXMYBSAB",
-            "KAsyFy5nb29nbGUucHJvdG9idWYuU3RydWN0Ugpwcm9wZXJ0aWVzEjkKCmNy",
-            "ZWF0ZWRfYXQYFCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wUglj",
-            "cmVhdGVkQXQSOQoKdXBkYXRlZF9hdBgVIAEoCzIaLmdvb2dsZS5wcm90b2J1",
-            "Zi5UaW1lc3RhbXBSCXVwZGF0ZWRBdBISCgRoYXNoGBcgASgJUgRoYXNoSgQI",
-            "ARACSgQIFhAXUgJpZFIKZGVsZXRlZF9hdCLQAgoIUmVsYXRpb24SRgoHc3Vi",
-            "amVjdBgBIAEoCzIsLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVj",
-            "dElkZW50aWZpZXJSB3N1YmplY3QSGgoIcmVsYXRpb24YAiABKAlSCHJlbGF0",
-            "aW9uEkQKBm9iamVjdBgDIAEoCzIsLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9u",
-            "LnYyLk9iamVjdElkZW50aWZpZXJSBm9iamVjdBI5CgpjcmVhdGVkX2F0GBQg",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcFIJY3JlYXRlZEF0EjkK",
-            "CnVwZGF0ZWRfYXQYFSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1w",
-            "Ugl1cGRhdGVkQXQSEgoEaGFzaBgXIAEoCVIEaGFzaEoECBYQF1IKZGVsZXRl",
-            "ZF9hdCKaAgoQT2JqZWN0RGVwZW5kZW5jeRIfCgtvYmplY3RfdHlwZRgBIAEo",
-            "CVIKb2JqZWN0VHlwZRIdCgpvYmplY3Rfa2V5GAQgASgJUglvYmplY3RLZXkS",
-            "GgoIcmVsYXRpb24YBSABKAlSCHJlbGF0aW9uEiEKDHN1YmplY3RfdHlwZRgH",
-            "IAEoCVILc3ViamVjdFR5cGUSHwoLc3ViamVjdF9rZXkYCiABKAlSCnN1Ympl",
-            "Y3RLZXkSFAoFZGVwdGgYCyABKAVSBWRlcHRoEhkKCGlzX2N5Y2xlGAwgASgI",
-            "Ugdpc0N5Y2xlEhIKBHBhdGgYDSADKAlSBHBhdGhKBAgDEARKBAgJEApSCW9i",
-            "amVjdF9pZFIKc3ViamVjdF9pZCJCChRPYmplY3RUeXBlSWRlbnRpZmllchIX",
-            "CgRuYW1lGAIgASgJSABSBG5hbWWIAQFCBwoFX25hbWVKBAgBEAJSAmlkIkIK",
-            "FFBlcm1pc3Npb25JZGVudGlmaWVyEhcKBG5hbWUYAiABKAlIAFIEbmFtZYgB",
-            "AUIHCgVfbmFtZUoECAEQAlICaWQiegoWUmVsYXRpb25UeXBlSWRlbnRpZmll",
-            "chIXCgRuYW1lGAIgASgJSABSBG5hbWWIAQESJAoLb2JqZWN0X3R5cGUYAyAB",
-            "KAlIAVIKb2JqZWN0VHlwZYgBAUIHCgVfbmFtZUIOCgxfb2JqZWN0X3R5cGVK",
-            "BAgBEAJSAmlkIl0KEE9iamVjdElkZW50aWZpZXISFwoEdHlwZRgBIAEoCUgA",
-            "UgR0eXBliAEBEhUKA2tleRgDIAEoCUgBUgNrZXmIAQFCBwoFX3R5cGVCBgoE",
-            "X2tleUoECAIQA1ICaWQi8gEKElJlbGF0aW9uSWRlbnRpZmllchJGCgdzdWJq",
-            "ZWN0GAEgASgLMiwuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuT2JqZWN0",
-            "SWRlbnRpZmllclIHc3ViamVjdBJOCghyZWxhdGlvbhgCIAEoCzIyLmFzZXJ0",
-            "by5kaXJlY3RvcnkuY29tbW9uLnYyLlJlbGF0aW9uVHlwZUlkZW50aWZpZXJS",
-            "CHJlbGF0aW9uEkQKBm9iamVjdBgDIAEoCzIsLmFzZXJ0by5kaXJlY3Rvcnku",
-            "Y29tbW9uLnYyLk9iamVjdElkZW50aWZpZXJSBm9iamVjdCI9ChFQYWdpbmF0",
-            "aW9uUmVxdWVzdBISCgRzaXplGAEgASgFUgRzaXplEhQKBXRva2VuGAIgASgJ",
-            "UgV0b2tlbiJUChJQYWdpbmF0aW9uUmVzcG9uc2USHQoKbmV4dF90b2tlbhgB",
-            "IAEoCVIJbmV4dFRva2VuEh8KC3Jlc3VsdF9zaXplGAIgASgFUgpyZXN1bHRT",
-            "aXplKl4KBEZsYWcSEAoMRkxBR19VTktOT1dOEAASDwoLRkxBR19ISURERU4Q",
-            "ARIRCg1GTEFHX1JFQURPTkxZEAISDwoLRkxBR19TWVNURU0QBBIPCgtGTEFH",
-            "X1NIQURPVxAIQoACCh5jb20uYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjJC",
-            "C0NvbW1vblByb3RvUAFaRGdpdGh1Yi5jb20vYXNlcnRvLWRldi9nby1kaXJl",
-            "Y3RvcnkvYXNlcnRvL2RpcmVjdG9yeS9jb21tb24vdjI7Y29tbW9uogIDQURD",
-            "qgIaQXNlcnRvLkRpcmVjdG9yeS5Db21tb24uVjLKAhtBc2VydG9cRGlyZWN0",
-            "b3J5X1xDb21tb25cVjLiAidBc2VydG9cRGlyZWN0b3J5X1xDb21tb25cVjJc",
-            "R1BCTWV0YWRhdGHqAh1Bc2VydG86OkRpcmVjdG9yeTo6Q29tbW9uOjpWMmIG",
-            "cHJvdG8z"));
+            "EhIKBGhhc2gYFyABKAlSBGhhc2g6AhgBSgQIARACSgQIFhAXUgJpZFIKZGVs",
+            "ZXRlZF9hdCLtAQoKUGVybWlzc2lvbhISCgRuYW1lGAIgASgJUgRuYW1lEiEK",
+            "DGRpc3BsYXlfbmFtZRgDIAEoCVILZGlzcGxheU5hbWUSOQoKY3JlYXRlZF9h",
+            "dBgUIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBSCWNyZWF0ZWRB",
+            "dBI5Cgp1cGRhdGVkX2F0GBUgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
+            "dGFtcFIJdXBkYXRlZEF0EhIKBGhhc2gYFyABKAlSBGhhc2g6AhgBSgQIARAC",
+            "SgQIFhAXUgJpZFIKZGVsZXRlZF9hdCL8AgoMUmVsYXRpb25UeXBlEhIKBG5h",
+            "bWUYAiABKAlSBG5hbWUSHwoLb2JqZWN0X3R5cGUYAyABKAlSCm9iamVjdFR5",
+            "cGUSIQoMZGlzcGxheV9uYW1lGAQgASgJUgtkaXNwbGF5TmFtZRIYCgdvcmRp",
+            "bmFsGAUgASgFUgdvcmRpbmFsEhYKBnN0YXR1cxgGIAEoDVIGc3RhdHVzEhYK",
+            "BnVuaW9ucxgHIAMoCVIGdW5pb25zEiAKC3Blcm1pc3Npb25zGAggAygJUgtw",
+            "ZXJtaXNzaW9ucxI5CgpjcmVhdGVkX2F0GBQgASgLMhouZ29vZ2xlLnByb3Rv",
+            "YnVmLlRpbWVzdGFtcFIJY3JlYXRlZEF0EjkKCnVwZGF0ZWRfYXQYFSABKAsy",
+            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wUgl1cGRhdGVkQXQSEgoEaGFz",
+            "aBgXIAEoCVIEaGFzaDoCGAFKBAgBEAJKBAgWEBdSAmlkUgpkZWxldGVkX2F0",
+            "IrQCCgZPYmplY3QSEAoDa2V5GAIgASgJUgNrZXkSEgoEdHlwZRgDIAEoCVIE",
+            "dHlwZRIhCgxkaXNwbGF5X25hbWUYBCABKAlSC2Rpc3BsYXlOYW1lEjcKCnBy",
+            "b3BlcnRpZXMYBSABKAsyFy5nb29nbGUucHJvdG9idWYuU3RydWN0Ugpwcm9w",
+            "ZXJ0aWVzEjkKCmNyZWF0ZWRfYXQYFCABKAsyGi5nb29nbGUucHJvdG9idWYu",
+            "VGltZXN0YW1wUgljcmVhdGVkQXQSOQoKdXBkYXRlZF9hdBgVIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBSCXVwZGF0ZWRBdBISCgRoYXNoGBcg",
+            "ASgJUgRoYXNoOgIYAUoECAEQAkoECBYQF1ICaWRSCmRlbGV0ZWRfYXQi1AIK",
+            "CFJlbGF0aW9uEkYKB3N1YmplY3QYASABKAsyLC5hc2VydG8uZGlyZWN0b3J5",
+            "LmNvbW1vbi52Mi5PYmplY3RJZGVudGlmaWVyUgdzdWJqZWN0EhoKCHJlbGF0",
+            "aW9uGAIgASgJUghyZWxhdGlvbhJECgZvYmplY3QYAyABKAsyLC5hc2VydG8u",
+            "ZGlyZWN0b3J5LmNvbW1vbi52Mi5PYmplY3RJZGVudGlmaWVyUgZvYmplY3QS",
+            "OQoKY3JlYXRlZF9hdBgUIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3Rh",
+            "bXBSCWNyZWF0ZWRBdBI5Cgp1cGRhdGVkX2F0GBUgASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLlRpbWVzdGFtcFIJdXBkYXRlZEF0EhIKBGhhc2gYFyABKAlSBGhh",
+            "c2g6AhgBSgQIFhAXUgpkZWxldGVkX2F0Ip4CChBPYmplY3REZXBlbmRlbmN5",
+            "Eh8KC29iamVjdF90eXBlGAEgASgJUgpvYmplY3RUeXBlEh0KCm9iamVjdF9r",
+            "ZXkYBCABKAlSCW9iamVjdEtleRIaCghyZWxhdGlvbhgFIAEoCVIIcmVsYXRp",
+            "b24SIQoMc3ViamVjdF90eXBlGAcgASgJUgtzdWJqZWN0VHlwZRIfCgtzdWJq",
+            "ZWN0X2tleRgKIAEoCVIKc3ViamVjdEtleRIUCgVkZXB0aBgLIAEoBVIFZGVw",
+            "dGgSGQoIaXNfY3ljbGUYDCABKAhSB2lzQ3ljbGUSEgoEcGF0aBgNIAMoCVIE",
+            "cGF0aDoCGAFKBAgDEARKBAgJEApSCW9iamVjdF9pZFIKc3ViamVjdF9pZCJG",
+            "ChRPYmplY3RUeXBlSWRlbnRpZmllchIXCgRuYW1lGAIgASgJSABSBG5hbWWI",
+            "AQE6AhgBQgcKBV9uYW1lSgQIARACUgJpZCJGChRQZXJtaXNzaW9uSWRlbnRp",
+            "ZmllchIXCgRuYW1lGAIgASgJSABSBG5hbWWIAQE6AhgBQgcKBV9uYW1lSgQI",
+            "ARACUgJpZCJ+ChZSZWxhdGlvblR5cGVJZGVudGlmaWVyEhcKBG5hbWUYAiAB",
+            "KAlIAFIEbmFtZYgBARIkCgtvYmplY3RfdHlwZRgDIAEoCUgBUgpvYmplY3RU",
+            "eXBliAEBOgIYAUIHCgVfbmFtZUIOCgxfb2JqZWN0X3R5cGVKBAgBEAJSAmlk",
+            "ImEKEE9iamVjdElkZW50aWZpZXISFwoEdHlwZRgBIAEoCUgAUgR0eXBliAEB",
+            "EhUKA2tleRgDIAEoCUgBUgNrZXmIAQE6AhgBQgcKBV90eXBlQgYKBF9rZXlK",
+            "BAgCEANSAmlkIvYBChJSZWxhdGlvbklkZW50aWZpZXISRgoHc3ViamVjdBgB",
+            "IAEoCzIsLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdElkZW50",
+            "aWZpZXJSB3N1YmplY3QSTgoIcmVsYXRpb24YAiABKAsyMi5hc2VydG8uZGly",
+            "ZWN0b3J5LmNvbW1vbi52Mi5SZWxhdGlvblR5cGVJZGVudGlmaWVyUghyZWxh",
+            "dGlvbhJECgZvYmplY3QYAyABKAsyLC5hc2VydG8uZGlyZWN0b3J5LmNvbW1v",
+            "bi52Mi5PYmplY3RJZGVudGlmaWVyUgZvYmplY3Q6AhgBIkEKEVBhZ2luYXRp",
+            "b25SZXF1ZXN0EhIKBHNpemUYASABKAVSBHNpemUSFAoFdG9rZW4YAiABKAlS",
+            "BXRva2VuOgIYASJYChJQYWdpbmF0aW9uUmVzcG9uc2USHQoKbmV4dF90b2tl",
+            "bhgBIAEoCVIJbmV4dFRva2VuEh8KC3Jlc3VsdF9zaXplGAIgASgFUgpyZXN1",
+            "bHRTaXplOgIYASpiCgRGbGFnEhAKDEZMQUdfVU5LTk9XThAAEg8KC0ZMQUdf",
+            "SElEREVOEAESEQoNRkxBR19SRUFET05MWRACEg8KC0ZMQUdfU1lTVEVNEAQS",
+            "DwoLRkxBR19TSEFET1cQCBoCGAFCgAIKHmNvbS5hc2VydG8uZGlyZWN0b3J5",
+            "LmNvbW1vbi52MkILQ29tbW9uUHJvdG9QAVpEZ2l0aHViLmNvbS9hc2VydG8t",
+            "ZGV2L2dvLWRpcmVjdG9yeS9hc2VydG8vZGlyZWN0b3J5L2NvbW1vbi92Mjtj",
+            "b21tb26iAgNBREOqAhpBc2VydG8uRGlyZWN0b3J5LkNvbW1vbi5WMsoCG0Fz",
+            "ZXJ0b1xEaXJlY3RvcnlfXENvbW1vblxWMuICJ0FzZXJ0b1xEaXJlY3Rvcnlf",
+            "XENvbW1vblxWMlxHUEJNZXRhZGF0YeoCHUFzZXJ0bzo6RGlyZWN0b3J5OjpD",
+            "b21tb246OlYyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Directory.Common.V2.Flag), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -117,6 +118,7 @@ namespace Aserto.Directory.Common.V2 {
 
   }
   #region Enums
+  [global::System.ObsoleteAttribute]
   public enum Flag {
     /// <summary>
     /// default, no special object behavior
@@ -143,6 +145,7 @@ namespace Aserto.Directory.Common.V2 {
   #endregion
 
   #region Messages
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ObjectType : pb::IMessage<ObjectType>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -691,6 +694,7 @@ namespace Aserto.Directory.Common.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Permission : pb::IMessage<Permission>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1070,6 +1074,7 @@ namespace Aserto.Directory.Common.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class RelationType : pb::IMessage<RelationType>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1627,6 +1632,7 @@ namespace Aserto.Directory.Common.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Object : pb::IMessage<Object>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2095,6 +2101,7 @@ namespace Aserto.Directory.Common.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Relation : pb::IMessage<Relation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2151,6 +2158,7 @@ namespace Aserto.Directory.Common.V2 {
     /// <summary>
     /// subject identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectIdentifier Subject {
@@ -2181,6 +2189,7 @@ namespace Aserto.Directory.Common.V2 {
     /// <summary>
     /// object identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectIdentifier Object {
@@ -2532,6 +2541,7 @@ namespace Aserto.Directory.Common.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ObjectDependency : pb::IMessage<ObjectDependency>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3005,6 +3015,7 @@ namespace Aserto.Directory.Common.V2 {
   /// <summary>
   /// ObjectType identifier
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ObjectTypeIdentifier : pb::IMessage<ObjectTypeIdentifier>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3223,6 +3234,7 @@ namespace Aserto.Directory.Common.V2 {
   /// <summary>
   /// Permission identifier
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class PermissionIdentifier : pb::IMessage<PermissionIdentifier>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3441,6 +3453,7 @@ namespace Aserto.Directory.Common.V2 {
   /// <summary>
   /// RelationType identifier
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class RelationTypeIdentifier : pb::IMessage<RelationTypeIdentifier>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3713,6 +3726,7 @@ namespace Aserto.Directory.Common.V2 {
   /// <summary>
   /// Object identifier
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ObjectIdentifier : pb::IMessage<ObjectIdentifier>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3985,6 +3999,7 @@ namespace Aserto.Directory.Common.V2 {
   /// <summary>
   /// Relation identifier
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class RelationIdentifier : pb::IMessage<RelationIdentifier>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -4038,6 +4053,7 @@ namespace Aserto.Directory.Common.V2 {
     /// <summary>
     /// subject identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectIdentifier Subject {
@@ -4053,6 +4069,7 @@ namespace Aserto.Directory.Common.V2 {
     /// <summary>
     /// relation identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.RelationTypeIdentifier Relation {
@@ -4068,6 +4085,7 @@ namespace Aserto.Directory.Common.V2 {
     /// <summary>
     /// object identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectIdentifier Object {
@@ -4296,6 +4314,7 @@ namespace Aserto.Directory.Common.V2 {
   /// <summary>
   /// Pagination request
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class PaginationRequest : pb::IMessage<PaginationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -4540,6 +4559,7 @@ namespace Aserto.Directory.Common.V2 {
   /// <summary>
   /// Pagination response
   /// </summary>
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class PaginationResponse : pb::IMessage<PaginationResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

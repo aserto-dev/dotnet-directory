@@ -29,7 +29,7 @@ PROTO_REPO      := "pb-${PROJECT}"
 
 GIT_ORG         := "https://github.com/aserto-dev"
 
-RELEASE_TAG	    := $$(svu)
+RELEASE_TAG     := $$(svu)
 
 .PHONY: deps
 deps: info install-vault install-buf install-svu
@@ -72,15 +72,18 @@ buf-generate-dev:
 .PHONY: info
 info:
 	@echo -e "$(ATTN_COLOR)==> $@ $(NO_COLOR)"
-	@echo "GOOS:        ${GOOS}"
-	@echo "GOARCH:      ${GOARCH}"
-	@echo "BIN_DIR:     ${BIN_DIR}"
-	@echo "EXT_DIR:     ${EXT_DIR}"
-	@echo "EXT_BIN_DIR: ${EXT_BIN_DIR}"
-	@echo "EXT_TMP_DIR: ${EXT_TMP_DIR}"
-	@echo "RELEASE_TAG: ${RELEASE_TAG}"
-	@echo "BUF_REPO:    ${BUF_REPO}"
-	@echo "BUF_LATEST:  ${BUF_LATEST}"
+	@echo "PROJECT:       ${PROJECT}"
+	@echo "GOOS:          ${GOOS}"
+	@echo "GOARCH:        ${GOARCH}"
+	@echo "BIN_DIR:       ${BIN_DIR}"
+	@echo "EXT_DIR:       ${EXT_DIR}"
+	@echo "EXT_BIN_DIR:   ${EXT_BIN_DIR}"
+	@echo "EXT_TMP_DIR:   ${EXT_TMP_DIR}"
+	@echo "RELEASE_TAG:   ${RELEASE_TAG}"
+	@echo "BUF_REPO:      ${BUF_REPO}"
+	@echo "BUF_LATEST:    ${BUF_LATEST}"
+	@echo "BUF_DEV_IMAGE: ${BUF_DEV_IMAGE}"
+	@echo "PROTO_REPO:    ${PROTO_REPO}"
 
 .PHONY: install-vault
 install-vault: ${EXT_BIN_DIR} ${EXT_TMP_DIR}

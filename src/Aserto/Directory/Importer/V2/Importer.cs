@@ -26,7 +26,7 @@ namespace Aserto.Directory.Importer.V2 {
           string.Concat(
             "Cithc2VydG8vZGlyZWN0b3J5L2ltcG9ydGVyL3YyL2ltcG9ydGVyLnByb3Rv",
             "Ehxhc2VydG8uZGlyZWN0b3J5LmltcG9ydGVyLnYyGidhc2VydG8vZGlyZWN0",
-            "b3J5L2NvbW1vbi92Mi9jb21tb24ucHJvdG8ivQMKDUltcG9ydFJlcXVlc3QS",
+            "b3J5L2NvbW1vbi92Mi9jb21tb24ucHJvdG8iwQMKDUltcG9ydFJlcXVlc3QS",
             "PQoHb3BfY29kZRgBIAEoDjIkLmFzZXJ0by5kaXJlY3RvcnkuaW1wb3J0ZXIu",
             "djIuT3Bjb2RlUgZvcENvZGUSSQoLb2JqZWN0X3R5cGUYAiABKAsyJi5hc2Vy",
             "dG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5PYmplY3RUeXBlSABSCm9iamVjdFR5",
@@ -36,28 +36,29 @@ namespace Aserto.Directory.Importer.V2 {
             "b25UeXBlSABSDHJlbGF0aW9uVHlwZRI8CgZvYmplY3QYBSABKAsyIi5hc2Vy",
             "dG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5PYmplY3RIAFIGb2JqZWN0EkIKCHJl",
             "bGF0aW9uGAYgASgLMiQuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUmVs",
-            "YXRpb25IAFIIcmVsYXRpb25CBQoDbXNnIosDCg5JbXBvcnRSZXNwb25zZRJM",
-            "CgtvYmplY3RfdHlwZRgBIAEoCzIrLmFzZXJ0by5kaXJlY3RvcnkuaW1wb3J0",
-            "ZXIudjIuSW1wb3J0Q291bnRlclIKb2JqZWN0VHlwZRJLCgpwZXJtaXNzaW9u",
-            "GAIgASgLMisuYXNlcnRvLmRpcmVjdG9yeS5pbXBvcnRlci52Mi5JbXBvcnRD",
-            "b3VudGVyUgpwZXJtaXNzaW9uElAKDXJlbGF0aW9uX3R5cGUYAyABKAsyKy5h",
-            "c2VydG8uZGlyZWN0b3J5LmltcG9ydGVyLnYyLkltcG9ydENvdW50ZXJSDHJl",
-            "bGF0aW9uVHlwZRJDCgZvYmplY3QYBCABKAsyKy5hc2VydG8uZGlyZWN0b3J5",
-            "LmltcG9ydGVyLnYyLkltcG9ydENvdW50ZXJSBm9iamVjdBJHCghyZWxhdGlv",
-            "bhgFIAEoCzIrLmFzZXJ0by5kaXJlY3RvcnkuaW1wb3J0ZXIudjIuSW1wb3J0",
-            "Q291bnRlclIIcmVsYXRpb24iYwoNSW1wb3J0Q291bnRlchISCgRyZWN2GAEg",
-            "ASgEUgRyZWN2EhAKA3NldBgCIAEoBFIDc2V0EhYKBmRlbGV0ZRgDIAEoBFIG",
-            "ZGVsZXRlEhQKBWVycm9yGAQgASgEUgVlcnJvcio/CgZPcGNvZGUSEgoOT1BD",
-            "T0RFX1VOS05PV04QABIOCgpPUENPREVfU0VUEAESEQoNT1BDT0RFX0RFTEVU",
-            "RRACMnUKCEltcG9ydGVyEmkKBkltcG9ydBIrLmFzZXJ0by5kaXJlY3Rvcnku",
-            "aW1wb3J0ZXIudjIuSW1wb3J0UmVxdWVzdBosLmFzZXJ0by5kaXJlY3Rvcnku",
-            "aW1wb3J0ZXIudjIuSW1wb3J0UmVzcG9uc2UiACgBMAFCkAIKIGNvbS5hc2Vy",
-            "dG8uZGlyZWN0b3J5LmltcG9ydGVyLnYyQg1JbXBvcnRlclByb3RvUAFaSGdp",
-            "dGh1Yi5jb20vYXNlcnRvLWRldi9nby1kaXJlY3RvcnkvYXNlcnRvL2RpcmVj",
-            "dG9yeS9pbXBvcnRlci92MjtpbXBvcnRlcqICA0FESaoCHEFzZXJ0by5EaXJl",
-            "Y3RvcnkuSW1wb3J0ZXIuVjLKAh1Bc2VydG9cRGlyZWN0b3J5X1xJbXBvcnRl",
-            "clxWMuICKUFzZXJ0b1xEaXJlY3RvcnlfXEltcG9ydGVyXFYyXEdQQk1ldGFk",
-            "YXRh6gIfQXNlcnRvOjpEaXJlY3Rvcnk6OkltcG9ydGVyOjpWMmIGcHJvdG8z"));
+            "YXRpb25IAFIIcmVsYXRpb246AhgBQgUKA21zZyKPAwoOSW1wb3J0UmVzcG9u",
+            "c2USTAoLb2JqZWN0X3R5cGUYASABKAsyKy5hc2VydG8uZGlyZWN0b3J5Lmlt",
+            "cG9ydGVyLnYyLkltcG9ydENvdW50ZXJSCm9iamVjdFR5cGUSSwoKcGVybWlz",
+            "c2lvbhgCIAEoCzIrLmFzZXJ0by5kaXJlY3RvcnkuaW1wb3J0ZXIudjIuSW1w",
+            "b3J0Q291bnRlclIKcGVybWlzc2lvbhJQCg1yZWxhdGlvbl90eXBlGAMgASgL",
+            "MisuYXNlcnRvLmRpcmVjdG9yeS5pbXBvcnRlci52Mi5JbXBvcnRDb3VudGVy",
+            "UgxyZWxhdGlvblR5cGUSQwoGb2JqZWN0GAQgASgLMisuYXNlcnRvLmRpcmVj",
+            "dG9yeS5pbXBvcnRlci52Mi5JbXBvcnRDb3VudGVyUgZvYmplY3QSRwoIcmVs",
+            "YXRpb24YBSABKAsyKy5hc2VydG8uZGlyZWN0b3J5LmltcG9ydGVyLnYyLklt",
+            "cG9ydENvdW50ZXJSCHJlbGF0aW9uOgIYASJnCg1JbXBvcnRDb3VudGVyEhIK",
+            "BHJlY3YYASABKARSBHJlY3YSEAoDc2V0GAIgASgEUgNzZXQSFgoGZGVsZXRl",
+            "GAMgASgEUgZkZWxldGUSFAoFZXJyb3IYBCABKARSBWVycm9yOgIYASpDCgZP",
+            "cGNvZGUSEgoOT1BDT0RFX1VOS05PV04QABIOCgpPUENPREVfU0VUEAESEQoN",
+            "T1BDT0RFX0RFTEVURRACGgIYATJ4CghJbXBvcnRlchJsCgZJbXBvcnQSKy5h",
+            "c2VydG8uZGlyZWN0b3J5LmltcG9ydGVyLnYyLkltcG9ydFJlcXVlc3QaLC5h",
+            "c2VydG8uZGlyZWN0b3J5LmltcG9ydGVyLnYyLkltcG9ydFJlc3BvbnNlIgOI",
+            "AgEoATABQpACCiBjb20uYXNlcnRvLmRpcmVjdG9yeS5pbXBvcnRlci52MkIN",
+            "SW1wb3J0ZXJQcm90b1ABWkhnaXRodWIuY29tL2FzZXJ0by1kZXYvZ28tZGly",
+            "ZWN0b3J5L2FzZXJ0by9kaXJlY3RvcnkvaW1wb3J0ZXIvdjI7aW1wb3J0ZXKi",
+            "AgNBREmqAhxBc2VydG8uRGlyZWN0b3J5LkltcG9ydGVyLlYyygIdQXNlcnRv",
+            "XERpcmVjdG9yeV9cSW1wb3J0ZXJcVjLiAilBc2VydG9cRGlyZWN0b3J5X1xJ",
+            "bXBvcnRlclxWMlxHUEJNZXRhZGF0YeoCH0FzZXJ0bzo6RGlyZWN0b3J5OjpJ",
+            "bXBvcnRlcjo6VjJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Aserto.Directory.Common.V2.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Directory.Importer.V2.Opcode), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -70,6 +71,7 @@ namespace Aserto.Directory.Importer.V2 {
 
   }
   #region Enums
+  [global::System.ObsoleteAttribute]
   public enum Opcode {
     [pbr::OriginalName("OPCODE_UNKNOWN")] Unknown = 0,
     [pbr::OriginalName("OPCODE_SET")] Set = 1,
@@ -79,6 +81,7 @@ namespace Aserto.Directory.Importer.V2 {
   #endregion
 
   #region Messages
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ImportRequest : pb::IMessage<ImportRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -162,6 +165,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// object_type import message
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectType ObjectType {
@@ -177,6 +181,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// permission import message
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Permission Permission {
@@ -192,6 +197,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// relation_type import message
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.RelationType RelationType {
@@ -207,6 +213,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// object import message
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Object Object {
@@ -222,6 +229,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// relation import message
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Relation Relation {
@@ -587,6 +595,7 @@ namespace Aserto.Directory.Importer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ImportResponse : pb::IMessage<ImportResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -642,6 +651,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// object_type import counter
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Importer.V2.ImportCounter ObjectType {
@@ -657,6 +667,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// object_type import counter
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Importer.V2.ImportCounter Permission {
@@ -672,6 +683,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// object_type import counter
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Importer.V2.ImportCounter RelationType {
@@ -687,6 +699,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// object import counter
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Importer.V2.ImportCounter Object {
@@ -702,6 +715,7 @@ namespace Aserto.Directory.Importer.V2 {
     /// <summary>
     /// object_type import counter
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Importer.V2.ImportCounter Relation {
@@ -993,6 +1007,7 @@ namespace Aserto.Directory.Importer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ImportCounter : pb::IMessage<ImportCounter>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

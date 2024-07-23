@@ -27,81 +27,83 @@ namespace Aserto.Directory.Writer.V2 {
             "Cidhc2VydG8vZGlyZWN0b3J5L3dyaXRlci92Mi93cml0ZXIucHJvdG8SGmFz",
             "ZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyGhtnb29nbGUvcHJvdG9idWYvZW1w",
             "dHkucHJvdG8aJ2FzZXJ0by9kaXJlY3RvcnkvY29tbW9uL3YyL2NvbW1vbi5w",
-            "cm90byJfChRTZXRPYmplY3RUeXBlUmVxdWVzdBJHCgtvYmplY3RfdHlwZRgB",
+            "cm90byJjChRTZXRPYmplY3RUeXBlUmVxdWVzdBJHCgtvYmplY3RfdHlwZRgB",
             "IAEoCzImLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdFR5cGVS",
-            "Cm9iamVjdFR5cGUiVwoVU2V0T2JqZWN0VHlwZVJlc3BvbnNlEj4KBnJlc3Vs",
-            "dBgBIAEoCzImLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdFR5",
-            "cGVSBnJlc3VsdCJhChdEZWxldGVPYmplY3RUeXBlUmVxdWVzdBJGCgVwYXJh",
-            "bRgBIAEoCzIwLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVjdFR5",
-            "cGVJZGVudGlmaWVyUgVwYXJhbSJKChhEZWxldGVPYmplY3RUeXBlUmVzcG9u",
-            "c2USLgoGcmVzdWx0GAEgASgLMhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5UgZy",
-            "ZXN1bHQiZwoWU2V0UmVsYXRpb25UeXBlUmVxdWVzdBJNCg1yZWxhdGlvbl90",
-            "eXBlGAEgASgLMiguYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuUmVsYXRp",
-            "b25UeXBlUgxyZWxhdGlvblR5cGUiWwoXU2V0UmVsYXRpb25UeXBlUmVzcG9u",
-            "c2USQAoGcmVzdWx0GAEgASgLMiguYXNlcnRvLmRpcmVjdG9yeS5jb21tb24u",
-            "djIuUmVsYXRpb25UeXBlUgZyZXN1bHQiZQoZRGVsZXRlUmVsYXRpb25UeXBl",
-            "UmVxdWVzdBJICgVwYXJhbRgBIAEoCzIyLmFzZXJ0by5kaXJlY3RvcnkuY29t",
-            "bW9uLnYyLlJlbGF0aW9uVHlwZUlkZW50aWZpZXJSBXBhcmFtIkwKGkRlbGV0",
-            "ZVJlbGF0aW9uVHlwZVJlc3BvbnNlEi4KBnJlc3VsdBgBIAEoCzIWLmdvb2ds",
-            "ZS5wcm90b2J1Zi5FbXB0eVIGcmVzdWx0Il4KFFNldFBlcm1pc3Npb25SZXF1",
-            "ZXN0EkYKCnBlcm1pc3Npb24YASABKAsyJi5hc2VydG8uZGlyZWN0b3J5LmNv",
-            "bW1vbi52Mi5QZXJtaXNzaW9uUgpwZXJtaXNzaW9uIlcKFVNldFBlcm1pc3Np",
-            "b25SZXNwb25zZRI+CgZyZXN1bHQYASABKAsyJi5hc2VydG8uZGlyZWN0b3J5",
-            "LmNvbW1vbi52Mi5QZXJtaXNzaW9uUgZyZXN1bHQiYQoXRGVsZXRlUGVybWlz",
-            "c2lvblJlcXVlc3QSRgoFcGFyYW0YASABKAsyMC5hc2VydG8uZGlyZWN0b3J5",
-            "LmNvbW1vbi52Mi5QZXJtaXNzaW9uSWRlbnRpZmllclIFcGFyYW0iSgoYRGVs",
-            "ZXRlUGVybWlzc2lvblJlc3BvbnNlEi4KBnJlc3VsdBgBIAEoCzIWLmdvb2ds",
-            "ZS5wcm90b2J1Zi5FbXB0eVIGcmVzdWx0Ik4KEFNldE9iamVjdFJlcXVlc3QS",
-            "OgoGb2JqZWN0GAEgASgLMiIuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIu",
-            "T2JqZWN0UgZvYmplY3QiTwoRU2V0T2JqZWN0UmVzcG9uc2USOgoGcmVzdWx0",
-            "GAEgASgLMiIuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIuT2JqZWN0UgZy",
-            "ZXN1bHQimAEKE0RlbGV0ZU9iamVjdFJlcXVlc3QSQgoFcGFyYW0YASABKAsy",
-            "LC5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5PYmplY3RJZGVudGlmaWVy",
-            "UgVwYXJhbRIqCg53aXRoX3JlbGF0aW9ucxgCIAEoCEgAUg13aXRoUmVsYXRp",
-            "b25ziAEBQhEKD193aXRoX3JlbGF0aW9ucyJGChREZWxldGVPYmplY3RSZXNw",
+            "Cm9iamVjdFR5cGU6AhgBIlsKFVNldE9iamVjdFR5cGVSZXNwb25zZRI+CgZy",
+            "ZXN1bHQYASABKAsyJi5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5PYmpl",
+            "Y3RUeXBlUgZyZXN1bHQ6AhgBImUKF0RlbGV0ZU9iamVjdFR5cGVSZXF1ZXN0",
+            "EkYKBXBhcmFtGAEgASgLMjAuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjIu",
+            "T2JqZWN0VHlwZUlkZW50aWZpZXJSBXBhcmFtOgIYASJOChhEZWxldGVPYmpl",
+            "Y3RUeXBlUmVzcG9uc2USLgoGcmVzdWx0GAEgASgLMhYuZ29vZ2xlLnByb3Rv",
+            "YnVmLkVtcHR5UgZyZXN1bHQ6AhgBImsKFlNldFJlbGF0aW9uVHlwZVJlcXVl",
+            "c3QSTQoNcmVsYXRpb25fdHlwZRgBIAEoCzIoLmFzZXJ0by5kaXJlY3Rvcnku",
+            "Y29tbW9uLnYyLlJlbGF0aW9uVHlwZVIMcmVsYXRpb25UeXBlOgIYASJfChdT",
+            "ZXRSZWxhdGlvblR5cGVSZXNwb25zZRJACgZyZXN1bHQYASABKAsyKC5hc2Vy",
+            "dG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5SZWxhdGlvblR5cGVSBnJlc3VsdDoC",
+            "GAEiaQoZRGVsZXRlUmVsYXRpb25UeXBlUmVxdWVzdBJICgVwYXJhbRgBIAEo",
+            "CzIyLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLlJlbGF0aW9uVHlwZUlk",
+            "ZW50aWZpZXJSBXBhcmFtOgIYASJQChpEZWxldGVSZWxhdGlvblR5cGVSZXNw",
             "b25zZRIuCgZyZXN1bHQYASABKAsyFi5nb29nbGUucHJvdG9idWYuRW1wdHlS",
-            "BnJlc3VsdCJWChJTZXRSZWxhdGlvblJlcXVlc3QSQAoIcmVsYXRpb24YASAB",
-            "KAsyJC5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5SZWxhdGlvblIIcmVs",
-            "YXRpb24iUwoTU2V0UmVsYXRpb25SZXNwb25zZRI8CgZyZXN1bHQYASABKAsy",
-            "JC5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52Mi5SZWxhdGlvblIGcmVzdWx0",
-            "Il0KFURlbGV0ZVJlbGF0aW9uUmVxdWVzdBJECgVwYXJhbRgBIAEoCzIuLmFz",
-            "ZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLlJlbGF0aW9uSWRlbnRpZmllclIF",
-            "cGFyYW0iSAoWRGVsZXRlUmVsYXRpb25SZXNwb25zZRIuCgZyZXN1bHQYASAB",
-            "KAsyFi5nb29nbGUucHJvdG9idWYuRW1wdHlSBnJlc3VsdDLOCQoGV3JpdGVy",
-            "EnYKDVNldE9iamVjdFR5cGUSMC5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52",
-            "Mi5TZXRPYmplY3RUeXBlUmVxdWVzdBoxLmFzZXJ0by5kaXJlY3Rvcnkud3Jp",
-            "dGVyLnYyLlNldE9iamVjdFR5cGVSZXNwb25zZSIAEn8KEERlbGV0ZU9iamVj",
-            "dFR5cGUSMy5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5EZWxldGVPYmpl",
-            "Y3RUeXBlUmVxdWVzdBo0LmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLkRl",
-            "bGV0ZU9iamVjdFR5cGVSZXNwb25zZSIAEnwKD1NldFJlbGF0aW9uVHlwZRIy",
-            "LmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldFJlbGF0aW9uVHlwZVJl",
-            "cXVlc3QaMy5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5TZXRSZWxhdGlv",
-            "blR5cGVSZXNwb25zZSIAEoUBChJEZWxldGVSZWxhdGlvblR5cGUSNS5hc2Vy",
+            "BnJlc3VsdDoCGAEiYgoUU2V0UGVybWlzc2lvblJlcXVlc3QSRgoKcGVybWlz",
+            "c2lvbhgBIAEoCzImLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLlBlcm1p",
+            "c3Npb25SCnBlcm1pc3Npb246AhgBIlsKFVNldFBlcm1pc3Npb25SZXNwb25z",
+            "ZRI+CgZyZXN1bHQYASABKAsyJi5hc2VydG8uZGlyZWN0b3J5LmNvbW1vbi52",
+            "Mi5QZXJtaXNzaW9uUgZyZXN1bHQ6AhgBImUKF0RlbGV0ZVBlcm1pc3Npb25S",
+            "ZXF1ZXN0EkYKBXBhcmFtGAEgASgLMjAuYXNlcnRvLmRpcmVjdG9yeS5jb21t",
+            "b24udjIuUGVybWlzc2lvbklkZW50aWZpZXJSBXBhcmFtOgIYASJOChhEZWxl",
+            "dGVQZXJtaXNzaW9uUmVzcG9uc2USLgoGcmVzdWx0GAEgASgLMhYuZ29vZ2xl",
+            "LnByb3RvYnVmLkVtcHR5UgZyZXN1bHQ6AhgBIlIKEFNldE9iamVjdFJlcXVl",
+            "c3QSOgoGb2JqZWN0GAEgASgLMiIuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24u",
+            "djIuT2JqZWN0UgZvYmplY3Q6AhgBIlMKEVNldE9iamVjdFJlc3BvbnNlEjoK",
+            "BnJlc3VsdBgBIAEoCzIiLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9i",
+            "amVjdFIGcmVzdWx0OgIYASKcAQoTRGVsZXRlT2JqZWN0UmVxdWVzdBJCCgVw",
+            "YXJhbRgBIAEoCzIsLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYyLk9iamVj",
+            "dElkZW50aWZpZXJSBXBhcmFtEioKDndpdGhfcmVsYXRpb25zGAIgASgISABS",
+            "DXdpdGhSZWxhdGlvbnOIAQE6AhgBQhEKD193aXRoX3JlbGF0aW9ucyJKChRE",
+            "ZWxldGVPYmplY3RSZXNwb25zZRIuCgZyZXN1bHQYASABKAsyFi5nb29nbGUu",
+            "cHJvdG9idWYuRW1wdHlSBnJlc3VsdDoCGAEiWgoSU2V0UmVsYXRpb25SZXF1",
+            "ZXN0EkAKCHJlbGF0aW9uGAEgASgLMiQuYXNlcnRvLmRpcmVjdG9yeS5jb21t",
+            "b24udjIuUmVsYXRpb25SCHJlbGF0aW9uOgIYASJXChNTZXRSZWxhdGlvblJl",
+            "c3BvbnNlEjwKBnJlc3VsdBgBIAEoCzIkLmFzZXJ0by5kaXJlY3RvcnkuY29t",
+            "bW9uLnYyLlJlbGF0aW9uUgZyZXN1bHQ6AhgBImEKFURlbGV0ZVJlbGF0aW9u",
+            "UmVxdWVzdBJECgVwYXJhbRgBIAEoCzIuLmFzZXJ0by5kaXJlY3RvcnkuY29t",
+            "bW9uLnYyLlJlbGF0aW9uSWRlbnRpZmllclIFcGFyYW06AhgBIkwKFkRlbGV0",
+            "ZVJlbGF0aW9uUmVzcG9uc2USLgoGcmVzdWx0GAEgASgLMhYuZ29vZ2xlLnBy",
+            "b3RvYnVmLkVtcHR5UgZyZXN1bHQ6AhgBMu4JCgZXcml0ZXISeQoNU2V0T2Jq",
+            "ZWN0VHlwZRIwLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldE9iamVj",
+            "dFR5cGVSZXF1ZXN0GjEuYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuU2V0",
+            "T2JqZWN0VHlwZVJlc3BvbnNlIgOIAgESggEKEERlbGV0ZU9iamVjdFR5cGUS",
+            "My5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5EZWxldGVPYmplY3RUeXBl",
+            "UmVxdWVzdBo0LmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLkRlbGV0ZU9i",
+            "amVjdFR5cGVSZXNwb25zZSIDiAIBEn8KD1NldFJlbGF0aW9uVHlwZRIyLmFz",
+            "ZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldFJlbGF0aW9uVHlwZVJlcXVl",
+            "c3QaMy5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5TZXRSZWxhdGlvblR5",
+            "cGVSZXNwb25zZSIDiAIBEogBChJEZWxldGVSZWxhdGlvblR5cGUSNS5hc2Vy",
             "dG8uZGlyZWN0b3J5LndyaXRlci52Mi5EZWxldGVSZWxhdGlvblR5cGVSZXF1",
             "ZXN0GjYuYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuRGVsZXRlUmVsYXRp",
-            "b25UeXBlUmVzcG9uc2UiABJ2Cg1TZXRQZXJtaXNzaW9uEjAuYXNlcnRvLmRp",
-            "cmVjdG9yeS53cml0ZXIudjIuU2V0UGVybWlzc2lvblJlcXVlc3QaMS5hc2Vy",
-            "dG8uZGlyZWN0b3J5LndyaXRlci52Mi5TZXRQZXJtaXNzaW9uUmVzcG9uc2Ui",
-            "ABJ/ChBEZWxldGVQZXJtaXNzaW9uEjMuYXNlcnRvLmRpcmVjdG9yeS53cml0",
-            "ZXIudjIuRGVsZXRlUGVybWlzc2lvblJlcXVlc3QaNC5hc2VydG8uZGlyZWN0",
-            "b3J5LndyaXRlci52Mi5EZWxldGVQZXJtaXNzaW9uUmVzcG9uc2UiABJqCglT",
-            "ZXRPYmplY3QSLC5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5TZXRPYmpl",
-            "Y3RSZXF1ZXN0Gi0uYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuU2V0T2Jq",
-            "ZWN0UmVzcG9uc2UiABJzCgxEZWxldGVPYmplY3QSLy5hc2VydG8uZGlyZWN0",
-            "b3J5LndyaXRlci52Mi5EZWxldGVPYmplY3RSZXF1ZXN0GjAuYXNlcnRvLmRp",
-            "cmVjdG9yeS53cml0ZXIudjIuRGVsZXRlT2JqZWN0UmVzcG9uc2UiABJwCgtT",
-            "ZXRSZWxhdGlvbhIuLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNldFJl",
-            "bGF0aW9uUmVxdWVzdBovLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLlNl",
-            "dFJlbGF0aW9uUmVzcG9uc2UiABJ5Cg5EZWxldGVSZWxhdGlvbhIxLmFzZXJ0",
-            "by5kaXJlY3Rvcnkud3JpdGVyLnYyLkRlbGV0ZVJlbGF0aW9uUmVxdWVzdBoy",
-            "LmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLkRlbGV0ZVJlbGF0aW9uUmVz",
-            "cG9uc2UiAEKAAgoeY29tLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyQgtX",
-            "cml0ZXJQcm90b1ABWkRnaXRodWIuY29tL2FzZXJ0by1kZXYvZ28tZGlyZWN0",
-            "b3J5L2FzZXJ0by9kaXJlY3Rvcnkvd3JpdGVyL3YyO3dyaXRlcqICA0FEV6oC",
-            "GkFzZXJ0by5EaXJlY3RvcnkuV3JpdGVyLlYyygIbQXNlcnRvXERpcmVjdG9y",
-            "eV9cV3JpdGVyXFYy4gInQXNlcnRvXERpcmVjdG9yeV9cV3JpdGVyXFYyXEdQ",
-            "Qk1ldGFkYXRh6gIdQXNlcnRvOjpEaXJlY3Rvcnk6OldyaXRlcjo6VjJiBnBy",
-            "b3RvMw=="));
+            "b25UeXBlUmVzcG9uc2UiA4gCARJ5Cg1TZXRQZXJtaXNzaW9uEjAuYXNlcnRv",
+            "LmRpcmVjdG9yeS53cml0ZXIudjIuU2V0UGVybWlzc2lvblJlcXVlc3QaMS5h",
+            "c2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5TZXRQZXJtaXNzaW9uUmVzcG9u",
+            "c2UiA4gCARKCAQoQRGVsZXRlUGVybWlzc2lvbhIzLmFzZXJ0by5kaXJlY3Rv",
+            "cnkud3JpdGVyLnYyLkRlbGV0ZVBlcm1pc3Npb25SZXF1ZXN0GjQuYXNlcnRv",
+            "LmRpcmVjdG9yeS53cml0ZXIudjIuRGVsZXRlUGVybWlzc2lvblJlc3BvbnNl",
+            "IgOIAgESbQoJU2V0T2JqZWN0EiwuYXNlcnRvLmRpcmVjdG9yeS53cml0ZXIu",
+            "djIuU2V0T2JqZWN0UmVxdWVzdBotLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVy",
+            "LnYyLlNldE9iamVjdFJlc3BvbnNlIgOIAgESdgoMRGVsZXRlT2JqZWN0Ei8u",
+            "YXNlcnRvLmRpcmVjdG9yeS53cml0ZXIudjIuRGVsZXRlT2JqZWN0UmVxdWVz",
+            "dBowLmFzZXJ0by5kaXJlY3Rvcnkud3JpdGVyLnYyLkRlbGV0ZU9iamVjdFJl",
+            "c3BvbnNlIgOIAgEScwoLU2V0UmVsYXRpb24SLi5hc2VydG8uZGlyZWN0b3J5",
+            "LndyaXRlci52Mi5TZXRSZWxhdGlvblJlcXVlc3QaLy5hc2VydG8uZGlyZWN0",
+            "b3J5LndyaXRlci52Mi5TZXRSZWxhdGlvblJlc3BvbnNlIgOIAgESfAoORGVs",
+            "ZXRlUmVsYXRpb24SMS5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52Mi5EZWxl",
+            "dGVSZWxhdGlvblJlcXVlc3QaMi5hc2VydG8uZGlyZWN0b3J5LndyaXRlci52",
+            "Mi5EZWxldGVSZWxhdGlvblJlc3BvbnNlIgOIAgFCgAIKHmNvbS5hc2VydG8u",
+            "ZGlyZWN0b3J5LndyaXRlci52MkILV3JpdGVyUHJvdG9QAVpEZ2l0aHViLmNv",
+            "bS9hc2VydG8tZGV2L2dvLWRpcmVjdG9yeS9hc2VydG8vZGlyZWN0b3J5L3dy",
+            "aXRlci92Mjt3cml0ZXKiAgNBRFeqAhpBc2VydG8uRGlyZWN0b3J5LldyaXRl",
+            "ci5WMsoCG0FzZXJ0b1xEaXJlY3RvcnlfXFdyaXRlclxWMuICJ0FzZXJ0b1xE",
+            "aXJlY3RvcnlfXFdyaXRlclxWMlxHUEJNZXRhZGF0YeoCHUFzZXJ0bzo6RGly",
+            "ZWN0b3J5OjpXcml0ZXI6OlYyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Aserto.Directory.Common.V2.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -131,6 +133,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
   #region Messages
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetObjectTypeRequest : pb::IMessage<SetObjectTypeRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -182,6 +185,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// object type instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectType ObjectType {
@@ -341,6 +345,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetObjectTypeResponse : pb::IMessage<SetObjectTypeResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -392,6 +397,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// object type instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectType Result {
@@ -551,6 +557,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteObjectTypeRequest : pb::IMessage<DeleteObjectTypeRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -602,6 +609,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// object type identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectTypeIdentifier Param {
@@ -761,6 +769,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteObjectTypeResponse : pb::IMessage<DeleteObjectTypeResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -971,6 +980,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetRelationTypeRequest : pb::IMessage<SetRelationTypeRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1022,6 +1032,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// relation type instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.RelationType RelationType {
@@ -1181,6 +1192,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetRelationTypeResponse : pb::IMessage<SetRelationTypeResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1232,6 +1244,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// relation types instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.RelationType Result {
@@ -1391,6 +1404,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteRelationTypeRequest : pb::IMessage<DeleteRelationTypeRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1442,6 +1456,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// relation type identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.RelationTypeIdentifier Param {
@@ -1601,6 +1616,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteRelationTypeResponse : pb::IMessage<DeleteRelationTypeResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1811,6 +1827,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetPermissionRequest : pb::IMessage<SetPermissionRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1862,6 +1879,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// permission instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Permission Permission {
@@ -2021,6 +2039,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetPermissionResponse : pb::IMessage<SetPermissionResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2072,6 +2091,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// permission instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Permission Result {
@@ -2231,6 +2251,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeletePermissionRequest : pb::IMessage<DeletePermissionRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2282,6 +2303,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// permission identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.PermissionIdentifier Param {
@@ -2441,6 +2463,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeletePermissionResponse : pb::IMessage<DeletePermissionResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2651,6 +2674,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetObjectRequest : pb::IMessage<SetObjectRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2702,6 +2726,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// object instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Object Object {
@@ -2861,6 +2886,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetObjectResponse : pb::IMessage<SetObjectResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2912,6 +2938,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// object instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Object Result {
@@ -3071,6 +3098,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteObjectRequest : pb::IMessage<DeleteObjectRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3125,6 +3153,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// object identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.ObjectIdentifier Param {
@@ -3338,6 +3367,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteObjectResponse : pb::IMessage<DeleteObjectResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3548,6 +3578,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetRelationRequest : pb::IMessage<SetRelationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3599,6 +3630,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// relation instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Relation Relation {
@@ -3758,6 +3790,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetRelationResponse : pb::IMessage<SetRelationResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -3809,6 +3842,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// relation instance
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.Relation Result {
@@ -3968,6 +4002,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteRelationRequest : pb::IMessage<DeleteRelationRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -4019,6 +4054,7 @@ namespace Aserto.Directory.Writer.V2 {
     /// <summary>
     /// relation identifier
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Aserto.Directory.Common.V2.RelationIdentifier Param {
@@ -4178,6 +4214,7 @@ namespace Aserto.Directory.Writer.V2 {
 
   }
 
+  [global::System.ObsoleteAttribute]
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteRelationResponse : pb::IMessage<DeleteRelationResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE

@@ -31,30 +31,37 @@ namespace Aserto.Directory.Importer.V3 {
             "djMuT3Bjb2RlUgZvcENvZGUSPAoGb2JqZWN0GAUgASgLMiIuYXNlcnRvLmRp",
             "cmVjdG9yeS5jb21tb24udjMuT2JqZWN0SABSBm9iamVjdBJCCghyZWxhdGlv",
             "bhgGIAEoCzIkLmFzZXJ0by5kaXJlY3RvcnkuY29tbW9uLnYzLlJlbGF0aW9u",
-            "SABSCHJlbGF0aW9uQgUKA21zZyKeAQoOSW1wb3J0UmVzcG9uc2USQwoGb2Jq",
+            "SABSCHJlbGF0aW9uQgUKA21zZyLiAQoOSW1wb3J0UmVzcG9uc2USQwoGb2Jq",
             "ZWN0GAEgASgLMisuYXNlcnRvLmRpcmVjdG9yeS5pbXBvcnRlci52My5JbXBv",
             "cnRDb3VudGVyUgZvYmplY3QSRwoIcmVsYXRpb24YAiABKAsyKy5hc2VydG8u",
             "ZGlyZWN0b3J5LmltcG9ydGVyLnYzLkltcG9ydENvdW50ZXJSCHJlbGF0aW9u",
-            "ImMKDUltcG9ydENvdW50ZXISEgoEcmVjdhgBIAEoBFIEcmVjdhIQCgNzZXQY",
-            "AiABKARSA3NldBIWCgZkZWxldGUYAyABKARSBmRlbGV0ZRIUCgVlcnJvchgE",
-            "IAEoBFIFZXJyb3IqYQoGT3Bjb2RlEhIKDk9QQ09ERV9VTktOT1dOEAASDgoK",
-            "T1BDT0RFX1NFVBABEhEKDU9QQ09ERV9ERUxFVEUQAhIgChxPUENPREVfREVM",
-            "RVRFX1dJVEhfUkVMQVRJT05TEAMydQoISW1wb3J0ZXISaQoGSW1wb3J0Eisu",
-            "YXNlcnRvLmRpcmVjdG9yeS5pbXBvcnRlci52My5JbXBvcnRSZXF1ZXN0Giwu",
-            "YXNlcnRvLmRpcmVjdG9yeS5pbXBvcnRlci52My5JbXBvcnRSZXNwb25zZSIA",
-            "KAEwAUKQAgogY29tLmFzZXJ0by5kaXJlY3RvcnkuaW1wb3J0ZXIudjNCDUlt",
-            "cG9ydGVyUHJvdG9QAVpIZ2l0aHViLmNvbS9hc2VydG8tZGV2L2dvLWRpcmVj",
-            "dG9yeS9hc2VydG8vZGlyZWN0b3J5L2ltcG9ydGVyL3YzO2ltcG9ydGVyogID",
-            "QURJqgIcQXNlcnRvLkRpcmVjdG9yeS5JbXBvcnRlci5WM8oCHUFzZXJ0b1xE",
-            "aXJlY3RvcnlfXEltcG9ydGVyXFYz4gIpQXNlcnRvXERpcmVjdG9yeV9cSW1w",
-            "b3J0ZXJcVjNcR1BCTWV0YWRhdGHqAh9Bc2VydG86OkRpcmVjdG9yeTo6SW1w",
-            "b3J0ZXI6OlYzYgZwcm90bzM="));
+            "EkIKBnN0YXR1cxgDIAEoCzIqLmFzZXJ0by5kaXJlY3RvcnkuaW1wb3J0ZXIu",
+            "djMuSW1wb3J0U3RhdHVzUgZzdGF0dXMiYwoNSW1wb3J0Q291bnRlchISCgRy",
+            "ZWN2GAEgASgEUgRyZWN2EhAKA3NldBgCIAEoBFIDc2V0EhYKBmRlbGV0ZRgD",
+            "IAEoBFIGZGVsZXRlEhQKBWVycm9yGAQgASgEUgVlcnJvciK9AQoMSW1wb3J0",
+            "U3RhdHVzEhIKBGNvZGUYASABKA1SBGNvZGUSEAoDbXNnGAIgASgJUgNtc2cS",
+            "PAoGb2JqZWN0GAUgASgLMiIuYXNlcnRvLmRpcmVjdG9yeS5jb21tb24udjMu",
+            "T2JqZWN0SABSBm9iamVjdBJCCghyZWxhdGlvbhgGIAEoCzIkLmFzZXJ0by5k",
+            "aXJlY3RvcnkuY29tbW9uLnYzLlJlbGF0aW9uSABSCHJlbGF0aW9uQgUKA3Jl",
+            "cSphCgZPcGNvZGUSEgoOT1BDT0RFX1VOS05PV04QABIOCgpPUENPREVfU0VU",
+            "EAESEQoNT1BDT0RFX0RFTEVURRACEiAKHE9QQ09ERV9ERUxFVEVfV0lUSF9S",
+            "RUxBVElPTlMQAzJ1CghJbXBvcnRlchJpCgZJbXBvcnQSKy5hc2VydG8uZGly",
+            "ZWN0b3J5LmltcG9ydGVyLnYzLkltcG9ydFJlcXVlc3QaLC5hc2VydG8uZGly",
+            "ZWN0b3J5LmltcG9ydGVyLnYzLkltcG9ydFJlc3BvbnNlIgAoATABQpACCiBj",
+            "b20uYXNlcnRvLmRpcmVjdG9yeS5pbXBvcnRlci52M0INSW1wb3J0ZXJQcm90",
+            "b1ABWkhnaXRodWIuY29tL2FzZXJ0by1kZXYvZ28tZGlyZWN0b3J5L2FzZXJ0",
+            "by9kaXJlY3RvcnkvaW1wb3J0ZXIvdjM7aW1wb3J0ZXKiAgNBREmqAhxBc2Vy",
+            "dG8uRGlyZWN0b3J5LkltcG9ydGVyLlYzygIdQXNlcnRvXERpcmVjdG9yeV9c",
+            "SW1wb3J0ZXJcVjPiAilBc2VydG9cRGlyZWN0b3J5X1xJbXBvcnRlclxWM1xH",
+            "UEJNZXRhZGF0YeoCH0FzZXJ0bzo6RGlyZWN0b3J5OjpJbXBvcnRlcjo6VjNi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Aserto.Directory.Common.V3.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Directory.Importer.V3.Opcode), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Importer.V3.ImportRequest), global::Aserto.Directory.Importer.V3.ImportRequest.Parser, new[]{ "OpCode", "Object", "Relation" }, new[]{ "Msg" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Importer.V3.ImportResponse), global::Aserto.Directory.Importer.V3.ImportResponse.Parser, new[]{ "Object", "Relation" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Importer.V3.ImportCounter), global::Aserto.Directory.Importer.V3.ImportCounter.Parser, new[]{ "Recv", "Set", "Delete", "Error" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Importer.V3.ImportResponse), global::Aserto.Directory.Importer.V3.ImportResponse.Parser, new[]{ "Object", "Relation", "Status" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Importer.V3.ImportCounter), global::Aserto.Directory.Importer.V3.ImportCounter.Parser, new[]{ "Recv", "Set", "Delete", "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Directory.Importer.V3.ImportStatus), global::Aserto.Directory.Importer.V3.ImportStatus.Parser, new[]{ "Code", "Msg", "Object", "Relation" }, new[]{ "Req" }, null, null, null)
           }));
     }
     #endregion
@@ -448,6 +455,7 @@ namespace Aserto.Directory.Importer.V3 {
     public ImportResponse(ImportResponse other) : this() {
       object_ = other.object_ != null ? other.object_.Clone() : null;
       relation_ = other.relation_ != null ? other.relation_.Clone() : null;
+      status_ = other.status_ != null ? other.status_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -487,6 +495,21 @@ namespace Aserto.Directory.Importer.V3 {
       }
     }
 
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 3;
+    private global::Aserto.Directory.Importer.V3.ImportStatus status_;
+    /// <summary>
+    /// import status
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Aserto.Directory.Importer.V3.ImportStatus Status {
+      get { return status_; }
+      set {
+        status_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -504,6 +527,7 @@ namespace Aserto.Directory.Importer.V3 {
       }
       if (!object.Equals(Object, other.Object)) return false;
       if (!object.Equals(Relation, other.Relation)) return false;
+      if (!object.Equals(Status, other.Status)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -513,6 +537,7 @@ namespace Aserto.Directory.Importer.V3 {
       int hash = 1;
       if (object_ != null) hash ^= Object.GetHashCode();
       if (relation_ != null) hash ^= Relation.GetHashCode();
+      if (status_ != null) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -539,6 +564,10 @@ namespace Aserto.Directory.Importer.V3 {
         output.WriteRawTag(18);
         output.WriteMessage(Relation);
       }
+      if (status_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Status);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -557,6 +586,10 @@ namespace Aserto.Directory.Importer.V3 {
         output.WriteRawTag(18);
         output.WriteMessage(Relation);
       }
+      if (status_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Status);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -572,6 +605,9 @@ namespace Aserto.Directory.Importer.V3 {
       }
       if (relation_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Relation);
+      }
+      if (status_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Status);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -596,6 +632,12 @@ namespace Aserto.Directory.Importer.V3 {
           Relation = new global::Aserto.Directory.Importer.V3.ImportCounter();
         }
         Relation.MergeFrom(other.Relation);
+      }
+      if (other.status_ != null) {
+        if (status_ == null) {
+          Status = new global::Aserto.Directory.Importer.V3.ImportStatus();
+        }
+        Status.MergeFrom(other.Status);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -630,6 +672,13 @@ namespace Aserto.Directory.Importer.V3 {
             input.ReadMessage(Relation);
             break;
           }
+          case 26: {
+            if (status_ == null) {
+              Status = new global::Aserto.Directory.Importer.V3.ImportStatus();
+            }
+            input.ReadMessage(Status);
+            break;
+          }
         }
       }
     #endif
@@ -661,6 +710,13 @@ namespace Aserto.Directory.Importer.V3 {
               Relation = new global::Aserto.Directory.Importer.V3.ImportCounter();
             }
             input.ReadMessage(Relation);
+            break;
+          }
+          case 26: {
+            if (status_ == null) {
+              Status = new global::Aserto.Directory.Importer.V3.ImportStatus();
+            }
+            input.ReadMessage(Status);
             break;
           }
         }
@@ -982,6 +1038,386 @@ namespace Aserto.Directory.Importer.V3 {
           }
           case 32: {
             Error = input.ReadUInt64();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class ImportStatus : pb::IMessage<ImportStatus>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ImportStatus> _parser = new pb::MessageParser<ImportStatus>(() => new ImportStatus());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ImportStatus> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Aserto.Directory.Importer.V3.ImporterReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ImportStatus() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ImportStatus(ImportStatus other) : this() {
+      code_ = other.code_;
+      msg_ = other.msg_;
+      switch (other.ReqCase) {
+        case ReqOneofCase.Object:
+          Object = other.Object.Clone();
+          break;
+        case ReqOneofCase.Relation:
+          Relation = other.Relation.Clone();
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ImportStatus Clone() {
+      return new ImportStatus(this);
+    }
+
+    /// <summary>Field number for the "code" field.</summary>
+    public const int CodeFieldNumber = 1;
+    private uint code_;
+    /// <summary>
+    /// gRPC status code (google.golang.org/grpc/codes)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Code {
+      get { return code_; }
+      set {
+        code_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "msg" field.</summary>
+    public const int MsgFieldNumber = 2;
+    private string msg_ = "";
+    /// <summary>
+    /// gRPC status message (google.golang.org/grpc/status)
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Msg {
+      get { return msg_; }
+      set {
+        msg_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "object" field.</summary>
+    public const int ObjectFieldNumber = 5;
+    /// <summary>
+    /// failed object import message
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Aserto.Directory.Common.V3.Object Object {
+      get { return reqCase_ == ReqOneofCase.Object ? (global::Aserto.Directory.Common.V3.Object) req_ : null; }
+      set {
+        req_ = value;
+        reqCase_ = value == null ? ReqOneofCase.None : ReqOneofCase.Object;
+      }
+    }
+
+    /// <summary>Field number for the "relation" field.</summary>
+    public const int RelationFieldNumber = 6;
+    /// <summary>
+    /// failed relation import message
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Aserto.Directory.Common.V3.Relation Relation {
+      get { return reqCase_ == ReqOneofCase.Relation ? (global::Aserto.Directory.Common.V3.Relation) req_ : null; }
+      set {
+        req_ = value;
+        reqCase_ = value == null ? ReqOneofCase.None : ReqOneofCase.Relation;
+      }
+    }
+
+    private object req_;
+    /// <summary>Enum of possible cases for the "req" oneof.</summary>
+    public enum ReqOneofCase {
+      None = 0,
+      Object = 5,
+      Relation = 6,
+    }
+    private ReqOneofCase reqCase_ = ReqOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ReqOneofCase ReqCase {
+      get { return reqCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearReq() {
+      reqCase_ = ReqOneofCase.None;
+      req_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ImportStatus);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ImportStatus other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Code != other.Code) return false;
+      if (Msg != other.Msg) return false;
+      if (!object.Equals(Object, other.Object)) return false;
+      if (!object.Equals(Relation, other.Relation)) return false;
+      if (ReqCase != other.ReqCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Code != 0) hash ^= Code.GetHashCode();
+      if (Msg.Length != 0) hash ^= Msg.GetHashCode();
+      if (reqCase_ == ReqOneofCase.Object) hash ^= Object.GetHashCode();
+      if (reqCase_ == ReqOneofCase.Relation) hash ^= Relation.GetHashCode();
+      hash ^= (int) reqCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Code != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(Code);
+      }
+      if (Msg.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Msg);
+      }
+      if (reqCase_ == ReqOneofCase.Object) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Object);
+      }
+      if (reqCase_ == ReqOneofCase.Relation) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Relation);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Code != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(Code);
+      }
+      if (Msg.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Msg);
+      }
+      if (reqCase_ == ReqOneofCase.Object) {
+        output.WriteRawTag(42);
+        output.WriteMessage(Object);
+      }
+      if (reqCase_ == ReqOneofCase.Relation) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Relation);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Code != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Code);
+      }
+      if (Msg.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Msg);
+      }
+      if (reqCase_ == ReqOneofCase.Object) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Object);
+      }
+      if (reqCase_ == ReqOneofCase.Relation) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Relation);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ImportStatus other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Code != 0) {
+        Code = other.Code;
+      }
+      if (other.Msg.Length != 0) {
+        Msg = other.Msg;
+      }
+      switch (other.ReqCase) {
+        case ReqOneofCase.Object:
+          if (Object == null) {
+            Object = new global::Aserto.Directory.Common.V3.Object();
+          }
+          Object.MergeFrom(other.Object);
+          break;
+        case ReqOneofCase.Relation:
+          if (Relation == null) {
+            Relation = new global::Aserto.Directory.Common.V3.Relation();
+          }
+          Relation.MergeFrom(other.Relation);
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Code = input.ReadUInt32();
+            break;
+          }
+          case 18: {
+            Msg = input.ReadString();
+            break;
+          }
+          case 42: {
+            global::Aserto.Directory.Common.V3.Object subBuilder = new global::Aserto.Directory.Common.V3.Object();
+            if (reqCase_ == ReqOneofCase.Object) {
+              subBuilder.MergeFrom(Object);
+            }
+            input.ReadMessage(subBuilder);
+            Object = subBuilder;
+            break;
+          }
+          case 50: {
+            global::Aserto.Directory.Common.V3.Relation subBuilder = new global::Aserto.Directory.Common.V3.Relation();
+            if (reqCase_ == ReqOneofCase.Relation) {
+              subBuilder.MergeFrom(Relation);
+            }
+            input.ReadMessage(subBuilder);
+            Relation = subBuilder;
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Code = input.ReadUInt32();
+            break;
+          }
+          case 18: {
+            Msg = input.ReadString();
+            break;
+          }
+          case 42: {
+            global::Aserto.Directory.Common.V3.Object subBuilder = new global::Aserto.Directory.Common.V3.Object();
+            if (reqCase_ == ReqOneofCase.Object) {
+              subBuilder.MergeFrom(Object);
+            }
+            input.ReadMessage(subBuilder);
+            Object = subBuilder;
+            break;
+          }
+          case 50: {
+            global::Aserto.Directory.Common.V3.Relation subBuilder = new global::Aserto.Directory.Common.V3.Relation();
+            if (reqCase_ == ReqOneofCase.Relation) {
+              subBuilder.MergeFrom(Relation);
+            }
+            input.ReadMessage(subBuilder);
+            Relation = subBuilder;
             break;
           }
         }

@@ -70,6 +70,10 @@ namespace Aserto.Directory.Reader.V3 {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Aserto.Directory.Reader.V3.CheckResponse> __Marshaller_aserto_directory_reader_v3_CheckResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Directory.Reader.V3.CheckResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Aserto.Directory.Reader.V3.ChecksRequest> __Marshaller_aserto_directory_reader_v3_ChecksRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Directory.Reader.V3.ChecksRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Aserto.Directory.Reader.V3.ChecksResponse> __Marshaller_aserto_directory_reader_v3_ChecksResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Directory.Reader.V3.ChecksResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Aserto.Directory.Reader.V3.CheckPermissionRequest> __Marshaller_aserto_directory_reader_v3_CheckPermissionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Directory.Reader.V3.CheckPermissionRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Aserto.Directory.Reader.V3.CheckPermissionResponse> __Marshaller_aserto_directory_reader_v3_CheckPermissionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Directory.Reader.V3.CheckPermissionResponse.Parser));
@@ -129,6 +133,14 @@ namespace Aserto.Directory.Reader.V3 {
         "Check",
         __Marshaller_aserto_directory_reader_v3_CheckRequest,
         __Marshaller_aserto_directory_reader_v3_CheckResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Aserto.Directory.Reader.V3.ChecksRequest, global::Aserto.Directory.Reader.V3.ChecksResponse> __Method_Checks = new grpc::Method<global::Aserto.Directory.Reader.V3.ChecksRequest, global::Aserto.Directory.Reader.V3.ChecksResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Checks",
+        __Marshaller_aserto_directory_reader_v3_ChecksRequest,
+        __Marshaller_aserto_directory_reader_v3_ChecksResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Aserto.Directory.Reader.V3.CheckPermissionRequest, global::Aserto.Directory.Reader.V3.CheckPermissionResponse> __Method_CheckPermission = new grpc::Method<global::Aserto.Directory.Reader.V3.CheckPermissionRequest, global::Aserto.Directory.Reader.V3.CheckPermissionResponse>(
@@ -232,6 +244,18 @@ namespace Aserto.Directory.Reader.V3 {
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Aserto.Directory.Reader.V3.CheckResponse> Check(global::Aserto.Directory.Reader.V3.CheckRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// EXPERIMENTAL: checks validates a set of check requests in a single roundtrip
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Aserto.Directory.Reader.V3.ChecksResponse> Checks(global::Aserto.Directory.Reader.V3.ChecksRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -594,6 +618,54 @@ namespace Aserto.Directory.Reader.V3 {
         return CallInvoker.AsyncUnaryCall(__Method_Check, null, options, request);
       }
       /// <summary>
+      /// EXPERIMENTAL: checks validates a set of check requests in a single roundtrip
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Aserto.Directory.Reader.V3.ChecksResponse Checks(global::Aserto.Directory.Reader.V3.ChecksRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Checks(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// EXPERIMENTAL: checks validates a set of check requests in a single roundtrip
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Aserto.Directory.Reader.V3.ChecksResponse Checks(global::Aserto.Directory.Reader.V3.ChecksRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Checks, null, options, request);
+      }
+      /// <summary>
+      /// EXPERIMENTAL: checks validates a set of check requests in a single roundtrip
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.ChecksResponse> ChecksAsync(global::Aserto.Directory.Reader.V3.ChecksRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ChecksAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// EXPERIMENTAL: checks validates a set of check requests in a single roundtrip
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Aserto.Directory.Reader.V3.ChecksResponse> ChecksAsync(global::Aserto.Directory.Reader.V3.ChecksRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Checks, null, options, request);
+      }
+      /// <summary>
       /// check permission (deprecated, use the check method)
       /// Deprecated: use directory.v3.Check()
       /// </summary>
@@ -773,6 +845,7 @@ namespace Aserto.Directory.Reader.V3 {
           .AddMethod(__Method_GetRelation, serviceImpl.GetRelation)
           .AddMethod(__Method_GetRelations, serviceImpl.GetRelations)
           .AddMethod(__Method_Check, serviceImpl.Check)
+          .AddMethod(__Method_Checks, serviceImpl.Checks)
           .AddMethod(__Method_CheckPermission, serviceImpl.CheckPermission)
           .AddMethod(__Method_CheckRelation, serviceImpl.CheckRelation)
           .AddMethod(__Method_GetGraph, serviceImpl.GetGraph).Build();
@@ -791,6 +864,7 @@ namespace Aserto.Directory.Reader.V3 {
       serviceBinder.AddMethod(__Method_GetRelation, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Aserto.Directory.Reader.V3.GetRelationRequest, global::Aserto.Directory.Reader.V3.GetRelationResponse>(serviceImpl.GetRelation));
       serviceBinder.AddMethod(__Method_GetRelations, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Aserto.Directory.Reader.V3.GetRelationsRequest, global::Aserto.Directory.Reader.V3.GetRelationsResponse>(serviceImpl.GetRelations));
       serviceBinder.AddMethod(__Method_Check, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Aserto.Directory.Reader.V3.CheckRequest, global::Aserto.Directory.Reader.V3.CheckResponse>(serviceImpl.Check));
+      serviceBinder.AddMethod(__Method_Checks, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Aserto.Directory.Reader.V3.ChecksRequest, global::Aserto.Directory.Reader.V3.ChecksResponse>(serviceImpl.Checks));
       serviceBinder.AddMethod(__Method_CheckPermission, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Aserto.Directory.Reader.V3.CheckPermissionRequest, global::Aserto.Directory.Reader.V3.CheckPermissionResponse>(serviceImpl.CheckPermission));
       serviceBinder.AddMethod(__Method_CheckRelation, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Aserto.Directory.Reader.V3.CheckRelationRequest, global::Aserto.Directory.Reader.V3.CheckRelationResponse>(serviceImpl.CheckRelation));
       serviceBinder.AddMethod(__Method_GetGraph, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Aserto.Directory.Reader.V3.GetGraphRequest, global::Aserto.Directory.Reader.V3.GetGraphResponse>(serviceImpl.GetGraph));

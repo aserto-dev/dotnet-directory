@@ -262,7 +262,7 @@ namespace Aserto.Directory.Reader.V3 {
 
       /// <summary>
       /// check permission (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -276,7 +276,7 @@ namespace Aserto.Directory.Reader.V3 {
 
       /// <summary>
       /// check relation (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -667,7 +667,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
       /// <summary>
       /// check permission (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -682,7 +682,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
       /// <summary>
       /// check permission (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -695,7 +695,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
       /// <summary>
       /// check permission (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -710,7 +710,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
       /// <summary>
       /// check permission (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -723,7 +723,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
       /// <summary>
       /// check relation (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -738,7 +738,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
       /// <summary>
       /// check relation (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -751,7 +751,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
       /// <summary>
       /// check relation (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -766,7 +766,7 @@ namespace Aserto.Directory.Reader.V3 {
       }
       /// <summary>
       /// check relation (deprecated, use the check method)
-      /// Deprecated: use directory.v3.Check()
+      /// Deprecated: use directory.reader.v3.Check()
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

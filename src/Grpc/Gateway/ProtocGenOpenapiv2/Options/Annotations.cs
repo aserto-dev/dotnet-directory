@@ -36,23 +36,26 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
             "cy5PcGVyYXRpb25SEm9wZW5hcGl2Mk9wZXJhdGlvbjp+ChBvcGVuYXBpdjJf",
             "c2NoZW1hEh8uZ29vZ2xlLnByb3RvYnVmLk1lc3NhZ2VPcHRpb25zGJIIIAEo",
             "CzIxLmdycGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25z",
-            "LlNjaGVtYVIPb3BlbmFwaXYyU2NoZW1hOnUKDW9wZW5hcGl2Ml90YWcSHy5n",
-            "b29nbGUucHJvdG9idWYuU2VydmljZU9wdGlvbnMYkgggASgLMi4uZ3JwYy5n",
-            "YXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuVGFnUgxvcGVu",
-            "YXBpdjJUYWc6fgoPb3BlbmFwaXYyX2ZpZWxkEh0uZ29vZ2xlLnByb3RvYnVm",
-            "LkZpZWxkT3B0aW9ucxiSCCABKAsyNS5ncnBjLmdhdGV3YXkucHJvdG9jX2dl",
-            "bl9vcGVuYXBpdjIub3B0aW9ucy5KU09OU2NoZW1hUg5vcGVuYXBpdjJGaWVs",
-            "ZELJAgotY29tLmdycGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5v",
-            "cHRpb25zQhBBbm5vdGF0aW9uc1Byb3RvUAFaRmdpdGh1Yi5jb20vZ3JwYy1l",
-            "Y29zeXN0ZW0vZ3JwYy1nYXRld2F5L3YyL3Byb3RvYy1nZW4tb3BlbmFwaXYy",
-            "L29wdGlvbnOiAgRHR1BPqgInR3JwYy5HYXRld2F5LlByb3RvY0dlbk9wZW5h",
-            "cGl2Mi5PcHRpb25zygInR3JwY1xHYXRld2F5XFByb3RvY0dlbk9wZW5hcGl2",
-            "MlxPcHRpb25z4gIzR3JwY1xHYXRld2F5XFByb3RvY0dlbk9wZW5hcGl2MlxP",
-            "cHRpb25zXEdQQk1ldGFkYXRh6gIqR3JwYzo6R2F0ZXdheTo6UHJvdG9jR2Vu",
-            "T3BlbmFwaXYyOjpPcHRpb25zYgZwcm90bzM="));
+            "LlNjaGVtYVIPb3BlbmFwaXYyU2NoZW1hOnsKDm9wZW5hcGl2Ml9lbnVtEhwu",
+            "Z29vZ2xlLnByb3RvYnVmLkVudW1PcHRpb25zGJIIIAEoCzI1LmdycGMuZ2F0",
+            "ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLkVudW1TY2hlbWFS",
+            "DW9wZW5hcGl2MkVudW06dQoNb3BlbmFwaXYyX3RhZxIfLmdvb2dsZS5wcm90",
+            "b2J1Zi5TZXJ2aWNlT3B0aW9ucxiSCCABKAsyLi5ncnBjLmdhdGV3YXkucHJv",
+            "dG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5UYWdSDG9wZW5hcGl2MlRhZzp+",
+            "Cg9vcGVuYXBpdjJfZmllbGQSHS5nb29nbGUucHJvdG9idWYuRmllbGRPcHRp",
+            "b25zGJIIIAEoCzI1LmdycGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2",
+            "Mi5vcHRpb25zLkpTT05TY2hlbWFSDm9wZW5hcGl2MkZpZWxkQskCCi1jb20u",
+            "Z3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnNCEEFu",
+            "bm90YXRpb25zUHJvdG9QAVpGZ2l0aHViLmNvbS9ncnBjLWVjb3N5c3RlbS9n",
+            "cnBjLWdhdGV3YXkvdjIvcHJvdG9jLWdlbi1vcGVuYXBpdjIvb3B0aW9uc6IC",
+            "BEdHUE+qAidHcnBjLkdhdGV3YXkuUHJvdG9jR2VuT3BlbmFwaXYyLk9wdGlv",
+            "bnPKAidHcnBjXEdhdGV3YXlcUHJvdG9jR2VuT3BlbmFwaXYyXE9wdGlvbnPi",
+            "AjNHcnBjXEdhdGV3YXlcUHJvdG9jR2VuT3BlbmFwaXYyXE9wdGlvbnNcR1BC",
+            "TWV0YWRhdGHqAipHcnBjOjpHYXRld2F5OjpQcm90b2NHZW5PcGVuYXBpdjI6",
+            "Ok9wdGlvbnNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.Reflection.DescriptorReflection.Descriptor, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Openapiv2Reflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pb::Extension[] { AnnotationsExtensions.Openapiv2Swagger, AnnotationsExtensions.Openapiv2Operation, AnnotationsExtensions.Openapiv2Schema, AnnotationsExtensions.Openapiv2Tag, AnnotationsExtensions.Openapiv2Field }, null));
+          new pbr::GeneratedClrTypeInfo(null, new pb::Extension[] { AnnotationsExtensions.Openapiv2Swagger, AnnotationsExtensions.Openapiv2Operation, AnnotationsExtensions.Openapiv2Schema, AnnotationsExtensions.Openapiv2Enum, AnnotationsExtensions.Openapiv2Tag, AnnotationsExtensions.Openapiv2Field }, null));
     }
     #endregion
 
@@ -83,6 +86,14 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     /// </summary>
     public static readonly pb::Extension<global::Google.Protobuf.Reflection.MessageOptions, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Schema> Openapiv2Schema =
       new pb::Extension<global::Google.Protobuf.Reflection.MessageOptions, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Schema>(1042, pb::FieldCodec.ForMessage(8338, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Schema.Parser));
+    /// <summary>
+    /// ID assigned by protobuf-global-extension-registry@google.com for gRPC-Gateway project.
+    ///
+    /// All IDs are the same, as assigned. It is okay that they are the same, as they extend
+    /// different descriptor messages.
+    /// </summary>
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.EnumOptions, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.EnumSchema> Openapiv2Enum =
+      new pb::Extension<global::Google.Protobuf.Reflection.EnumOptions, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.EnumSchema>(1042, pb::FieldCodec.ForMessage(8338, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.EnumSchema.Parser));
     /// <summary>
     /// ID assigned by protobuf-global-extension-registry@google.com for gRPC-Gateway project.
     ///
